@@ -5,9 +5,1105 @@
     <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all</link>
     <description>Microsoft 365 Copilot features and improvements.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2026 16:59:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 17:08:50 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/claude-release-notes-rss/microsoft-365-copilot.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoft 365 Copilot updates — July 29, 2026</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#july-29-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Surface rich images inline within responses</strong>&nbsp;[Windows, Web]</p>
+<p>Copilot now displays rich images from files and meetings directly within responses to improve comprehension.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, Copilot responses included text only. Now, it surfaces relevant images inline from files and meetings to provide visual context. This enhancement supports richer content formats while maintaining data security and compliance with Microsoft 365 policies.</p>
+<p><strong>Why:</strong> Visual information helps users understand complex content faster and reduces the need to switch between apps or documents.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Ask Copilot a question related to your meeting notes or documents.</li>
+<li>Review the inline images that appear alongside the text response.</li>
+<li>Click images to open the source file or meeting contenvt for more details.</li>
+</ol>
+<p><strong>Why this matters:</strong> Including images directly in responses helps users grasp information quickly and reduces context switching.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing visual content without leaving the Copilot interface.</p>
+<p><strong>Personal impact:</strong> You save time by seeing relevant images immediately, improving comprehension and decision-making.</p>
+</li>
+</ul>
+<h3>OneNote</h3>
+
+<ul>
+<li><p><strong>Redesign Overview experience in Copilot notebooks in OneNote</strong>&nbsp;[Windows, Mac, Web]</p>
+<p>The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Notebook Overview experience has been redesigned with a better layout and direct visibility of meaningful artifacts users can create in the notebook in one click.</p>
+<p><strong>Why:</strong> This redesign helps users quickly grasp notebook context and take relevant actions without spending time on manual content review.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a Copilot Notebook and navigate to the Overview Page.</li>
+<li>Review the AI-generated summary and key insights.</li>
+<li>Use the one-click artifact creation option to create content focused on the context and content of the notebook.</li>
+</ol>
+<p><strong>Why this matters:</strong> Reduce time spent getting a quick summary and key insights of the notebook content, easily see and use one-click artifacts that help move your work forward in the notebook.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing summarized notebook information, actionable insights, creating new artifacts quickly.</p>
+<p><strong>Personal impact:</strong> You save time understanding notebook content and can act faster on relevant information.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>Lists in Context IQ</strong>&nbsp;[Web]</p>
+<p>Users will be able to search for and select SharePoint Lists through the Context IQ menu to help ground their prompts when using Copilot Chat.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422308">422308</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, users could not directly access SharePoint Lists within Context IQ when composing prompts in Copilot Chat. Now, users can search for and select specific SharePoint Lists to ground their prompts, improving relevance and accuracy. This integration supports Microsoft 365 security and compliance policies for data access.</p>
+<p><strong>Why:</strong> This change helps users target their Copilot Chat prompts to specific SharePoint Lists, reducing irrelevant results and improving productivity when working with list data.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Copilot Chat and click the Context IQ menu.</li>
+<li>Search for a SharePoint List by name.</li>
+<li>Select the desired list to scope your prompt before entering your query.</li>
+</ol>
+<p><strong>Why this matters:</strong> Scoping prompts to SharePoint Lists helps users get more precise and useful responses from Copilot Chat.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by referencing exact SharePoint Lists in their Copilot Chat interactions.</p>
+<p><strong>Personal impact:</strong> You save time by quickly narrowing Copilot Chat responses to relevant list data without manual filtering.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Take Screenshot in Copilot</strong>&nbsp;[Windows]</p>
+<p>Give users a fast, built‑in way to capture screenshots and include them in Copilot prompts, helping them communicate visual context more easily and receive more accurate, actionable assistance.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558105">558105</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot now includes a built-in screenshot capture tool that lets users add images directly to their prompts. Previously, users had to capture and upload screenshots manually outside Copilot. This integration improves prompt clarity and response relevance without exposing sensitive data externally.</p>
+<p><strong>Why:</strong> Visual context helps Copilot understand user requests better, leading to more precise and actionable responses.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>In Copilot chat, select the screenshot capture button.</li>
+<li>Capture the desired screen area.</li>
+<li>Include the screenshot in your prompt and submit for assistance.</li>
+</ol>
+<p><strong>Why this matters:</strong> Adding screenshots reduces miscommunication and speeds up problem resolution with Copilot.</p>
+<p><strong>Business impact:</strong> Users get a simpler UX to include visuals when using Copilot to help reduce confusion and support interactions.</p>
+<p><strong>Personal impact:</strong> You save time explaining problems and get more accurate help by sharing visual information instantly.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Admins can now edit user mappings and query filters for ServiceNow Connector</strong>&nbsp;[Web]</p>
+<p>Support connection edit of user mapping, query filter for ServiceNow</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503590">503590</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, once the ServiceNow connector was configured, user mappings and query filters could not be changed without recreating the connection. Now, admins can edit these settings directly within the connector configuration. This update enhances security by allowing precise control over data queries and user access mappings without disrupting the connection.</p>
+<p><strong>Why:</strong> Allowing edits to user mappings and query filters reduces the need to recreate connectors, saving time and minimizing configuration errors. It also improves data security by enabling more granular control over what data is accessed and how users are mapped.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open the Microsoft 365 admin center and navigate to the Copilot Extensibility connectors.</li>
+<li>Select the ServiceNow connector and choose 'Edit connection.'</li>
+<li>Update user mappings or query filters as needed and save changes.</li>
+</ol>
+<p><strong>Why this matters:</strong> This change streamlines connector management and enhances security by enabling ongoing adjustments without downtime.</p>
+<p><strong>Business impact:</strong> Teams can maintain accurate data synchronization and user access without interrupting workflows or recreating connectors.</p>
+<p><strong>Personal impact:</strong> Admins save time managing connectors and reduce errors by editing settings directly instead of recreating connections.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>SharePoint list support in Agent Builder</strong>&nbsp;[Windows, Web]</p>
+<p>Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Support for list attachments and lookup columns is not yet available.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561920">561920</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Each agent can now reference one SharePoint list with up to 20,000 items alongside other knowledge sources. Previously, agents could not use SharePoint lists as a data source. Support for list attachments and lookup columns is not yet available, which limits some data types.</p>
+<p><strong>Why:</strong> This change allows makers to ground agents in structured SharePoint list data, improving the relevance and accuracy of responses. It expands the types of data agents can use without requiring custom integrations.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Agent Builder and create or edit an agent.</li>
+<li>Select SharePoint list as a knowledge source.</li>
+<li>Choose a SharePoint list with up to 20,000 items to ground your agent.</li>
+</ol>
+<p><strong>Why this matters:</strong> Using SharePoint lists as a knowledge source lets agents answer questions based on structured organizational data, improving user support and information access.</p>
+<p><strong>Business impact:</strong> Teams can leverage existing SharePoint lists to build more informed agents, reducing manual data preparation and integration efforts.</p>
+<p><strong>Personal impact:</strong> You can create agents that provide accurate answers from your SharePoint data, saving time on information retrieval.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-add-knowledge#sharepoint-and-onedrive-content">Add knowledge sources to your declarative agent in Microsoft 365 Copilot</a></p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Enable adaptive card refresh in custom engine agents</strong>&nbsp;[Web]</p>
+<p>Adaptive card refresh now works in custom engine agents, improving dynamic content updates.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Adaptive card refresh is enabled for adaptive cards in custom engine agents, allowing cards to update dynamically without user intervention. Previously, adaptive card refresh was not supported in these agents, limiting real-time content updates. This change enhances responsiveness and user interaction within custom agent scenarios.</p>
+<p><strong>Why:</strong> Enabling adaptive card refresh in custom engine agents allows for more interactive and up-to-date user experiences. It reduces the need for manual refreshes and improves the accuracy of displayed information.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Create or open a custom engine agent in the Copilot Extensibility environment.</li>
+<li>Add an adaptive card that supports refresh actions.</li>
+<li>Trigger the adaptive card refresh to see updated content without reloading the agent.</li>
+</ol>
+<p><strong>Why this matters:</strong> Dynamic content updates in custom agents improve user engagement and ensure information remains current without extra user steps.</p>
+<p><strong>Business impact:</strong> Teams using custom engine agents benefit from more interactive workflows and reduced manual refresh overhead.</p>
+<p><strong>Personal impact:</strong> You experience smoother interactions with adaptive cards that update automatically, saving time and reducing friction.</p>
+</li>
+</ul>
+<h3>Microsoft 365 SharePoint</h3>
+
+<ul>
+<li><p><strong>Plan and build solutions on SharePoint with Copilot in SharePoint</strong>&nbsp;[Web]</p>
+<p>Copilot in SharePoint lets you plan and build SharePoint solutions using natural language commands.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot in SharePoint now supports creating SharePoint solutions through natural language input.</p>
+<p><strong>Why:</strong> Building SharePoint solutions typically requires technical expertise and time. This change lowers the barrier by enabling users to describe their needs in natural language, accelerating development and reducing errors.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Visit the Build node of the SharePoint start page.</li>
+<li>Describe your goal in the top text box that asks what you would like to build today.</li>
+<li>Enter a natural language request to plan or build a SharePoint solution.</li>
+<li>Review and customize the generated SharePoint site.</li>
+</ol>
+<p><strong>Why this matters:</strong> Simplifying SharePoint solution creation empowers more users to create better solutions faster.</p>
+<p><strong>Business impact:</strong> Teams can deploy SharePoint solutions faster, improving collaboration.</p>
+<p><strong>Personal impact:</strong> You can create SharePoint sites using natural language, saving time and effort.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Floating Copilot icon in File Previewer for OneDrive</strong>&nbsp;[Web]</p>
+<p>A new Copilot icon button provides a quick, visible entry point to Copilot directly within the file previewer in OneDrive. Positioned at the bottom-right corner (instead of the command bar), this button surfaces contextual prompts tailored to the file type and offers seamless access to Copilot chat, making it easier to get insights and take action without leaving the preview experience.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513432">513432</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The file previewer in OneDrive and SharePoint now shows a floating Copilot button at the bottom right corner instead of the command bar. This button offers prompts tailored to the file type and quick access to Copilot chat. Previously, users had to open Copilot separately to get insights on files.</p>
+<p><strong>Why:</strong> Placing Copilot directly in the file previewer reduces steps to get contextual assistance, improving workflow efficiency.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a file in OneDrive or SharePoint previewer.</li>
+<li>Click the Copilot button at the bottom right.</li>
+<li>Use the contextual prompts or start a chat to get insights about the file.</li>
+</ol>
+<p><strong>Why this matters:</strong> This update makes it easier to get file-specific help without leaving the preview experience.</p>
+<p><strong>Business impact:</strong> Teams can review and act on file content faster with integrated Copilot access during preview.</p>
+<p><strong>Personal impact:</strong> You save time by accessing tailored Copilot assistance directly within file previews.</p>
+</li>
+</ul><p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Surface rich images inline within responses</strong>&nbsp;[Windows, Web]</p>
+<p>Copilot now displays rich images from files and meetings directly within responses to improve comprehension.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, Copilot responses included text only. Now, it surfaces relevant images inline from files and meetings to provide visual context. This enhancement supports richer content formats while maintaining data security and compliance with Microsoft 365 policies.</p>
+<p><strong>Why:</strong> Visual information helps users understand complex content faster and reduces the need to switch between apps or documents.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Ask Copilot a question related to your meeting notes or documents.</li>
+<li>Review the inline images that appear alongside the text response.</li>
+<li>Click images to open the source file or meeting contenvt for more details.</li>
+</ol>
+<p><strong>Why this matters:</strong> Including images directly in responses helps users grasp information quickly and reduces context switching.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing visual content without leaving the Copilot interface.</p>
+<p><strong>Personal impact:</strong> You save time by seeing relevant images immediately, improving comprehension and decision-making.</p>
+</li>
+</ul>
+<h3>OneNote</h3>
+
+<ul>
+<li><p><strong>Redesign Overview experience in Copilot notebooks in OneNote</strong>&nbsp;[Windows, Mac, Web]</p>
+<p>The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Notebook Overview experience has been redesigned with a better layout and direct visibility of meaningful artifacts users can create in the notebook in one click.</p>
+<p><strong>Why:</strong> This redesign helps users quickly grasp notebook context and take relevant actions without spending time on manual content review.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a Copilot Notebook and navigate to the Overview Page.</li>
+<li>Review the AI-generated summary and key insights.</li>
+<li>Use the one-click artifact creation option to create content focused on the context and content of the notebook.</li>
+</ol>
+<p><strong>Why this matters:</strong> Reduce time spent getting a quick summary and key insights of the notebook content, easily see and use one-click artifacts that help move your work forward in the notebook.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing summarized notebook information, actionable insights, creating new artifacts quickly.</p>
+<p><strong>Personal impact:</strong> You save time understanding notebook content and can act faster on relevant information.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Take Screenshot in Copilot</strong>&nbsp;[Windows]</p>
+<p>Give users a fast, built‑in way to capture screenshots and include them in Copilot prompts, helping them communicate visual context more easily and receive more accurate, actionable assistance.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558105">558105</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot now includes a built-in screenshot capture tool that lets users add images directly to their prompts. Previously, users had to capture and upload screenshots manually outside Copilot. This integration improves prompt clarity and response relevance without exposing sensitive data externally.</p>
+<p><strong>Why:</strong> Visual context helps Copilot understand user requests better, leading to more precise and actionable responses.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>In Copilot chat, select the screenshot capture button.</li>
+<li>Capture the desired screen area.</li>
+<li>Include the screenshot in your prompt and submit for assistance.</li>
+</ol>
+<p><strong>Why this matters:</strong> Adding screenshots reduces miscommunication and speeds up problem resolution with Copilot.</p>
+<p><strong>Business impact:</strong> Users get a simpler UX to include visuals when using Copilot to help reduce confusion and support interactions.</p>
+<p><strong>Personal impact:</strong> You save time explaining problems and get more accurate help by sharing visual information instantly.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>SharePoint list support in Agent Builder</strong>&nbsp;[Windows, Web]</p>
+<p>Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Support for list attachments and lookup columns is not yet available.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561920">561920</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Each agent can now reference one SharePoint list with up to 20,000 items alongside other knowledge sources. Previously, agents could not use SharePoint lists as a data source. Support for list attachments and lookup columns is not yet available, which limits some data types.</p>
+<p><strong>Why:</strong> This change allows makers to ground agents in structured SharePoint list data, improving the relevance and accuracy of responses. It expands the types of data agents can use without requiring custom integrations.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Agent Builder and create or edit an agent.</li>
+<li>Select SharePoint list as a knowledge source.</li>
+<li>Choose a SharePoint list with up to 20,000 items to ground your agent.</li>
+</ol>
+<p><strong>Why this matters:</strong> Using SharePoint lists as a knowledge source lets agents answer questions based on structured organizational data, improving user support and information access.</p>
+<p><strong>Business impact:</strong> Teams can leverage existing SharePoint lists to build more informed agents, reducing manual data preparation and integration efforts.</p>
+<p><strong>Personal impact:</strong> You can create agents that provide accurate answers from your SharePoint data, saving time on information retrieval.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-add-knowledge#sharepoint-and-onedrive-content">Add knowledge sources to your declarative agent in Microsoft 365 Copilot</a></p>
+</li>
+</ul><p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Surface rich images inline within responses</strong>&nbsp;[Windows, Web]</p>
+<p>Copilot now displays rich images from files and meetings directly within responses to improve comprehension.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, Copilot responses included text only. Now, it surfaces relevant images inline from files and meetings to provide visual context. This enhancement supports richer content formats while maintaining data security and compliance with Microsoft 365 policies.</p>
+<p><strong>Why:</strong> Visual information helps users understand complex content faster and reduces the need to switch between apps or documents.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Ask Copilot a question related to your meeting notes or documents.</li>
+<li>Review the inline images that appear alongside the text response.</li>
+<li>Click images to open the source file or meeting contenvt for more details.</li>
+</ol>
+<p><strong>Why this matters:</strong> Including images directly in responses helps users grasp information quickly and reduces context switching.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing visual content without leaving the Copilot interface.</p>
+<p><strong>Personal impact:</strong> You save time by seeing relevant images immediately, improving comprehension and decision-making.</p>
+</li>
+</ul>
+<h3>OneNote</h3>
+
+<ul>
+<li><p><strong>Redesign Overview experience in Copilot notebooks in OneNote</strong>&nbsp;[Windows, Mac, Web]</p>
+<p>The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Notebook Overview experience has been redesigned with a better layout and direct visibility of meaningful artifacts users can create in the notebook in one click.</p>
+<p><strong>Why:</strong> This redesign helps users quickly grasp notebook context and take relevant actions without spending time on manual content review.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a Copilot Notebook and navigate to the Overview Page.</li>
+<li>Review the AI-generated summary and key insights.</li>
+<li>Use the one-click artifact creation option to create content focused on the context and content of the notebook.</li>
+</ol>
+<p><strong>Why this matters:</strong> Reduce time spent getting a quick summary and key insights of the notebook content, easily see and use one-click artifacts that help move your work forward in the notebook.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing summarized notebook information, actionable insights, creating new artifacts quickly.</p>
+<p><strong>Personal impact:</strong> You save time understanding notebook content and can act faster on relevant information.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>Lists in Context IQ</strong>&nbsp;[Web]</p>
+<p>Users will be able to search for and select SharePoint Lists through the Context IQ menu to help ground their prompts when using Copilot Chat.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422308">422308</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, users could not directly access SharePoint Lists within Context IQ when composing prompts in Copilot Chat. Now, users can search for and select specific SharePoint Lists to ground their prompts, improving relevance and accuracy. This integration supports Microsoft 365 security and compliance policies for data access.</p>
+<p><strong>Why:</strong> This change helps users target their Copilot Chat prompts to specific SharePoint Lists, reducing irrelevant results and improving productivity when working with list data.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Copilot Chat and click the Context IQ menu.</li>
+<li>Search for a SharePoint List by name.</li>
+<li>Select the desired list to scope your prompt before entering your query.</li>
+</ol>
+<p><strong>Why this matters:</strong> Scoping prompts to SharePoint Lists helps users get more precise and useful responses from Copilot Chat.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by referencing exact SharePoint Lists in their Copilot Chat interactions.</p>
+<p><strong>Personal impact:</strong> You save time by quickly narrowing Copilot Chat responses to relevant list data without manual filtering.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Admins can now edit user mappings and query filters for ServiceNow Connector</strong>&nbsp;[Web]</p>
+<p>Support connection edit of user mapping, query filter for ServiceNow</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503590">503590</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, once the ServiceNow connector was configured, user mappings and query filters could not be changed without recreating the connection. Now, admins can edit these settings directly within the connector configuration. This update enhances security by allowing precise control over data queries and user access mappings without disrupting the connection.</p>
+<p><strong>Why:</strong> Allowing edits to user mappings and query filters reduces the need to recreate connectors, saving time and minimizing configuration errors. It also improves data security by enabling more granular control over what data is accessed and how users are mapped.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open the Microsoft 365 admin center and navigate to the Copilot Extensibility connectors.</li>
+<li>Select the ServiceNow connector and choose 'Edit connection.'</li>
+<li>Update user mappings or query filters as needed and save changes.</li>
+</ol>
+<p><strong>Why this matters:</strong> This change streamlines connector management and enhances security by enabling ongoing adjustments without downtime.</p>
+<p><strong>Business impact:</strong> Teams can maintain accurate data synchronization and user access without interrupting workflows or recreating connectors.</p>
+<p><strong>Personal impact:</strong> Admins save time managing connectors and reduce errors by editing settings directly instead of recreating connections.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>SharePoint list support in Agent Builder</strong>&nbsp;[Windows, Web]</p>
+<p>Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Support for list attachments and lookup columns is not yet available.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561920">561920</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Each agent can now reference one SharePoint list with up to 20,000 items alongside other knowledge sources. Previously, agents could not use SharePoint lists as a data source. Support for list attachments and lookup columns is not yet available, which limits some data types.</p>
+<p><strong>Why:</strong> This change allows makers to ground agents in structured SharePoint list data, improving the relevance and accuracy of responses. It expands the types of data agents can use without requiring custom integrations.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Agent Builder and create or edit an agent.</li>
+<li>Select SharePoint list as a knowledge source.</li>
+<li>Choose a SharePoint list with up to 20,000 items to ground your agent.</li>
+</ol>
+<p><strong>Why this matters:</strong> Using SharePoint lists as a knowledge source lets agents answer questions based on structured organizational data, improving user support and information access.</p>
+<p><strong>Business impact:</strong> Teams can leverage existing SharePoint lists to build more informed agents, reducing manual data preparation and integration efforts.</p>
+<p><strong>Personal impact:</strong> You can create agents that provide accurate answers from your SharePoint data, saving time on information retrieval.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-add-knowledge#sharepoint-and-onedrive-content">Add knowledge sources to your declarative agent in Microsoft 365 Copilot</a></p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Enable adaptive card refresh in custom engine agents</strong>&nbsp;[Web]</p>
+<p>Adaptive card refresh now works in custom engine agents, improving dynamic content updates.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Adaptive card refresh is enabled for adaptive cards in custom engine agents, allowing cards to update dynamically without user intervention. Previously, adaptive card refresh was not supported in these agents, limiting real-time content updates. This change enhances responsiveness and user interaction within custom agent scenarios.</p>
+<p><strong>Why:</strong> Enabling adaptive card refresh in custom engine agents allows for more interactive and up-to-date user experiences. It reduces the need for manual refreshes and improves the accuracy of displayed information.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Create or open a custom engine agent in the Copilot Extensibility environment.</li>
+<li>Add an adaptive card that supports refresh actions.</li>
+<li>Trigger the adaptive card refresh to see updated content without reloading the agent.</li>
+</ol>
+<p><strong>Why this matters:</strong> Dynamic content updates in custom agents improve user engagement and ensure information remains current without extra user steps.</p>
+<p><strong>Business impact:</strong> Teams using custom engine agents benefit from more interactive workflows and reduced manual refresh overhead.</p>
+<p><strong>Personal impact:</strong> You experience smoother interactions with adaptive cards that update automatically, saving time and reducing friction.</p>
+</li>
+</ul>
+<h3>Microsoft 365 SharePoint</h3>
+
+<ul>
+<li><p><strong>Plan and build solutions on SharePoint with Copilot in SharePoint</strong>&nbsp;[Web]</p>
+<p>Copilot in SharePoint lets you plan and build SharePoint solutions using natural language commands.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot in SharePoint now supports creating SharePoint solutions through natural language input.</p>
+<p><strong>Why:</strong> Building SharePoint solutions typically requires technical expertise and time. This change lowers the barrier by enabling users to describe their needs in natural language, accelerating development and reducing errors.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Visit the Build node of the SharePoint start page.</li>
+<li>Describe your goal in the top text box that asks what you would like to build today.</li>
+<li>Enter a natural language request to plan or build a SharePoint solution.</li>
+<li>Review and customize the generated SharePoint site.</li>
+</ol>
+<p><strong>Why this matters:</strong> Simplifying SharePoint solution creation empowers more users to create better solutions faster.</p>
+<p><strong>Business impact:</strong> Teams can deploy SharePoint solutions faster, improving collaboration.</p>
+<p><strong>Personal impact:</strong> You can create SharePoint sites using natural language, saving time and effort.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Floating Copilot icon in File Previewer for OneDrive</strong>&nbsp;[Web]</p>
+<p>A new Copilot icon button provides a quick, visible entry point to Copilot directly within the file previewer in OneDrive. Positioned at the bottom-right corner (instead of the command bar), this button surfaces contextual prompts tailored to the file type and offers seamless access to Copilot chat, making it easier to get insights and take action without leaving the preview experience.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513432">513432</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The file previewer in OneDrive and SharePoint now shows a floating Copilot button at the bottom right corner instead of the command bar. This button offers prompts tailored to the file type and quick access to Copilot chat. Previously, users had to open Copilot separately to get insights on files.</p>
+<p><strong>Why:</strong> Placing Copilot directly in the file previewer reduces steps to get contextual assistance, improving workflow efficiency.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a file in OneDrive or SharePoint previewer.</li>
+<li>Click the Copilot button at the bottom right.</li>
+<li>Use the contextual prompts or start a chat to get insights about the file.</li>
+</ol>
+<p><strong>Why this matters:</strong> This update makes it easier to get file-specific help without leaving the preview experience.</p>
+<p><strong>Business impact:</strong> Teams can review and act on file content faster with integrated Copilot access during preview.</p>
+<p><strong>Personal impact:</strong> You save time by accessing tailored Copilot assistance directly within file previews.</p>
+</li>
+</ul><p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul><p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul><p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>Redesign Overview experience in Copilot notebooks in OneNote</strong>&nbsp;[Windows, Mac, Web]</p>
+<p>The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Notebook Overview experience has been redesigned with a better layout and direct visibility of meaningful artifacts users can create in the notebook in one click.</p>
+<p><strong>Why:</strong> This redesign helps users quickly grasp notebook context and take relevant actions without spending time on manual content review.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a Copilot Notebook and navigate to the Overview Page.</li>
+<li>Review the AI-generated summary and key insights.</li>
+<li>Use the one-click artifact creation option to create content focused on the context and content of the notebook.</li>
+</ol>
+<p><strong>Why this matters:</strong> Reduce time spent getting a quick summary and key insights of the notebook content, easily see and use one-click artifacts that help move your work forward in the notebook.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing summarized notebook information, actionable insights, creating new artifacts quickly.</p>
+<p><strong>Personal impact:</strong> You save time understanding notebook content and can act faster on relevant information.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Surface rich images inline within responses</strong>&nbsp;[Windows, Web]</p>
+<p>Copilot now displays rich images from files and meetings directly within responses to improve comprehension.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, Copilot responses included text only. Now, it surfaces relevant images inline from files and meetings to provide visual context. This enhancement supports richer content formats while maintaining data security and compliance with Microsoft 365 policies.</p>
+<p><strong>Why:</strong> Visual information helps users understand complex content faster and reduces the need to switch between apps or documents.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Ask Copilot a question related to your meeting notes or documents.</li>
+<li>Review the inline images that appear alongside the text response.</li>
+<li>Click images to open the source file or meeting contenvt for more details.</li>
+</ol>
+<p><strong>Why this matters:</strong> Including images directly in responses helps users grasp information quickly and reduces context switching.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing visual content without leaving the Copilot interface.</p>
+<p><strong>Personal impact:</strong> You save time by seeing relevant images immediately, improving comprehension and decision-making.</p>
+</li>
+</ul>
+<h3>OneNote</h3>
+
+<ul>
+<li><p><strong>Redesign Overview experience in Copilot notebooks in OneNote</strong>&nbsp;[Windows, Mac, Web]</p>
+<p>The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Notebook Overview experience has been redesigned with a better layout and direct visibility of meaningful artifacts users can create in the notebook in one click.</p>
+<p><strong>Why:</strong> This redesign helps users quickly grasp notebook context and take relevant actions without spending time on manual content review.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a Copilot Notebook and navigate to the Overview Page.</li>
+<li>Review the AI-generated summary and key insights.</li>
+<li>Use the one-click artifact creation option to create content focused on the context and content of the notebook.</li>
+</ol>
+<p><strong>Why this matters:</strong> Reduce time spent getting a quick summary and key insights of the notebook content, easily see and use one-click artifacts that help move your work forward in the notebook.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing summarized notebook information, actionable insights, creating new artifacts quickly.</p>
+<p><strong>Personal impact:</strong> You save time understanding notebook content and can act faster on relevant information.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>Lists in Context IQ</strong>&nbsp;[Web]</p>
+<p>Users will be able to search for and select SharePoint Lists through the Context IQ menu to help ground their prompts when using Copilot Chat.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422308">422308</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, users could not directly access SharePoint Lists within Context IQ when composing prompts in Copilot Chat. Now, users can search for and select specific SharePoint Lists to ground their prompts, improving relevance and accuracy. This integration supports Microsoft 365 security and compliance policies for data access.</p>
+<p><strong>Why:</strong> This change helps users target their Copilot Chat prompts to specific SharePoint Lists, reducing irrelevant results and improving productivity when working with list data.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Copilot Chat and click the Context IQ menu.</li>
+<li>Search for a SharePoint List by name.</li>
+<li>Select the desired list to scope your prompt before entering your query.</li>
+</ol>
+<p><strong>Why this matters:</strong> Scoping prompts to SharePoint Lists helps users get more precise and useful responses from Copilot Chat.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by referencing exact SharePoint Lists in their Copilot Chat interactions.</p>
+<p><strong>Personal impact:</strong> You save time by quickly narrowing Copilot Chat responses to relevant list data without manual filtering.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Take Screenshot in Copilot</strong>&nbsp;[Windows]</p>
+<p>Give users a fast, built‑in way to capture screenshots and include them in Copilot prompts, helping them communicate visual context more easily and receive more accurate, actionable assistance.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558105">558105</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot now includes a built-in screenshot capture tool that lets users add images directly to their prompts. Previously, users had to capture and upload screenshots manually outside Copilot. This integration improves prompt clarity and response relevance without exposing sensitive data externally.</p>
+<p><strong>Why:</strong> Visual context helps Copilot understand user requests better, leading to more precise and actionable responses.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>In Copilot chat, select the screenshot capture button.</li>
+<li>Capture the desired screen area.</li>
+<li>Include the screenshot in your prompt and submit for assistance.</li>
+</ol>
+<p><strong>Why this matters:</strong> Adding screenshots reduces miscommunication and speeds up problem resolution with Copilot.</p>
+<p><strong>Business impact:</strong> Users get a simpler UX to include visuals when using Copilot to help reduce confusion and support interactions.</p>
+<p><strong>Personal impact:</strong> You save time explaining problems and get more accurate help by sharing visual information instantly.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Admins can now edit user mappings and query filters for ServiceNow Connector</strong>&nbsp;[Web]</p>
+<p>Support connection edit of user mapping, query filter for ServiceNow</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503590">503590</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, once the ServiceNow connector was configured, user mappings and query filters could not be changed without recreating the connection. Now, admins can edit these settings directly within the connector configuration. This update enhances security by allowing precise control over data queries and user access mappings without disrupting the connection.</p>
+<p><strong>Why:</strong> Allowing edits to user mappings and query filters reduces the need to recreate connectors, saving time and minimizing configuration errors. It also improves data security by enabling more granular control over what data is accessed and how users are mapped.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open the Microsoft 365 admin center and navigate to the Copilot Extensibility connectors.</li>
+<li>Select the ServiceNow connector and choose 'Edit connection.'</li>
+<li>Update user mappings or query filters as needed and save changes.</li>
+</ol>
+<p><strong>Why this matters:</strong> This change streamlines connector management and enhances security by enabling ongoing adjustments without downtime.</p>
+<p><strong>Business impact:</strong> Teams can maintain accurate data synchronization and user access without interrupting workflows or recreating connectors.</p>
+<p><strong>Personal impact:</strong> Admins save time managing connectors and reduce errors by editing settings directly instead of recreating connections.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>SharePoint list support in Agent Builder</strong>&nbsp;[Windows, Web]</p>
+<p>Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Support for list attachments and lookup columns is not yet available.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561920">561920</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Each agent can now reference one SharePoint list with up to 20,000 items alongside other knowledge sources. Previously, agents could not use SharePoint lists as a data source. Support for list attachments and lookup columns is not yet available, which limits some data types.</p>
+<p><strong>Why:</strong> This change allows makers to ground agents in structured SharePoint list data, improving the relevance and accuracy of responses. It expands the types of data agents can use without requiring custom integrations.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Agent Builder and create or edit an agent.</li>
+<li>Select SharePoint list as a knowledge source.</li>
+<li>Choose a SharePoint list with up to 20,000 items to ground your agent.</li>
+</ol>
+<p><strong>Why this matters:</strong> Using SharePoint lists as a knowledge source lets agents answer questions based on structured organizational data, improving user support and information access.</p>
+<p><strong>Business impact:</strong> Teams can leverage existing SharePoint lists to build more informed agents, reducing manual data preparation and integration efforts.</p>
+<p><strong>Personal impact:</strong> You can create agents that provide accurate answers from your SharePoint data, saving time on information retrieval.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-add-knowledge#sharepoint-and-onedrive-content">Add knowledge sources to your declarative agent in Microsoft 365 Copilot</a></p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Enable adaptive card refresh in custom engine agents</strong>&nbsp;[Web]</p>
+<p>Adaptive card refresh now works in custom engine agents, improving dynamic content updates.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Adaptive card refresh is enabled for adaptive cards in custom engine agents, allowing cards to update dynamically without user intervention. Previously, adaptive card refresh was not supported in these agents, limiting real-time content updates. This change enhances responsiveness and user interaction within custom agent scenarios.</p>
+<p><strong>Why:</strong> Enabling adaptive card refresh in custom engine agents allows for more interactive and up-to-date user experiences. It reduces the need for manual refreshes and improves the accuracy of displayed information.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Create or open a custom engine agent in the Copilot Extensibility environment.</li>
+<li>Add an adaptive card that supports refresh actions.</li>
+<li>Trigger the adaptive card refresh to see updated content without reloading the agent.</li>
+</ol>
+<p><strong>Why this matters:</strong> Dynamic content updates in custom agents improve user engagement and ensure information remains current without extra user steps.</p>
+<p><strong>Business impact:</strong> Teams using custom engine agents benefit from more interactive workflows and reduced manual refresh overhead.</p>
+<p><strong>Personal impact:</strong> You experience smoother interactions with adaptive cards that update automatically, saving time and reducing friction.</p>
+</li>
+</ul>
+<h3>Microsoft 365 SharePoint</h3>
+
+<ul>
+<li><p><strong>Plan and build solutions on SharePoint with Copilot in SharePoint</strong>&nbsp;[Web]</p>
+<p>Copilot in SharePoint lets you plan and build SharePoint solutions using natural language commands.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot in SharePoint now supports creating SharePoint solutions through natural language input.</p>
+<p><strong>Why:</strong> Building SharePoint solutions typically requires technical expertise and time. This change lowers the barrier by enabling users to describe their needs in natural language, accelerating development and reducing errors.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Visit the Build node of the SharePoint start page.</li>
+<li>Describe your goal in the top text box that asks what you would like to build today.</li>
+<li>Enter a natural language request to plan or build a SharePoint solution.</li>
+<li>Review and customize the generated SharePoint site.</li>
+</ol>
+<p><strong>Why this matters:</strong> Simplifying SharePoint solution creation empowers more users to create better solutions faster.</p>
+<p><strong>Business impact:</strong> Teams can deploy SharePoint solutions faster, improving collaboration.</p>
+<p><strong>Personal impact:</strong> You can create SharePoint sites using natural language, saving time and effort.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Floating Copilot icon in File Previewer for OneDrive</strong>&nbsp;[Web]</p>
+<p>A new Copilot icon button provides a quick, visible entry point to Copilot directly within the file previewer in OneDrive. Positioned at the bottom-right corner (instead of the command bar), this button surfaces contextual prompts tailored to the file type and offers seamless access to Copilot chat, making it easier to get insights and take action without leaving the preview experience.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513432">513432</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The file previewer in OneDrive and SharePoint now shows a floating Copilot button at the bottom right corner instead of the command bar. This button offers prompts tailored to the file type and quick access to Copilot chat. Previously, users had to open Copilot separately to get insights on files.</p>
+<p><strong>Why:</strong> Placing Copilot directly in the file previewer reduces steps to get contextual assistance, improving workflow efficiency.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a file in OneDrive or SharePoint previewer.</li>
+<li>Click the Copilot button at the bottom right.</li>
+<li>Use the contextual prompts or start a chat to get insights about the file.</li>
+</ol>
+<p><strong>Why this matters:</strong> This update makes it easier to get file-specific help without leaving the preview experience.</p>
+<p><strong>Business impact:</strong> Teams can review and act on file content faster with integrated Copilot access during preview.</p>
+<p><strong>Personal impact:</strong> You save time by accessing tailored Copilot assistance directly within file previews.</p>
+</li>
+</ul><p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Surface rich images inline within responses</strong>&nbsp;[Windows, Web]</p>
+<p>Copilot now displays rich images from files and meetings directly within responses to improve comprehension.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, Copilot responses included text only. Now, it surfaces relevant images inline from files and meetings to provide visual context. This enhancement supports richer content formats while maintaining data security and compliance with Microsoft 365 policies.</p>
+<p><strong>Why:</strong> Visual information helps users understand complex content faster and reduces the need to switch between apps or documents.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Ask Copilot a question related to your meeting notes or documents.</li>
+<li>Review the inline images that appear alongside the text response.</li>
+<li>Click images to open the source file or meeting contenvt for more details.</li>
+</ol>
+<p><strong>Why this matters:</strong> Including images directly in responses helps users grasp information quickly and reduces context switching.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing visual content without leaving the Copilot interface.</p>
+<p><strong>Personal impact:</strong> You save time by seeing relevant images immediately, improving comprehension and decision-making.</p>
+</li>
+</ul>
+<h3>OneNote</h3>
+
+<ul>
+<li><p><strong>Redesign Overview experience in Copilot notebooks in OneNote</strong>&nbsp;[Windows, Mac, Web]</p>
+<p>The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Notebook Overview experience has been redesigned with a better layout and direct visibility of meaningful artifacts users can create in the notebook in one click.</p>
+<p><strong>Why:</strong> This redesign helps users quickly grasp notebook context and take relevant actions without spending time on manual content review.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a Copilot Notebook and navigate to the Overview Page.</li>
+<li>Review the AI-generated summary and key insights.</li>
+<li>Use the one-click artifact creation option to create content focused on the context and content of the notebook.</li>
+</ol>
+<p><strong>Why this matters:</strong> Reduce time spent getting a quick summary and key insights of the notebook content, easily see and use one-click artifacts that help move your work forward in the notebook.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing summarized notebook information, actionable insights, creating new artifacts quickly.</p>
+<p><strong>Personal impact:</strong> You save time understanding notebook content and can act faster on relevant information.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Take Screenshot in Copilot</strong>&nbsp;[Windows]</p>
+<p>Give users a fast, built‑in way to capture screenshots and include them in Copilot prompts, helping them communicate visual context more easily and receive more accurate, actionable assistance.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=558105">558105</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot now includes a built-in screenshot capture tool that lets users add images directly to their prompts. Previously, users had to capture and upload screenshots manually outside Copilot. This integration improves prompt clarity and response relevance without exposing sensitive data externally.</p>
+<p><strong>Why:</strong> Visual context helps Copilot understand user requests better, leading to more precise and actionable responses.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>In Copilot chat, select the screenshot capture button.</li>
+<li>Capture the desired screen area.</li>
+<li>Include the screenshot in your prompt and submit for assistance.</li>
+</ol>
+<p><strong>Why this matters:</strong> Adding screenshots reduces miscommunication and speeds up problem resolution with Copilot.</p>
+<p><strong>Business impact:</strong> Users get a simpler UX to include visuals when using Copilot to help reduce confusion and support interactions.</p>
+<p><strong>Personal impact:</strong> You save time explaining problems and get more accurate help by sharing visual information instantly.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>SharePoint list support in Agent Builder</strong>&nbsp;[Windows, Web]</p>
+<p>Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Support for list attachments and lookup columns is not yet available.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561920">561920</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Each agent can now reference one SharePoint list with up to 20,000 items alongside other knowledge sources. Previously, agents could not use SharePoint lists as a data source. Support for list attachments and lookup columns is not yet available, which limits some data types.</p>
+<p><strong>Why:</strong> This change allows makers to ground agents in structured SharePoint list data, improving the relevance and accuracy of responses. It expands the types of data agents can use without requiring custom integrations.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Agent Builder and create or edit an agent.</li>
+<li>Select SharePoint list as a knowledge source.</li>
+<li>Choose a SharePoint list with up to 20,000 items to ground your agent.</li>
+</ol>
+<p><strong>Why this matters:</strong> Using SharePoint lists as a knowledge source lets agents answer questions based on structured organizational data, improving user support and information access.</p>
+<p><strong>Business impact:</strong> Teams can leverage existing SharePoint lists to build more informed agents, reducing manual data preparation and integration efforts.</p>
+<p><strong>Personal impact:</strong> You can create agents that provide accurate answers from your SharePoint data, saving time on information retrieval.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-add-knowledge#sharepoint-and-onedrive-content">Add knowledge sources to your declarative agent in Microsoft 365 Copilot</a></p>
+</li>
+</ul><p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Surface rich images inline within responses</strong>&nbsp;[Windows, Web]</p>
+<p>Copilot now displays rich images from files and meetings directly within responses to improve comprehension.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, Copilot responses included text only. Now, it surfaces relevant images inline from files and meetings to provide visual context. This enhancement supports richer content formats while maintaining data security and compliance with Microsoft 365 policies.</p>
+<p><strong>Why:</strong> Visual information helps users understand complex content faster and reduces the need to switch between apps or documents.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Ask Copilot a question related to your meeting notes or documents.</li>
+<li>Review the inline images that appear alongside the text response.</li>
+<li>Click images to open the source file or meeting contenvt for more details.</li>
+</ol>
+<p><strong>Why this matters:</strong> Including images directly in responses helps users grasp information quickly and reduces context switching.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing visual content without leaving the Copilot interface.</p>
+<p><strong>Personal impact:</strong> You save time by seeing relevant images immediately, improving comprehension and decision-making.</p>
+</li>
+</ul>
+<h3>OneNote</h3>
+
+<ul>
+<li><p><strong>Redesign Overview experience in Copilot notebooks in OneNote</strong>&nbsp;[Windows, Mac, Web]</p>
+<p>The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Notebook Overview experience has been redesigned with a better layout and direct visibility of meaningful artifacts users can create in the notebook in one click.</p>
+<p><strong>Why:</strong> This redesign helps users quickly grasp notebook context and take relevant actions without spending time on manual content review.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a Copilot Notebook and navigate to the Overview Page.</li>
+<li>Review the AI-generated summary and key insights.</li>
+<li>Use the one-click artifact creation option to create content focused on the context and content of the notebook.</li>
+</ol>
+<p><strong>Why this matters:</strong> Reduce time spent getting a quick summary and key insights of the notebook content, easily see and use one-click artifacts that help move your work forward in the notebook.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing summarized notebook information, actionable insights, creating new artifacts quickly.</p>
+<p><strong>Personal impact:</strong> You save time understanding notebook content and can act faster on relevant information.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>Lists in Context IQ</strong>&nbsp;[Web]</p>
+<p>Users will be able to search for and select SharePoint Lists through the Context IQ menu to help ground their prompts when using Copilot Chat.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=422308">422308</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, users could not directly access SharePoint Lists within Context IQ when composing prompts in Copilot Chat. Now, users can search for and select specific SharePoint Lists to ground their prompts, improving relevance and accuracy. This integration supports Microsoft 365 security and compliance policies for data access.</p>
+<p><strong>Why:</strong> This change helps users target their Copilot Chat prompts to specific SharePoint Lists, reducing irrelevant results and improving productivity when working with list data.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Copilot Chat and click the Context IQ menu.</li>
+<li>Search for a SharePoint List by name.</li>
+<li>Select the desired list to scope your prompt before entering your query.</li>
+</ol>
+<p><strong>Why this matters:</strong> Scoping prompts to SharePoint Lists helps users get more precise and useful responses from Copilot Chat.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by referencing exact SharePoint Lists in their Copilot Chat interactions.</p>
+<p><strong>Personal impact:</strong> You save time by quickly narrowing Copilot Chat responses to relevant list data without manual filtering.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Admins can now edit user mappings and query filters for ServiceNow Connector</strong>&nbsp;[Web]</p>
+<p>Support connection edit of user mapping, query filter for ServiceNow</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503590">503590</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, once the ServiceNow connector was configured, user mappings and query filters could not be changed without recreating the connection. Now, admins can edit these settings directly within the connector configuration. This update enhances security by allowing precise control over data queries and user access mappings without disrupting the connection.</p>
+<p><strong>Why:</strong> Allowing edits to user mappings and query filters reduces the need to recreate connectors, saving time and minimizing configuration errors. It also improves data security by enabling more granular control over what data is accessed and how users are mapped.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open the Microsoft 365 admin center and navigate to the Copilot Extensibility connectors.</li>
+<li>Select the ServiceNow connector and choose 'Edit connection.'</li>
+<li>Update user mappings or query filters as needed and save changes.</li>
+</ol>
+<p><strong>Why this matters:</strong> This change streamlines connector management and enhances security by enabling ongoing adjustments without downtime.</p>
+<p><strong>Business impact:</strong> Teams can maintain accurate data synchronization and user access without interrupting workflows or recreating connectors.</p>
+<p><strong>Personal impact:</strong> Admins save time managing connectors and reduce errors by editing settings directly instead of recreating connections.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>SharePoint list support in Agent Builder</strong>&nbsp;[Windows, Web]</p>
+<p>Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Support for list attachments and lookup columns is not yet available.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561920">561920</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Each agent can now reference one SharePoint list with up to 20,000 items alongside other knowledge sources. Previously, agents could not use SharePoint lists as a data source. Support for list attachments and lookup columns is not yet available, which limits some data types.</p>
+<p><strong>Why:</strong> This change allows makers to ground agents in structured SharePoint list data, improving the relevance and accuracy of responses. It expands the types of data agents can use without requiring custom integrations.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Agent Builder and create or edit an agent.</li>
+<li>Select SharePoint list as a knowledge source.</li>
+<li>Choose a SharePoint list with up to 20,000 items to ground your agent.</li>
+</ol>
+<p><strong>Why this matters:</strong> Using SharePoint lists as a knowledge source lets agents answer questions based on structured organizational data, improving user support and information access.</p>
+<p><strong>Business impact:</strong> Teams can leverage existing SharePoint lists to build more informed agents, reducing manual data preparation and integration efforts.</p>
+<p><strong>Personal impact:</strong> You can create agents that provide accurate answers from your SharePoint data, saving time on information retrieval.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-add-knowledge#sharepoint-and-onedrive-content">Add knowledge sources to your declarative agent in Microsoft 365 Copilot</a></p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Enable adaptive card refresh in custom engine agents</strong>&nbsp;[Web]</p>
+<p>Adaptive card refresh now works in custom engine agents, improving dynamic content updates.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Adaptive card refresh is enabled for adaptive cards in custom engine agents, allowing cards to update dynamically without user intervention. Previously, adaptive card refresh was not supported in these agents, limiting real-time content updates. This change enhances responsiveness and user interaction within custom agent scenarios.</p>
+<p><strong>Why:</strong> Enabling adaptive card refresh in custom engine agents allows for more interactive and up-to-date user experiences. It reduces the need for manual refreshes and improves the accuracy of displayed information.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Create or open a custom engine agent in the Copilot Extensibility environment.</li>
+<li>Add an adaptive card that supports refresh actions.</li>
+<li>Trigger the adaptive card refresh to see updated content without reloading the agent.</li>
+</ol>
+<p><strong>Why this matters:</strong> Dynamic content updates in custom agents improve user engagement and ensure information remains current without extra user steps.</p>
+<p><strong>Business impact:</strong> Teams using custom engine agents benefit from more interactive workflows and reduced manual refresh overhead.</p>
+<p><strong>Personal impact:</strong> You experience smoother interactions with adaptive cards that update automatically, saving time and reducing friction.</p>
+</li>
+</ul>
+<h3>Microsoft 365 SharePoint</h3>
+
+<ul>
+<li><p><strong>Plan and build solutions on SharePoint with Copilot in SharePoint</strong>&nbsp;[Web]</p>
+<p>Copilot in SharePoint lets you plan and build SharePoint solutions using natural language commands.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot in SharePoint now supports creating SharePoint solutions through natural language input.</p>
+<p><strong>Why:</strong> Building SharePoint solutions typically requires technical expertise and time. This change lowers the barrier by enabling users to describe their needs in natural language, accelerating development and reducing errors.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Visit the Build node of the SharePoint start page.</li>
+<li>Describe your goal in the top text box that asks what you would like to build today.</li>
+<li>Enter a natural language request to plan or build a SharePoint solution.</li>
+<li>Review and customize the generated SharePoint site.</li>
+</ol>
+<p><strong>Why this matters:</strong> Simplifying SharePoint solution creation empowers more users to create better solutions faster.</p>
+<p><strong>Business impact:</strong> Teams can deploy SharePoint solutions faster, improving collaboration.</p>
+<p><strong>Personal impact:</strong> You can create SharePoint sites using natural language, saving time and effort.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Floating Copilot icon in File Previewer for OneDrive</strong>&nbsp;[Web]</p>
+<p>A new Copilot icon button provides a quick, visible entry point to Copilot directly within the file previewer in OneDrive. Positioned at the bottom-right corner (instead of the command bar), this button surfaces contextual prompts tailored to the file type and offers seamless access to Copilot chat, making it easier to get insights and take action without leaving the preview experience.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=513432">513432</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The file previewer in OneDrive and SharePoint now shows a floating Copilot button at the bottom right corner instead of the command bar. This button offers prompts tailored to the file type and quick access to Copilot chat. Previously, users had to open Copilot separately to get insights on files.</p>
+<p><strong>Why:</strong> Placing Copilot directly in the file previewer reduces steps to get contextual assistance, improving workflow efficiency.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a file in OneDrive or SharePoint previewer.</li>
+<li>Click the Copilot button at the bottom right.</li>
+<li>Use the contextual prompts or start a chat to get insights about the file.</li>
+</ol>
+<p><strong>Why this matters:</strong> This update makes it easier to get file-specific help without leaving the preview experience.</p>
+<p><strong>Business impact:</strong> Teams can review and act on file content faster with integrated Copilot access during preview.</p>
+<p><strong>Personal impact:</strong> You save time by accessing tailored Copilot assistance directly within file previews.</p>
+</li>
+</ul><p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul><p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul><p>Updates released between July 15, 2026, and July 29, 2026.</p>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>Redesign Overview experience in Copilot notebooks in OneNote</strong>&nbsp;[Windows, Mac, Web]</p>
+<p>The Copilot Notebooks Overview now provides a redesigned experience for crisper AI-generated summaries, key insights, and one-click artifacts to move work forward in the notebook.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Notebook Overview experience has been redesigned with a better layout and direct visibility of meaningful artifacts users can create in the notebook in one click.</p>
+<p><strong>Why:</strong> This redesign helps users quickly grasp notebook context and take relevant actions without spending time on manual content review.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open a Copilot Notebook and navigate to the Overview Page.</li>
+<li>Review the AI-generated summary and key insights.</li>
+<li>Use the one-click artifact creation option to create content focused on the context and content of the notebook.</li>
+</ol>
+<p><strong>Why this matters:</strong> Reduce time spent getting a quick summary and key insights of the notebook content, easily see and use one-click artifacts that help move your work forward in the notebook.</p>
+<p><strong>Business impact:</strong> Teams can collaborate more effectively by accessing summarized notebook information, actionable insights, creating new artifacts quickly.</p>
+<p><strong>Personal impact:</strong> You save time understanding notebook content and can act faster on relevant information.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Chat</h3>
+
+<ul>
+<li><p><strong>List email attachments in Microsoft 365 Copilot</strong>&nbsp;[Android, Windows, iOS, Mac, Web]</p>
+<p>Users will be able to list the file attachments that they received or sent over email in Microsoft 365 Copilot.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=497909">497909</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot now provides a list of email file attachments from messages you sent or received. Previously, users had to manually search emails to find attachments. This update improves visibility and access to files directly through Copilot chat.</p>
+<p><strong>Why:</strong> Finding email attachments quickly is essential for efficient communication and file management. This change reduces time spent searching and improves workflow.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot chat.</li>
+<li>Ask to list email attachments from a specific sender or date.</li>
+<li>Review the generated list of files attached to those emails.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quick access to email attachments saves time and reduces the risk of missing important files.</p>
+<p><strong>Business impact:</strong> Teams can retrieve shared documents faster, improving collaboration and reducing delays.</p>
+<p><strong>Personal impact:</strong> You spend less time searching emails and more time focusing on tasks that require those attachments.</p>
+</li>
+</ul>]]></content:encoded>
+    </item>
     <item>
       <title>Microsoft 365 Copilot updates — July 15, 2026</title>
       <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#july-15-2026</link>
@@ -151,7 +1247,7 @@
 <p><strong>Why this matters:</strong> Provides centralized governance for MCP-based connectors, reduces administrative overhead, and accelerates deployment of approved external data sources across the organization.</p>
 <p><strong>Business impact:</strong> IT teams can efficiently manage Copilot connectors at scale, improving governance and deployment speed.</p>
 <p><strong>Personal impact:</strong> Users gain faster access to approved external tools and data sources in Copilot while benefiting from secure, user-scoped access that respects existing permissions.</p>
-<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/federated-connectors-overview">/microsoft-365/copilot/connectors/federated-connectors-overview</a></p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/federated-connectors-overview">Federated connectors overview</a></p>
 </li>
 </ul><p>Updates released between July 01, 2026, and July 15, 2026.</p>
 <h3>Microsoft 365 admin center</h3>
@@ -477,7 +1573,7 @@
 <p><strong>Why this matters:</strong> Provides centralized governance for MCP-based connectors, reduces administrative overhead, and accelerates deployment of approved external data sources across the organization.</p>
 <p><strong>Business impact:</strong> IT teams can efficiently manage Copilot connectors at scale, improving governance and deployment speed.</p>
 <p><strong>Personal impact:</strong> Users gain faster access to approved external tools and data sources in Copilot while benefiting from secure, user-scoped access that respects existing permissions.</p>
-<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/federated-connectors-overview">/microsoft-365/copilot/connectors/federated-connectors-overview</a></p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/federated-connectors-overview">Federated connectors overview</a></p>
 </li>
 </ul><p>Updates released between July 01, 2026, and July 15, 2026.</p>
 <h3>Microsoft 365 admin center</h3>
@@ -13610,7 +14706,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 				<li>
 			
 				Last updated on 
-		2026-07-15
+		2026-07-29
 	</local-time>
 			
 		</li>
@@ -14440,7 +15536,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 				<li>
 			
 				Last updated on 
-		2026-07-15
+		2026-07-29
 	</local-time>
 			
 		</li>
