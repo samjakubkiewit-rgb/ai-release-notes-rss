@@ -5,9 +5,21 @@
     <link>https://platform.claude.com/docs/en/release-notes/overview</link>
     <description>Combined Claude Platform and Claude Apps release notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 16:45:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 18:18:29 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/claude-release-notes-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude Platform updates — August 1, 2026</title>
+      <link>https://platform.claude.com/docs/en/release-notes/overview#august-1-2026</link>
+      <guid isPermaLink="false">https://platform.claude.com/docs/en/release-notes/overview#august-1-2026</guid>
+      <pubDate>Sat, 01 Aug 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<ul>
+<li><a href="https://platform.claude.com/docs/en/managed-agents/dreams">Dreams</a> (research preview) now supports Claude Opus 5. See <a href="https://platform.claude.com/docs/en/managed-agents/dreams#limits">Supported models</a>.</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://platform.claude.com/docs/en/managed-agents/dreams">Dreams</a> (research preview) now supports Claude Opus 5. See <a href="https://platform.claude.com/docs/en/managed-agents/dreams#limits">Supported models</a>.</li>
+</ul>]]></content:encoded>
+    </item>
     <item>
       <title>Claude Apps updates — July 24, 2026</title>
       <link>https://support.claude.com/en/articles/12138966-release-notes#h_16265f52ec</link>
@@ -363,6 +375,7 @@
 <li>Claude Fable 5 requires 30-day data retention and is not available under zero data retention. See <a href="https://platform.claude.com/docs/en/manage-claude/api-and-data-retention#model-specific-data-retention-requirements">Model-specific data retention requirements</a>.</li>
 <li>Claude Managed Agents now supports <a href="https://platform.claude.com/docs/en/managed-agents/scheduled-deployments">scheduled deployments</a>, letting you run sessions on a cron schedule without managing your own scheduler.</li>
 <li>Claude Managed Agents vaults now support <a href="https://platform.claude.com/docs/en/managed-agents/vaults#add-a-credential">environment variable credentials</a>, so you can securely inject secrets into the agent&#x27;s sandbox for CLIs, SDKs, and other services that authenticate through environment variables.</li>
+<li>The <a href="https://platform.claude.com/docs/en/manage-claude/compliance-api">Compliance API</a> <a href="https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed">Activity Feed</a> (<code>GET /v1/compliance/activities</code>) is now available on <a href="https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws">Claude Platform on AWS</a>. See <a href="https://platform.claude.com/docs/en/api/claude-platform-on-aws-iam-actions#compliance">IAM actions for Claude Platform on AWS</a> for the <code>ListComplianceActivities</code> action that authorizes it.</li>
 <li>The <code>session.thread_*</code> webhook events now include a <code>session_thread_id</code> field identifying the multiagent thread that triggered the event.</li>
 <li>We&#x27;ve released a <a href="https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models">Swift package</a> in beta that adds Claude as a server-side <code>LanguageModel</code> in Apple&#x27;s Foundation Models framework. Call Claude through the same <code>LanguageModelSession</code> API as Apple&#x27;s on-device model on iOS 27, macOS 27, visionOS 27, and watchOS 27 (beta).</li>
 </ul>]]></description>
@@ -376,6 +389,7 @@
 <li>Claude Fable 5 requires 30-day data retention and is not available under zero data retention. See <a href="https://platform.claude.com/docs/en/manage-claude/api-and-data-retention#model-specific-data-retention-requirements">Model-specific data retention requirements</a>.</li>
 <li>Claude Managed Agents now supports <a href="https://platform.claude.com/docs/en/managed-agents/scheduled-deployments">scheduled deployments</a>, letting you run sessions on a cron schedule without managing your own scheduler.</li>
 <li>Claude Managed Agents vaults now support <a href="https://platform.claude.com/docs/en/managed-agents/vaults#add-a-credential">environment variable credentials</a>, so you can securely inject secrets into the agent&#x27;s sandbox for CLIs, SDKs, and other services that authenticate through environment variables.</li>
+<li>The <a href="https://platform.claude.com/docs/en/manage-claude/compliance-api">Compliance API</a> <a href="https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed">Activity Feed</a> (<code>GET /v1/compliance/activities</code>) is now available on <a href="https://platform.claude.com/docs/en/build-with-claude/claude-platform-on-aws">Claude Platform on AWS</a>. See <a href="https://platform.claude.com/docs/en/api/claude-platform-on-aws-iam-actions#compliance">IAM actions for Claude Platform on AWS</a> for the <code>ListComplianceActivities</code> action that authorizes it.</li>
 <li>The <code>session.thread_*</code> webhook events now include a <code>session_thread_id</code> field identifying the multiagent thread that triggered the event.</li>
 <li>We&#x27;ve released a <a href="https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models">Swift package</a> in beta that adds Claude as a server-side <code>LanguageModel</code> in Apple&#x27;s Foundation Models framework. Call Claude through the same <code>LanguageModelSession</code> API as Apple&#x27;s on-device model on iOS 27, macOS 27, visionOS 27, and watchOS 27 (beta).</li>
 </ul>]]></content:encoded>
