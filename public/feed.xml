@@ -5,9 +5,21 @@
     <link>https://platform.claude.com/docs/en/release-notes/overview</link>
     <description>Combined Claude Platform and Claude Apps release notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 19:11:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 18:09:18 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/claude-release-notes-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude Platform updates — August 5, 2026</title>
+      <link>https://platform.claude.com/docs/en/release-notes/overview#august-5-2026</link>
+      <guid isPermaLink="false">https://platform.claude.com/docs/en/release-notes/overview#august-5-2026</guid>
+      <pubDate>Wed, 05 Aug 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<ul>
+<li><strong>Inference hooks</strong> are now in beta for Claude Enterprise organizations. Point Claude at your organization&#x27;s AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server&#x27;s allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance <a href="https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed">Activity Feed</a>. See <a href="https://platform.claude.com/docs/en/manage-claude/inference-hooks">Inference hooks</a>.</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<ul>
+<li><strong>Inference hooks</strong> are now in beta for Claude Enterprise organizations. Point Claude at your organization&#x27;s AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server&#x27;s allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance <a href="https://platform.claude.com/docs/en/manage-claude/compliance-activity-feed">Activity Feed</a>. See <a href="https://platform.claude.com/docs/en/manage-claude/inference-hooks">Inference hooks</a>.</li>
+</ul>]]></content:encoded>
+    </item>
     <item>
       <title>Claude Platform updates — August 1, 2026</title>
       <link>https://platform.claude.com/docs/en/release-notes/overview#august-1-2026</link>
