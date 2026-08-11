@@ -2,8 +2,7 @@ name: Update and publish RSS feed
 
 on:
   schedule:
-    - cron: '30 12 * * *'   # 7:30am CDT (summer, UTC-5)
-    - cron: '30 13 * * *'   # 7:30am CST (winter, UTC-6)
+    - cron: '41 */3 * * *'
   workflow_dispatch:
   push:
     branches: [main]
