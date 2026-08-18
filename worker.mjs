@@ -215,6 +215,36 @@ export function entriesFromDatedMarkdown(markdown, { sourceUrl, titlePrefix }) {
   return [...byDate.values()];
 }
 
+export function entriesFromCursorHtml(html, sourceUrl) {
+  const entries = [];
+  const seen = new Set();
+  const articles = /<article\b[^>]*>([\s\S]*?)<\/article>/gi;
+  let match;
+  while ((match = articles.exec(html))) {
+    const article = match[1];
+    const time = article.match(/<time\b[^>]*\bdateTime=(?:"([^"]+)"|'([^']+)')[^>]*>/i);
+    const heading = article.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i);
+    if (!time || !heading) continue;
+    const date = new Date(time[1] ?? time[2]);
+    const title = textContent(heading[1]);
+    const href = heading[1].match(/\bhref=(?:"([^"]+)"|'([^']+)')/i);
+    const link = absoluteUrl(href?.[1] ?? href?.[2] ?? sourceUrl, sourceUrl);
+    if (!Number.isFinite(date.getTime()) || !title || seen.has(link)) continue;
+    seen.add(link);
+    const headingEnd = article.indexOf(heading[0]) + heading[0].length;
+    const content = sanitizeHtml(article.slice(headingEnd), sourceUrl);
+    if (!textContent(content)) continue;
+    entries.push({
+      date,
+      title: `Cursor — ${title}`,
+      link,
+      guid: link,
+      content,
+    });
+  }
+  return entries;
+}
+
 export function renderFeed({ title, description, siteUrl, selfUrl, entries }) {
   const sorted = [...entries].sort((a, b) => b.date - a.date || a.title.localeCompare(b.title));
   if (!sorted.length) throw new Error(`No entries found for ${title}`);
