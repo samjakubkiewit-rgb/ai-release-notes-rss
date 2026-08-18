@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cursor changelog</title>
+    <link>https://cursor.com/changelog</link>
+    <description>The latest Cursor product updates and release notes.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Aug 2026 13:34:12 GMT</lastBuildDate>
+    <generator>Release notes RSS generator</generator>
+    <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/cursor.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cursor — Origin Code Hosting</title>
+      <link>https://cursor.com/changelog/origin-code-hosting</link>
+      <guid isPermaLink="false">https://cursor.com/changelog/origin-code-hosting</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Cursor can now host your code.</p>
+<p>Origin begins rolling out today in early beta on all paid plans. We&#x27;re starting with the essentials, designed for agent scale: repos, pull requests, code browsing, and GitHub sync. Agent-native features ship soon.</p>
+
+<h2><a href="https://cursor.com/changelog#origin-repos">#</a>Origin Repos</h2>
+<p>The new <strong>Codebase</strong> tab is home for Origin repos.</p>
+<p>Click <strong>+New</strong> to create a new repo and name it. Once you do, a page shows you how to install the CLI, with commands for how to clone a repo or push a local project. Push, and your code is hosted on Origin.</p>
+
+<p>Name your codebase when you create your first repo. That name becomes part of every repo&#x27;s URL: cursor.com/codebase/<code>acme-corp</code>.</p>
+<h2><a href="https://cursor.com/changelog#bring-your-github-repos">#</a>Bring your GitHub repos</h2>
+<p>Your GitHub repos can sit alongside the ones Cursor hosts. Connect GitHub to Cursor, pick your org, and you&#x27;ll see the repos you can sync. Select one and Cursor pulls it in. You choose what gets synced and can disconnect a repo at any time. Anyone with read or write access to a synced repo can view it in Cursor too.</p>
+<p>Synced repos update in real time. Browse, search, and pull from the copy in Origin. Pushes keep going to GitHub, which stays the source of truth for anything started there. Icons next to each repo name tell you which ones Cursor hosts and which came from GitHub.</p>
+
+<h2><a href="https://cursor.com/changelog#pull-requests">#</a>Pull requests</h2>
+<p>Every repo has pull requests. Open one to see the timeline, commits, checks, and files changed. Review the diff, leave comments, and merge.</p>
+
+<p>Pull requests on synced repos sync both ways: comment in Cursor and it posts to GitHub, react or reply on GitHub and it shows up in Cursor within seconds. Got a review assigned to you on GitHub? Review and merge it from Cursor.</p>
+
+<h2><a href="https://cursor.com/changelog#agents-in-every-repo">#</a>Agents in every repo</h2>
+<p>Your code, PRs, and agents are now in the same place. Ask Cursor questions about code you&#x27;re browsing. It can answer, make changes, update PRs, or push a branch.</p>
+
+<h2><a href="https://cursor.com/changelog#app-extensions-for-cursor-repos">#</a>App extensions for Cursor repos</h2>
+<p>We&#x27;re building an app ecosystem so your whole stack works seamlessly with Origin. Integrations with Vercel, Depot, and Buildkite are already available, with more coming soon.</p>
+<p>Connect Vercel from a repo&#x27;s <strong>Apps</strong> tab and every PR gets a preview deployment where you can test and make comments. Merge, and it ships to production. For CI, connect Depot or Buildkite. Both run your existing GitHub Actions workflows and Buildkite also runs its native pipelines.</p>
+
+<h2><a href="https://cursor.com/changelog#settings">#</a>Settings</h2>
+<p>Every repo has settings. Check sync status for GitHub repos, manage who has access, and see which apps are connected.</p>
+
+<p>Origin is rolling out in early beta to all paid plan users starting today, except enterprise orgs whose admins opt out. Name your codebase and create your first repo.</p>
+<p>Learn more in our <a href="https://cursor.com/docs/origin">docs</a> or <a href="https://cursor.com/codebase">get started</a> today.</p>]]></description>
+      <content:encoded><![CDATA[<p>Cursor can now host your code.</p>
+<p>Origin begins rolling out today in early beta on all paid plans. We&#x27;re starting with the essentials, designed for agent scale: repos, pull requests, code browsing, and GitHub sync. Agent-native features ship soon.</p>
+
+<h2><a href="https://cursor.com/changelog#origin-repos">#</a>Origin Repos</h2>
+<p>The new <strong>Codebase</strong> tab is home for Origin repos.</p>
+<p>Click <strong>+New</strong> to create a new repo and name it. Once you do, a page shows you how to install the CLI, with commands for how to clone a repo or push a local project. Push, and your code is hosted on Origin.</p>
+
+<p>Name your codebase when you create your first repo. That name becomes part of every repo&#x27;s URL: cursor.com/codebase/<code>acme-corp</code>.</p>
+<h2><a href="https://cursor.com/changelog#bring-your-github-repos">#</a>Bring your GitHub repos</h2>
+<p>Your GitHub repos can sit alongside the ones Cursor hosts. Connect GitHub to Cursor, pick your org, and you&#x27;ll see the repos you can sync. Select one and Cursor pulls it in. You choose what gets synced and can disconnect a repo at any time. Anyone with read or write access to a synced repo can view it in Cursor too.</p>
+<p>Synced repos update in real time. Browse, search, and pull from the copy in Origin. Pushes keep going to GitHub, which stays the source of truth for anything started there. Icons next to each repo name tell you which ones Cursor hosts and which came from GitHub.</p>
+
+<h2><a href="https://cursor.com/changelog#pull-requests">#</a>Pull requests</h2>
+<p>Every repo has pull requests. Open one to see the timeline, commits, checks, and files changed. Review the diff, leave comments, and merge.</p>
+
+<p>Pull requests on synced repos sync both ways: comment in Cursor and it posts to GitHub, react or reply on GitHub and it shows up in Cursor within seconds. Got a review assigned to you on GitHub? Review and merge it from Cursor.</p>
+
+<h2><a href="https://cursor.com/changelog#agents-in-every-repo">#</a>Agents in every repo</h2>
+<p>Your code, PRs, and agents are now in the same place. Ask Cursor questions about code you&#x27;re browsing. It can answer, make changes, update PRs, or push a branch.</p>
+
+<h2><a href="https://cursor.com/changelog#app-extensions-for-cursor-repos">#</a>App extensions for Cursor repos</h2>
+<p>We&#x27;re building an app ecosystem so your whole stack works seamlessly with Origin. Integrations with Vercel, Depot, and Buildkite are already available, with more coming soon.</p>
+<p>Connect Vercel from a repo&#x27;s <strong>Apps</strong> tab and every PR gets a preview deployment where you can test and make comments. Merge, and it ships to production. For CI, connect Depot or Buildkite. Both run your existing GitHub Actions workflows and Buildkite also runs its native pipelines.</p>
+
+<h2><a href="https://cursor.com/changelog#settings">#</a>Settings</h2>
+<p>Every repo has settings. Check sync status for GitHub repos, manage who has access, and see which apps are connected.</p>
+
+<p>Origin is rolling out in early beta to all paid plan users starting today, except enterprise orgs whose admins opt out. Name your codebase and create your first repo.</p>
+<p>Learn more in our <a href="https://cursor.com/docs/origin">docs</a> or <a href="https://cursor.com/codebase">get started</a> today.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Cursor — Cloud Agents Start 3x Faster with Builds</title>
+      <link>https://cursor.com/changelog/08-13-26</link>
+      <guid isPermaLink="false">https://cursor.com/changelog/08-13-26</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Agents do their best work when they start in a ready environment: repos cloned, dependencies installed, and your install script already run.</p>
+<p>This release introduces <strong>builds</strong>: ready-to-use copies of your development environment that Cursor prepares in the background. Agents boot into a ready environment instead of setting up from scratch each session. Builds are included with Cloud Agents at no additional cost.</p>
+
+<h2><a href="https://cursor.com/changelog#faster-starts">#</a>Faster starts</h2>
+<p>Cursor runs a new build of your environment regularly. When a build succeeds, it becomes the environment future agents start from. Cursor keeps warm copies ready so the next agent does not wait. Internally, our environments now boot 10x faster, with 3x faster time to first token.</p>
+<p>Use your <a href="https://cursor.com/docs/cloud-agent/builds#what-runs-during-a-build-and-an-agent-start">install command</a> for anything that can be prepared ahead of time. The start command still runs when you first prompt an agent and should focus on services that need to be fresh in the session.</p>
+<h2><a href="https://cursor.com/changelog#more-resilient-agent-runs">#</a>More resilient agent runs</h2>
+<p>When a bad commit or dependency update breaks your environment, agents keep using the last successful build. The broken build never becomes active, you are notified of the issue, and your agents keep working while you debug in the background.</p>
+<h2><a href="https://cursor.com/changelog#build-history-and-debugging">#</a>Build history and debugging</h2>
+<p>Each environment has a <strong>Builds</strong> tab in the Cloud Agents dashboard. You can inspect build status, logs, commit SHAs, and which build each agent run used. Agents can also inspect and manage builds using built-in tools.</p>
+<p></p>
+<h2><a href="https://cursor.com/changelog#getting-started">#</a>Getting started</h2>
+<p>New environments use Builds automatically. For an existing environment, open it in the <a href="https://cursor.com/dashboard/cloud-agents#environments">Cloud Agents dashboard</a>, go to the <strong>Builds</strong> tab, and click <strong>Enable Builds</strong>. Or click <strong>Run setup agent</strong> first to test the migration and review any proposed config changes.</p>
+<p>You can also trigger a Build manually, debug a failing Build with an agent, and control how stale Builds refresh with a configurable threshold.</p>
+<p>Learn more in our <a href="https://cursor.com/blog/builds">announcement post</a> and <a href="https://cursor.com/docs/cloud-agent/builds">docs</a>.</p>]]></description>
+      <content:encoded><![CDATA[<p>Agents do their best work when they start in a ready environment: repos cloned, dependencies installed, and your install script already run.</p>
+<p>This release introduces <strong>builds</strong>: ready-to-use copies of your development environment that Cursor prepares in the background. Agents boot into a ready environment instead of setting up from scratch each session. Builds are included with Cloud Agents at no additional cost.</p>
+
+<h2><a href="https://cursor.com/changelog#faster-starts">#</a>Faster starts</h2>
+<p>Cursor runs a new build of your environment regularly. When a build succeeds, it becomes the environment future agents start from. Cursor keeps warm copies ready so the next agent does not wait. Internally, our environments now boot 10x faster, with 3x faster time to first token.</p>
+<p>Use your <a href="https://cursor.com/docs/cloud-agent/builds#what-runs-during-a-build-and-an-agent-start">install command</a> for anything that can be prepared ahead of time. The start command still runs when you first prompt an agent and should focus on services that need to be fresh in the session.</p>
+<h2><a href="https://cursor.com/changelog#more-resilient-agent-runs">#</a>More resilient agent runs</h2>
+<p>When a bad commit or dependency update breaks your environment, agents keep using the last successful build. The broken build never becomes active, you are notified of the issue, and your agents keep working while you debug in the background.</p>
+<h2><a href="https://cursor.com/changelog#build-history-and-debugging">#</a>Build history and debugging</h2>
+<p>Each environment has a <strong>Builds</strong> tab in the Cloud Agents dashboard. You can inspect build status, logs, commit SHAs, and which build each agent run used. Agents can also inspect and manage builds using built-in tools.</p>
+<p></p>
+<h2><a href="https://cursor.com/changelog#getting-started">#</a>Getting started</h2>
+<p>New environments use Builds automatically. For an existing environment, open it in the <a href="https://cursor.com/dashboard/cloud-agents#environments">Cloud Agents dashboard</a>, go to the <strong>Builds</strong> tab, and click <strong>Enable Builds</strong>. Or click <strong>Run setup agent</strong> first to test the migration and review any proposed config changes.</p>
+<p>You can also trigger a Build manually, debug a failing Build with an agent, and control how stale Builds refresh with a configurable threshold.</p>
+<p>Learn more in our <a href="https://cursor.com/blog/builds">announcement post</a> and <a href="https://cursor.com/docs/cloud-agent/builds">docs</a>.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Cursor — Google Workspace Plugins</title>
+      <link>https://cursor.com/changelog/google-workspace-plugins</link>
+      <guid isPermaLink="false">https://cursor.com/changelog/google-workspace-plugins</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Cursor can now read, write, and act across your Google Workspace.</p>
+<p>New plugins give coding agents direct access to Gmail, Google Drive, and Calendar, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor.</p>
+<p>Install plugins to connect:</p>
+<ul>
+<li><strong><a href="https://cursor.com/marketplace/cursor/google-drive">Google Drive</a>:</strong> search files and folders, open and download content, create and organize files</li>
+<li><strong><a href="https://cursor.com/marketplace/cursor/gmail">Gmail</a>:</strong> search and read mail, draft and send messages, apply labels and manage threads</li>
+<li><strong><a href="https://cursor.com/marketplace/cursor/google-calendar">Google Calendar</a>:</strong> read schedules, create and update events, find free time</li>
+</ul>
+<p>Browse the new plugins in the <a href="https://cursor.com/marketplace">Cursor Marketplace</a> or install them from the Customize page in Cursor. Learn more in our <a href="https://cursor.com/docs/plugins">docs</a>.</p>]]></description>
+      <content:encoded><![CDATA[<p>Cursor can now read, write, and act across your Google Workspace.</p>
+<p>New plugins give coding agents direct access to Gmail, Google Drive, and Calendar, so you can pull context, draft and update files, and manage your inbox and calendar without leaving Cursor.</p>
+<p>Install plugins to connect:</p>
+<ul>
+<li><strong><a href="https://cursor.com/marketplace/cursor/google-drive">Google Drive</a>:</strong> search files and folders, open and download content, create and organize files</li>
+<li><strong><a href="https://cursor.com/marketplace/cursor/gmail">Gmail</a>:</strong> search and read mail, draft and send messages, apply labels and manage threads</li>
+<li><strong><a href="https://cursor.com/marketplace/cursor/google-calendar">Google Calendar</a>:</strong> read schedules, create and update events, find free time</li>
+</ul>
+<p>Browse the new plugins in the <a href="https://cursor.com/marketplace">Cursor Marketplace</a> or install them from the Customize page in Cursor. Learn more in our <a href="https://cursor.com/docs/plugins">docs</a>.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Cursor — Cursor, now on iPad</title>
+      <link>https://cursor.com/changelog/ipad</link>
+      <guid isPermaLink="false">https://cursor.com/changelog/ipad</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Cursor for iPad is now available on all paid plans.</p>
+<p>New to both iPhone and iPad: an inbox to stay organized, and a review experience that covers the full PR. Create, review, and merge from anywhere.</p>
+<h2><a href="https://cursor.com/changelog#built-for-the-bigger-screen">#</a>Built for the bigger screen</h2>
+
+<p>The iPad layout is rebuilt around the extra space. Sidebar chats stay pinned so you can watch several agents run at once. Split screen keeps a review open next to a chat, and file diffs render in full.</p>
+<p>Markup gets more room to work too. Attach a screenshot, then tap to drop a comment at a specific point, or draw directly on the image with Apple Pencil.</p>
+<h2><a href="https://cursor.com/changelog#a-full-review-surface">#</a>A full review surface</h2>
+<p>On iPhone and iPad, the review screen now covers the full PR: comments, checks, and approvals. Add or change reviewers, read comments, and prompt the agent to resolve them. The whole path from agent output to merged PR now travels with you.</p>
+
+<h2><a href="https://cursor.com/changelog#inbox">#</a>Inbox</h2>
+<p>An Inbox helps you and your agents stay organized. See what&#x27;s in progress, what needs your attention, and which PRs are in review.</p>
+
+<h2><a href="https://cursor.com/changelog#additional-improvements-for-cursor-on-iphone-and-ipad">#</a>Additional improvements for Cursor on iPhone and iPad</h2>
+<ul>
+<li>Bitbucket and Azure DevOps SCM support</li>
+<li>Multi-PR sessions: when one chat creates multiple PRs, you can now open every one of them, not just the last.</li>
+<li>Switch between teams that you belong to directly in the app</li>
+</ul>
+<p><a href="https://apps.apple.com/app/cursor/id6767085653">Download the Cursor App</a> or read our <a href="https://cursor.com/docs/cloud-agent/mobile">docs</a> to learn more.</p>]]></description>
+      <content:encoded><![CDATA[<p>Cursor for iPad is now available on all paid plans.</p>
+<p>New to both iPhone and iPad: an inbox to stay organized, and a review experience that covers the full PR. Create, review, and merge from anywhere.</p>
+<h2><a href="https://cursor.com/changelog#built-for-the-bigger-screen">#</a>Built for the bigger screen</h2>
+
+<p>The iPad layout is rebuilt around the extra space. Sidebar chats stay pinned so you can watch several agents run at once. Split screen keeps a review open next to a chat, and file diffs render in full.</p>
+<p>Markup gets more room to work too. Attach a screenshot, then tap to drop a comment at a specific point, or draw directly on the image with Apple Pencil.</p>
+<h2><a href="https://cursor.com/changelog#a-full-review-surface">#</a>A full review surface</h2>
+<p>On iPhone and iPad, the review screen now covers the full PR: comments, checks, and approvals. Add or change reviewers, read comments, and prompt the agent to resolve them. The whole path from agent output to merged PR now travels with you.</p>
+
+<h2><a href="https://cursor.com/changelog#inbox">#</a>Inbox</h2>
+<p>An Inbox helps you and your agents stay organized. See what&#x27;s in progress, what needs your attention, and which PRs are in review.</p>
+
+<h2><a href="https://cursor.com/changelog#additional-improvements-for-cursor-on-iphone-and-ipad">#</a>Additional improvements for Cursor on iPhone and iPad</h2>
+<ul>
+<li>Bitbucket and Azure DevOps SCM support</li>
+<li>Multi-PR sessions: when one chat creates multiple PRs, you can now open every one of them, not just the last.</li>
+<li>Switch between teams that you belong to directly in the app</li>
+</ul>
+<p><a href="https://apps.apple.com/app/cursor/id6767085653">Download the Cursor App</a> or read our <a href="https://cursor.com/docs/cloud-agent/mobile">docs</a> to learn more.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Cursor — Cursor Start</title>
+      <link>https://cursor.com/changelog/cursor-start</link>
+      <guid isPermaLink="false">https://cursor.com/changelog/cursor-start</guid>
+      <pubDate>Tue, 28 Jul 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>We&#x27;re introducing <a href="https://cursor.com/blog/cursor-start-india">Cursor Start</a>, a new ₹649 monthly plan for developers in India, making daily agentic development accessible and payment easy with local pricing and UPI.</p>
+<p>Existing Free users in India can upgrade their plan from the <a href="https://cursor.com/dashboard?modal=plan-selection">dashboard</a>. New users in India can visit <a href="https://cursor.com/signup">cursor.com/signup</a> and select the Start plan during onboarding.</p>
+<p>Start bills monthly with auto-renewal and is available from July 28, 2026.</p>
+<p>Cursor Start includes:</p>
+<ul>
+<li><strong>Generous access to Cursor models:</strong> Grok and Composer, with enough usage to build with agents every day.</li>
+<li><strong>Always-on cloud agents</strong> that build, test, and ship code while you keep working.</li>
+<li><strong>Cursor for iOS</strong> with remote control, so you can launch and steer agents from your phone.</li>
+<li><strong>Plugins, MCP servers, hooks, and skills</strong> to extend Cursor across your workflows.</li>
+<li><strong>Local pricing</strong> at ₹649 per month, tax inclusive, billed in INR with UPI or card.</li>
+</ul>
+<p>Learn more in our <a href="https://cursor.com/blog/cursor-start-india">announcement</a> and <a href="https://cursor.com/docs/models-and-pricing">docs</a>.</p>]]></description>
+      <content:encoded><![CDATA[<p>We&#x27;re introducing <a href="https://cursor.com/blog/cursor-start-india">Cursor Start</a>, a new ₹649 monthly plan for developers in India, making daily agentic development accessible and payment easy with local pricing and UPI.</p>
+<p>Existing Free users in India can upgrade their plan from the <a href="https://cursor.com/dashboard?modal=plan-selection">dashboard</a>. New users in India can visit <a href="https://cursor.com/signup">cursor.com/signup</a> and select the Start plan during onboarding.</p>
+<p>Start bills monthly with auto-renewal and is available from July 28, 2026.</p>
+<p>Cursor Start includes:</p>
+<ul>
+<li><strong>Generous access to Cursor models:</strong> Grok and Composer, with enough usage to build with agents every day.</li>
+<li><strong>Always-on cloud agents</strong> that build, test, and ship code while you keep working.</li>
+<li><strong>Cursor for iOS</strong> with remote control, so you can launch and steer agents from your phone.</li>
+<li><strong>Plugins, MCP servers, hooks, and skills</strong> to extend Cursor across your workflows.</li>
+<li><strong>Local pricing</strong> at ₹649 per month, tax inclusive, billed in INR with UPI or card.</li>
+</ul>
+<p>Learn more in our <a href="https://cursor.com/blog/cursor-start-india">announcement</a> and <a href="https://cursor.com/docs/models-and-pricing">docs</a>.</p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
