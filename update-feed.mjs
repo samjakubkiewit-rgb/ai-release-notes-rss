@@ -1,6 +1,6 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import {
-  entriesFromDatedHtml, entriesFromDatedMarkdown, entriesFromPlatformHtml, renderFeed,
+  entriesFromCursorHtml, entriesFromDatedHtml, entriesFromDatedMarkdown, entriesFromPlatformHtml, renderFeed,
 } from "./worker.mjs";
 
 const urls = {
@@ -9,6 +9,9 @@ const urls = {
   microsoft: "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all",
   chatgpt: "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
   chatgptReader: "https://r.jina.ai/http://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  chatgptEnterprise: "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
+  chatgptEnterpriseReader: "https://r.jina.ai/http://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
+  cursor: "https://cursor.com/changelog",
 };
 
 async function fetchText(url) {
@@ -19,8 +22,9 @@ async function fetchText(url) {
   return response.text();
 }
 
-const [platformHtml, claudeAppsHtml, microsoftHtml, chatgptMarkdown] = await Promise.all([
+const [platformHtml, claudeAppsHtml, microsoftHtml, chatgptMarkdown, enterpriseMarkdown, cursorHtml] = await Promise.all([
   fetchText(urls.platform), fetchText(urls.claudeApps), fetchText(urls.microsoft), fetchText(urls.chatgptReader),
+  fetchText(urls.chatgptEnterpriseReader), fetchText(urls.cursor),
 ]);
 
 const claudeEntries = [
@@ -30,9 +34,15 @@ const claudeEntries = [
 const microsoftEntries = entriesFromDatedHtml(microsoftHtml, {
   sourceUrl: urls.microsoft, headingLevel: 2, titlePrefix: "Microsoft 365 Copilot updates",
 });
-const chatgptEntries = entriesFromDatedMarkdown(chatgptMarkdown, {
-  sourceUrl: urls.chatgpt, titlePrefix: "ChatGPT updates",
-});
+const chatgptEntries = [
+  ...entriesFromDatedMarkdown(chatgptMarkdown, {
+    sourceUrl: urls.chatgpt, titlePrefix: "ChatGPT updates",
+  }),
+  ...entriesFromDatedMarkdown(enterpriseMarkdown, {
+    sourceUrl: urls.chatgptEnterprise, titlePrefix: "ChatGPT Enterprise & Edu updates",
+  }),
+];
+const cursorEntries = entriesFromCursorHtml(cursorHtml, urls.cursor);
 
 const baseUrl = process.env.PAGES_BASE_URL ?? "";
 const feeds = [
@@ -45,8 +55,12 @@ const feeds = [
     siteUrl: urls.microsoft, selfUrl: baseUrl && `${baseUrl}/microsoft-365-copilot.xml`, entries: microsoftEntries,
   })],
   ["chatgpt.xml", renderFeed({
-    title: "ChatGPT release notes", description: "The latest updates and release notes for ChatGPT.",
+    title: "ChatGPT release notes", description: "Combined ChatGPT consumer and Enterprise & Edu release notes.",
     siteUrl: urls.chatgpt, selfUrl: baseUrl && `${baseUrl}/chatgpt.xml`, entries: chatgptEntries,
+  })],
+  ["cursor.xml", renderFeed({
+    title: "Cursor changelog", description: "The latest Cursor product updates and release notes.",
+    siteUrl: urls.cursor, selfUrl: baseUrl && `${baseUrl}/cursor.xml`, entries: cursorEntries,
   })],
 ];
 
@@ -57,6 +71,7 @@ await writeFile("public/index.html", `<!doctype html><meta charset="utf-8"><titl
 <li><a href="feed.xml">Claude release notes (Platform + Apps)</a></li>
 <li><a href="microsoft-365-copilot.xml">Microsoft 365 Copilot release notes</a></li>
 <li><a href="chatgpt.xml">ChatGPT release notes</a></li>
+<li><a href="cursor.xml">Cursor changelog</a></li>
 </ul>`, "utf8");
 
-console.log(JSON.stringify({ claude: claudeEntries.length, microsoft: microsoftEntries.length, chatgpt: chatgptEntries.length }));
+console.log(JSON.stringify({ claude: claudeEntries.length, microsoft: microsoftEntries.length, chatgpt: chatgptEntries.length, cursor: cursorEntries.length }));
