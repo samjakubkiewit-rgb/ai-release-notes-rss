@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Microsoft 365 Copilot release notes</title>
-    <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all</link>
+    <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes</link>
     <description>Microsoft 365 Copilot features and improvements.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Aug 2026 13:29:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 15:01:54 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/microsoft-365-copilot.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Microsoft 365 Copilot updates — August 11, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#august-11-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-08-11</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-08-11</guid>
       <pubDate>Tue, 11 Aug 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between July 28, 2026, and August 11, 2026.</p>
 <h3>Microsoft 365 Copilot extensibility</h3>
@@ -1400,8 +1400,8 @@
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — July 29, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#july-29-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-07-29</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-29-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-07-29</guid>
       <pubDate>Wed, 29 Jul 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between July 15, 2026, and July 29, 2026.</p>
 <h3>Microsoft 365 Copilot</h3>
@@ -2496,8 +2496,8 @@
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — July 15, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#july-15-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-07-15</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-15-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-07-15</guid>
       <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between July 01, 2026, and July 15, 2026.</p>
 <h3>Microsoft 365 admin center</h3>
@@ -3154,8 +3154,8 @@
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — July 1, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#july-01-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-07-01</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#july-01-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-07-01</guid>
       <pubDate>Wed, 01 Jul 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between June 17, 2026, and July 01, 2026.</p>
 <h3>Microsoft 365 Copilot app</h3>
@@ -6572,8 +6572,8 @@
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — June 16, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#june-16-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-06-16</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#june-16-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-06-16</guid>
       <pubDate>Tue, 16 Jun 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between June 2, 2026, June 16, 2026</p>
 <h3>Microsoft 365 Copilot Chat</h3>
@@ -7458,8 +7458,8 @@
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — June 2, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#june-2-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-06-02</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#june-2-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-06-02</guid>
       <pubDate>Tue, 02 Jun 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between May 19, 2026, June 2, 2026</p>
 <h3>Microsoft 365 admin center</h3>
@@ -8126,8 +8126,8 @@ Federated Copilot connectors are now generally available, enabling users to secu
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — May 19, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#may-19-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-05-19</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#may-19-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-05-19</guid>
       <pubDate>Tue, 19 May 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between May 5, 2026, May 19, 2026</p>
 <h3>Microsoft 365 Copilot Chat</h3>
@@ -9144,8 +9144,8 @@ Helps users get clearer, more accurate answers with less effort</p>
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — May 5, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#may-5-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-05-05</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#may-5-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-05-05</guid>
       <pubDate>Tue, 05 May 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between April 21, 2026, May 5, 2026</p>
 <h3>Microsoft 365 Copilot extensibility</h3>
@@ -9458,8 +9458,8 @@ Analysts can now publish Viva Insights Power BI reports to anyone in their organ
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — April 21, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#april-21-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-04-21</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#april-21-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-04-21</guid>
       <pubDate>Tue, 21 Apr 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between April 7, 2026, April 21, 2026</p>
 <h3>Microsoft 365 Copilot admin center</h3>
@@ -9742,8 +9742,8 @@ Organizations need clearer administrative controls to manage who can create AI-g
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — April 7, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#april-7-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-04-07</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#april-7-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-04-07</guid>
       <pubDate>Tue, 07 Apr 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between March 24, 2026, April 7, 2026</p>
 <h3>Microsoft 365 Copilot chat</h3>
@@ -10446,8 +10446,8 @@ Organizations need clearer administrative controls to manage who can create AI-g
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — March 24, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#march-24-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-03-24</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#march-24-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-03-24</guid>
       <pubDate>Tue, 24 Mar 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between March 10, 2026, March 24, 2026</p>
 <h3>Microsoft 365 Copilot app</h3>
@@ -11806,8 +11806,8 @@ This update reduces friction for IT teams and aligns connector setup with modern
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — March 10, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#march-10-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-03-10</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#march-10-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-03-10</guid>
       <pubDate>Tue, 10 Mar 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between February 24, 2026, March 10, 2026</p>
 <h3>Microsoft 365 Copilot Chat</h3>
@@ -12616,8 +12616,8 @@ This update reduces friction for IT teams and aligns connector setup with modern
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — February 24, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#february-24-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-02-24</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#february-24-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-02-24</guid>
       <pubDate>Tue, 24 Feb 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between February 10, 2026, February 24, 2026</p>
 <h3>Microsoft 365 Copilot extensibility</h3>
@@ -13724,8 +13724,8 @@ This update reduces friction for IT teams and aligns connector setup with modern
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — February 10, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#february-10-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-02-10</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#february-10-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-02-10</guid>
       <pubDate>Tue, 10 Feb 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between January 27, 2026, February 10, 2026.</p>
 <h3>Microsoft 365 Copilot extensibility</h3>
@@ -14290,8 +14290,8 @@ Centralizing software work items and documentation in Copilot saves time and red
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — January 27, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#january-27-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-01-27</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#january-27-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-01-27</guid>
       <pubDate>Tue, 27 Jan 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between January 13, 2025, and January 27, 2026.</p>
 <h3>Microsoft 365 Copilot Chat</h3>
@@ -15396,8 +15396,8 @@ Many specialized or regulated industries require custom logic beyond standard Co
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — January 13, 2026</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#january-13-2026</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2026-01-13</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#january-13-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-01-13</guid>
       <pubDate>Tue, 13 Jan 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between December 23, 2025, and January 13, 2026.</p>
 <h3>Microsoft 365 admin center</h3>
@@ -16164,7 +16164,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 		
 			
 				
-		<a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#">en-us</a>
+		<a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#">en-us</a>
 	 
 		
 		<a href="https://aka.ms/yourcaliforniaprivacychoices">
@@ -16994,7 +16994,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 		
 			
 				
-		<a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#">en-us</a>
+		<a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#">en-us</a>
 	 
 		
 		<a href="https://aka.ms/yourcaliforniaprivacychoices">
@@ -17062,8 +17062,8 @@ Organizations need AI-powered solutions that not only respond accurately but ant
     </item>
     <item>
       <title>Microsoft 365 Copilot updates — December 23, 2025</title>
-      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#december-23-2025</link>
-      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes?tabs=all#rss-2025-12-23</guid>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#december-23-2025</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2025-12-23</guid>
       <pubDate>Tue, 23 Dec 2025 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Updates released between December 10, 2025, and December 23, 2025.</p>
 <h3>Microsoft 365 Copilot app</h3>
