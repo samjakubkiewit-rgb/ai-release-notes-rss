@@ -4,6 +4,7 @@ import { entriesFromDatedHtml, renderFeed } from "./worker.mjs";
 const urls = {
   claude: "https://support.claude.com/en/articles/12138966-release-notes",
   microsoft: "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+  openai: "https://openai.com/products/release-notes/rss.xml",
 };
 
 async function fetchText(url) {
@@ -14,9 +15,17 @@ async function fetchText(url) {
   return response.text();
 }
 
-const [claudeHtml, microsoftHtml] = await Promise.all([
+function validateXmlFeed(xml, sourceUrl) {
+  if (!/<(?:rss|feed)\b/i.test(xml)) {
+    throw new Error(`${sourceUrl} did not return an RSS or Atom feed`);
+  }
+  return xml;
+}
+
+const [claudeHtml, microsoftHtml, openaiXml] = await Promise.all([
   fetchText(urls.claude),
   fetchText(urls.microsoft),
+  fetchText(urls.openai).then((xml) => validateXmlFeed(xml, urls.openai)),
 ]);
 
 const claudeEntries = entriesFromDatedHtml(claudeHtml, {
@@ -36,6 +45,7 @@ const feeds = [
     title: "Microsoft 365 Copilot release notes", description: "Microsoft 365 Copilot features and improvements.",
     siteUrl: urls.microsoft, selfUrl: baseUrl && `${baseUrl}/microsoft-365-copilot.xml`, entries: microsoftEntries,
   })],
+  ["openai.xml", openaiXml],
 ];
 
 await mkdir("public", { recursive: true });
@@ -44,6 +54,11 @@ await writeFile("public/index.html", `<!doctype html><meta charset="utf-8"><titl
 <h1>AI release-note feeds</h1><ul>
 <li><a href="feed.xml">Claude release notes</a></li>
 <li><a href="microsoft-365-copilot.xml">Microsoft 365 Copilot release notes</a></li>
+<li><a href="openai.xml">OpenAI product release notes</a></li>
 </ul>`, "utf8");
 
-console.log(JSON.stringify({ claude: claudeEntries.length, microsoft: microsoftEntries.length }));
+console.log(JSON.stringify({
+  claude: claudeEntries.length,
+  microsoft: microsoftEntries.length,
+  openaiBytes: openaiXml.length,
+}));
