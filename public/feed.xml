@@ -5,9 +5,21 @@
     <link>https://platform.claude.com/docs/en/release-notes/overview</link>
     <description>Combined Claude Platform and Claude Apps release notes.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2026 21:55:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 02:06:17 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude Platform updates — August 18, 2026</title>
+      <link>https://platform.claude.com/docs/en/release-notes/overview#august-18-2026</link>
+      <guid isPermaLink="false">https://platform.claude.com/docs/en/release-notes/overview#august-18-2026</guid>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<ul>
+<li>Workbench is now <a href="https://platform.claude.com/playground"><strong>Playground</strong></a> in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the <a href="https://support.claude.com/en/articles/8606378-how-do-i-use-playground">Claude Help Center</a> or try it at <a href="https://platform.claude.com/playground">platform.claude.com/playground</a>.</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<ul>
+<li>Workbench is now <a href="https://platform.claude.com/playground"><strong>Playground</strong></a> in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the <a href="https://support.claude.com/en/articles/8606378-how-do-i-use-playground">Claude Help Center</a> or try it at <a href="https://platform.claude.com/playground">platform.claude.com/playground</a>.</li>
+</ul>]]></content:encoded>
+    </item>
     <item>
       <title>Claude Platform updates — August 11, 2026</title>
       <link>https://platform.claude.com/docs/en/release-notes/overview#august-11-2026</link>
