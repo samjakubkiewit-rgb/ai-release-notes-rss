@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OpenAI product release notes</title>
+    <link>https://openai.com/products/release-notes/</link>
+    <description>OpenAI product updates and release notes.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Aug 2026 16:29:18 GMT</lastBuildDate>
+    <generator>Release notes RSS generator</generator>
+    <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/openai.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI — ChatGPT app experience updates</title>
+      <link>https://help.openai.com/en/articles/6825453-chatgpt-release-notes#chatgpt-app-experience-updates</link>
+      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-08-14-chatgpt-app-experience-updates</guid>
+      <pubDate>Fri, 14 Aug 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>We’ve made it easier to study with interactive quizzes, manage project memory, and move between typing, dictation, and desktop work.</p>]]></description>
+      <content:encoded><![CDATA[<p>We’ve made it easier to study with interactive quizzes, manage project memory, and move between typing, dictation, and desktop work.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>OpenAI — Chat model defaults</title>
+      <link>https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes#chat-model-defaults</link>
+      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-08-13-chat-model-defaults</guid>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Workspace owners and admins can configure the starting Chat model and reasoning level from Workspace settings &gt; Models. Owners and admins can apply an admin default or allow User’s last choice for new chats - note that defaults do not grant access to unavailable models or override enforced workspace requirements. The ChatGPT Desktop app should be upgraded to version 26.812.10818 or later for the new controls to take effect.</p>]]></description>
+      <content:encoded><![CDATA[<p>Workspace owners and admins can configure the starting Chat model and reasoning level from Workspace settings &gt; Models. Owners and admins can apply an admin default or allow User’s last choice for new chats - note that defaults do not grant access to unavailable models or override enforced workspace requirements. The ChatGPT Desktop app should be upgraded to version 26.812.10818 or later for the new controls to take effect.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>OpenAI — Google Drive is now in Library</title>
+      <link>https://help.openai.com/en/articles/6825453-chatgpt-release-notes#google-drive-is-now-in-library</link>
+      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-08-13-google-drive-is-now-in-library</guid>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>If you have the Google Drive plugin connected, you can now see and browse your Google Drive files and folders directly from Library, including items shared directly with you. You can also quickly pull up a Drive file from the composer or with @mentions and add it to any chat—without uploading it again. When you’re working with a file, you can now keep Google Docs, Sheets, and Slides open beside the conversation while asking ChatGPT to summarize, analyze, compare, or create something new from them. You can also select a folder and ask ChatGPT to work across the files it contains. Your content stays connected to Drive, so it’s easy to return to the original. Where supported and authorized, ChatGPT can update the source file directly. Availability The initial experience includes My Drive and files and folders shared directly with you; Shared Drives aren’t included yet. Some Google Drive editing and collaboration features aren’t yet available in ChatGPT. Rolling out to Plus, Pro, Enterprise, Edu, Healthcare and Business users on the web in both the Chat and Work toggles. Mobile support will follow.</p>]]></description>
+      <content:encoded><![CDATA[<p>If you have the Google Drive plugin connected, you can now see and browse your Google Drive files and folders directly from Library, including items shared directly with you. You can also quickly pull up a Drive file from the composer or with @mentions and add it to any chat—without uploading it again. When you’re working with a file, you can now keep Google Docs, Sheets, and Slides open beside the conversation while asking ChatGPT to summarize, analyze, compare, or create something new from them. You can also select a folder and ask ChatGPT to work across the files it contains. Your content stays connected to Drive, so it’s easy to return to the original. Where supported and authorized, ChatGPT can update the source file directly. Availability The initial experience includes My Drive and files and folders shared directly with you; Shared Drives aren’t included yet. Some Google Drive editing and collaboration features aren’t yet available in ChatGPT. Rolling out to Plus, Pro, Enterprise, Edu, Healthcare and Business users on the web in both the Chat and Work toggles. Mobile support will follow.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>OpenAI — Ultrafast mode for GPT-5.6 Sol</title>
+      <link>http://openai.com/form/ultrafast/</link>
+      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-08-13-ultrafast-mode-for-gpt-5-6-sol</guid>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Announced Ultrafast mode, a new API service tier for GPT‑5.6 Sol that runs up to 14x faster than Standard processing. Available in limited preview to select customers.</p>]]></description>
+      <content:encoded><![CDATA[<p>Announced Ultrafast mode, a new API service tier for GPT‑5.6 Sol that runs up to 14x faster than Standard processing. Available in limited preview to select customers.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>OpenAI — Updated model picker for Enterprise and Edu</title>
+      <link>https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes#updated-model-picker-for-enterprise-and-edu</link>
+      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-08-13-updated-model-picker-for-enterprise-and-edu</guid>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Members in the Enterprise/Edu workspaces have updated model-picker and composer experience. The picker makes the available intelligence choices easier to compare while preserving workspace model availability and access controls.</p>]]></description>
+      <content:encoded><![CDATA[<p>Members in the Enterprise/Edu workspaces have updated model-picker and composer experience. The picker makes the available intelligence choices easier to compare while preserving workspace model availability and access controls.</p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
