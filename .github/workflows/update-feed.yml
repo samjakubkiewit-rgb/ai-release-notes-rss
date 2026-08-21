@@ -2,7 +2,7 @@ name: Update and publish RSS feed
 
 on:
   schedule:
-    - cron: '41 */3 * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
