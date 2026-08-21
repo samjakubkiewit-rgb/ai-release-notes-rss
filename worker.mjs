@@ -91,6 +91,38 @@ function dateHeadings(html, level) {
   return headings;
 }
 
+function dateFromHeadingText(value) {
+  const match = value.match(/\(([^)]+)\)/);
+  return match ? parseDate(match[1]) : null;
+}
+
+export function entriesFromInlineDatedHtml(html, { sourceUrl, titlePrefix }) {
+  const headings = [];
+  const pattern = /<h([2-6])\b([^>]*)>([\s\S]*?)<\/h\1>/gi;
+  let match;
+  while ((match = pattern.exec(html))) {
+    const label = textContent(match[3]);
+    const date = dateFromHeadingText(label);
+    if (!date) continue;
+    headings.push({ start: match.index, end: pattern.lastIndex, date, label });
+  }
+
+  return headings.map((heading, index) => {
+    const end = headings[index + 1]?.start ?? html.length;
+    const title = heading.label.replace(/\s*\([^)]+\)\s*/, " ").trim();
+    const day = isoDay(heading.date);
+    const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    const content = sanitizeHtml(html.slice(heading.end, end), sourceUrl);
+    return {
+      date: heading.date,
+      title: `${titlePrefix} — ${title}`,
+      link: sourceUrl,
+      guid: `${sourceUrl}#rss-${day}-${slug}`,
+      content,
+    };
+  }).filter((entry) => entry.title !== `${titlePrefix} —` && textContent(entry.content));
+}
+
 export function entriesFromDatedHtml(html, { sourceUrl, headingLevel, titlePrefix }) {
   const headings = dateHeadings(html, headingLevel);
   const byDate = new Map();

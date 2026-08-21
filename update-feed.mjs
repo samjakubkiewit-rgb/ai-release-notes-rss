@@ -1,11 +1,14 @@
 import { mkdir, writeFile } from "node:fs/promises";
-import { entriesFromDatedHtml, renderFeed } from "./worker.mjs";
+import { entriesFromDatedHtml, entriesFromInlineDatedHtml, renderFeed } from "./worker.mjs";
 
 const urls = {
   claude: "https://support.claude.com/en/articles/12138966-release-notes",
   microsoft: "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
   openai: "https://openai.com/products/release-notes/",
   openaiReader: "https://r.jina.ai/http://openai.com/products/release-notes/",
+  chatgpt: "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  enterpriseEdu: "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
+  models: "https://help.openai.com/en/articles/9624314-model-release-notes",
 };
 
 async function fetchText(url) {
@@ -69,9 +72,12 @@ function entriesFromOpenAiMarkdown(markdown, sourceUrl) {
   return entries;
 }
 
-const [claudeHtml, microsoftHtml, openaiMarkdown] = await Promise.all([
+const [claudeHtml, microsoftHtml, chatgptHtml, enterpriseEduHtml, modelHtml, openaiMarkdown] = await Promise.all([
   fetchText(urls.claude),
   fetchText(urls.microsoft),
+  fetchText(urls.chatgpt),
+  fetchText(urls.enterpriseEdu),
+  fetchText(urls.models),
   fetchText(urls.openaiReader),
 ]);
 
@@ -81,7 +87,18 @@ const claudeEntries = entriesFromDatedHtml(claudeHtml, {
 const microsoftEntries = entriesFromDatedHtml(microsoftHtml, {
   sourceUrl: urls.microsoft, headingLevel: 2, titlePrefix: "Microsoft 365 Copilot updates",
 });
-const openaiEntries = entriesFromOpenAiMarkdown(openaiMarkdown, urls.openai);
+const openaiEntries = [
+  ...entriesFromOpenAiMarkdown(openaiMarkdown, urls.openai),
+  ...entriesFromDatedHtml(chatgptHtml, {
+    sourceUrl: urls.chatgpt, headingLevel: 1, titlePrefix: "ChatGPT release notes",
+  }),
+  ...entriesFromDatedHtml(enterpriseEduHtml, {
+    sourceUrl: urls.enterpriseEdu, headingLevel: 1, titlePrefix: "ChatGPT Enterprise & Edu release notes",
+  }),
+  ...entriesFromInlineDatedHtml(modelHtml, {
+    sourceUrl: urls.models, titlePrefix: "OpenAI model release notes",
+  }),
+];
 
 const baseUrl = process.env.PAGES_BASE_URL ?? "";
 const feeds = [
@@ -94,7 +111,7 @@ const feeds = [
     siteUrl: urls.microsoft, selfUrl: baseUrl && `${baseUrl}/microsoft-365-copilot.xml`, entries: microsoftEntries,
   })],
   ["openai.xml", renderFeed({
-    title: "OpenAI product release notes", description: "OpenAI product updates and release notes.",
+    title: "ChatGPT & OpenAI release notes", description: "ChatGPT, Enterprise & Edu, model, and OpenAI product updates.",
     siteUrl: urls.openai, selfUrl: baseUrl && `${baseUrl}/openai.xml`, entries: openaiEntries,
   })],
 ];
@@ -105,7 +122,7 @@ await writeFile("public/index.html", `<!doctype html><meta charset="utf-8"><titl
 <h1>AI release-note feeds</h1><ul>
 <li><a href="feed.xml">Claude release notes</a></li>
 <li><a href="microsoft-365-copilot.xml">Microsoft 365 Copilot release notes</a></li>
-<li><a href="openai.xml">OpenAI product release notes</a></li>
+<li><a href="openai.xml">ChatGPT & OpenAI release notes</a></li>
 </ul>`, "utf8");
 
 console.log(JSON.stringify({
