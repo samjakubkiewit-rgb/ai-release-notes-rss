@@ -1,5 +1,5 @@
 import { mkdir, writeFile } from "node:fs/promises";
-import { entriesFromDatedHtml, entriesFromInlineDatedHtml, renderFeed } from "./worker.mjs";
+import { entriesFromDatedHtml, entriesFromDatedMarkdown, entriesFromInlineDatedHtml, renderFeed } from "./worker.mjs";
 
 const urls = {
   claude: "https://support.claude.com/en/articles/12138966-release-notes",
@@ -8,6 +8,7 @@ const urls = {
   openaiReader: "https://r.jina.ai/http://openai.com/products/release-notes/",
   chatgpt: "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
   enterpriseEdu: "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
+  enterpriseEduReader: "https://r.jina.ai/http://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
   models: "https://help.openai.com/en/articles/9624314-model-release-notes",
 };
 
@@ -72,11 +73,13 @@ function entriesFromOpenAiMarkdown(markdown, sourceUrl) {
   return entries;
 }
 
-const [claudeHtml, microsoftHtml, chatgptHtml, enterpriseEduHtml, modelHtml, openaiMarkdown] = await Promise.all([
+const [claudeHtml, microsoftHtml, chatgptHtml, enterpriseEduMarkdown, modelHtml, openaiMarkdown] = await Promise.all([
   fetchText(urls.claude),
   fetchText(urls.microsoft),
   fetchText(urls.chatgpt),
-  fetchText(urls.enterpriseEdu),
+  // OpenAI's Help Center blocks this page from GitHub-hosted runners (HTTP 403).
+  // Jina Reader supplies the same public page as Markdown, which we parse below.
+  fetchText(urls.enterpriseEduReader),
   fetchText(urls.models),
   fetchText(urls.openaiReader),
 ]);
@@ -92,8 +95,8 @@ const openaiEntries = [
   ...entriesFromDatedHtml(chatgptHtml, {
     sourceUrl: urls.chatgpt, headingLevel: 1, titlePrefix: "ChatGPT release notes",
   }),
-  ...entriesFromDatedHtml(enterpriseEduHtml, {
-    sourceUrl: urls.enterpriseEdu, headingLevel: 1, titlePrefix: "ChatGPT Enterprise & Edu release notes",
+  ...entriesFromDatedMarkdown(enterpriseEduMarkdown, {
+    sourceUrl: urls.enterpriseEdu, titlePrefix: "ChatGPT Enterprise & Edu release notes",
   }),
   ...entriesFromInlineDatedHtml(modelHtml, {
     sourceUrl: urls.models, titlePrefix: "OpenAI model release notes",
