@@ -7,6 +7,7 @@ const urls = {
   openai: "https://openai.com/products/release-notes/",
   openaiReader: "https://r.jina.ai/http://openai.com/products/release-notes/",
   chatgpt: "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  chatgptReader: "https://r.jina.ai/http://help.openai.com/en/articles/6825453-chatgpt-release-notes",
   enterpriseEdu: "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
   enterpriseEduReader: "https://r.jina.ai/http://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
   models: "https://help.openai.com/en/articles/9624314-model-release-notes",
@@ -73,12 +74,12 @@ function entriesFromOpenAiMarkdown(markdown, sourceUrl) {
   return entries;
 }
 
-const [claudeHtml, microsoftHtml, chatgptHtml, enterpriseEduMarkdown, modelHtml, openaiMarkdown] = await Promise.all([
+const [claudeHtml, microsoftHtml, chatgptMarkdown, enterpriseEduMarkdown, modelHtml, openaiMarkdown] = await Promise.all([
   fetchText(urls.claude),
   fetchText(urls.microsoft),
-  fetchText(urls.chatgpt),
-  // OpenAI's Help Center blocks this page from GitHub-hosted runners (HTTP 403).
-  // Jina Reader supplies the same public page as Markdown, which we parse below.
+  // OpenAI's Help Center blocks these public pages from GitHub-hosted runners
+  // (HTTP 403). Jina Reader supplies them as Markdown, which we parse below.
+  fetchText(urls.chatgptReader),
   fetchText(urls.enterpriseEduReader),
   fetchText(urls.models),
   fetchText(urls.openaiReader),
@@ -92,8 +93,8 @@ const microsoftEntries = entriesFromDatedHtml(microsoftHtml, {
 });
 const openaiEntries = [
   ...entriesFromOpenAiMarkdown(openaiMarkdown, urls.openai),
-  ...entriesFromDatedHtml(chatgptHtml, {
-    sourceUrl: urls.chatgpt, headingLevel: 1, titlePrefix: "ChatGPT release notes",
+  ...entriesFromDatedMarkdown(chatgptMarkdown, {
+    sourceUrl: urls.chatgpt, titlePrefix: "ChatGPT release notes",
   }),
   ...entriesFromDatedMarkdown(enterpriseEduMarkdown, {
     sourceUrl: urls.enterpriseEdu, titlePrefix: "ChatGPT Enterprise & Edu release notes",
