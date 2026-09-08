@@ -1,5 +1,5 @@
 import { mkdir, writeFile } from "node:fs/promises";
-import { entriesFromDatedHtml, entriesFromDatedMarkdown, entriesFromInlineDatedHtml, renderFeed } from "./worker.mjs";
+import { entriesFromDatedHtml, entriesFromDatedMarkdown, entriesFromInlineDatedMarkdown, renderFeed } from "./worker.mjs";
 
 const urls = {
   claude: "https://support.claude.com/en/articles/12138966-release-notes",
@@ -11,6 +11,7 @@ const urls = {
   enterpriseEdu: "https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
   enterpriseEduReader: "https://r.jina.ai/http://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes",
   models: "https://help.openai.com/en/articles/9624314-model-release-notes",
+  modelsReader: "https://r.jina.ai/http://help.openai.com/en/articles/9624314-model-release-notes",
 };
 
 async function fetchText(url) {
@@ -74,14 +75,14 @@ function entriesFromOpenAiMarkdown(markdown, sourceUrl) {
   return entries;
 }
 
-const [claudeHtml, microsoftHtml, chatgptMarkdown, enterpriseEduMarkdown, modelHtml, openaiMarkdown] = await Promise.all([
+const [claudeHtml, microsoftHtml, chatgptMarkdown, enterpriseEduMarkdown, modelMarkdown, openaiMarkdown] = await Promise.all([
   fetchText(urls.claude),
   fetchText(urls.microsoft),
   // OpenAI's Help Center blocks these public pages from GitHub-hosted runners
   // (HTTP 403). Jina Reader supplies them as Markdown, which we parse below.
   fetchText(urls.chatgptReader),
   fetchText(urls.enterpriseEduReader),
-  fetchText(urls.models),
+  fetchText(urls.modelsReader),
   fetchText(urls.openaiReader),
 ]);
 
@@ -99,7 +100,7 @@ const openaiEntries = [
   ...entriesFromDatedMarkdown(enterpriseEduMarkdown, {
     sourceUrl: urls.enterpriseEdu, titlePrefix: "ChatGPT Enterprise & Edu release notes",
   }),
-  ...entriesFromInlineDatedHtml(modelHtml, {
+  ...entriesFromInlineDatedMarkdown(modelMarkdown, {
     sourceUrl: urls.models, titlePrefix: "OpenAI model release notes",
   }),
 ];

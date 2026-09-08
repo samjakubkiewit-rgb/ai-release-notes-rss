@@ -247,6 +247,31 @@ export function entriesFromDatedMarkdown(markdown, { sourceUrl, titlePrefix }) {
   return [...byDate.values()];
 }
 
+export function entriesFromInlineDatedMarkdown(markdown, { sourceUrl, titlePrefix }) {
+  const lines = markdown.split(/\r?\n/);
+  const markers = [];
+  for (let index = 0; index < lines.length; index += 1) {
+    const match = lines[index].trim().match(/^#{2,6}\s+(.+)$/);
+    const label = match?.[1].replace(/\*\*|__/g, "") ?? "";
+    const date = dateFromHeadingText(label);
+    if (date) markers.push({ index, date, label });
+  }
+  return markers.map((marker, index) => {
+    const end = markers[index + 1]?.index ?? lines.length;
+    const title = marker.label.replace(/\s*\([^)]+\)\s*/, " ").trim();
+    const day = isoDay(marker.date);
+    const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    const content = markdownToHtml(lines.slice(marker.index + 1, end).join("\n"), sourceUrl);
+    return {
+      date: marker.date,
+      title: `${titlePrefix} — ${title}`,
+      link: sourceUrl,
+      guid: `${sourceUrl}#rss-${day}-${slug}`,
+      content,
+    };
+  }).filter((entry) => entry.title !== `${titlePrefix} —` && textContent(entry.content));
+}
+
 export function entriesFromCursorHtml(html, sourceUrl) {
   const entries = [];
   const seen = new Set();
