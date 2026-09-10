@@ -5,9 +5,17 @@
     <link>https://support.claude.com/en/articles/12138966-release-notes</link>
     <description>Claude features and improvements.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Sep 2026 16:38:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 21:08:56 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude updates — September 10, 2026</title>
+      <link>https://support.claude.com/en/articles/12138966-release-notes#h_431d85b345</link>
+      <guid isPermaLink="false">https://support.claude.com/en/articles/12138966-release-notes#rss-2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Smart reports (beta)</p><p>We’ve launched smart reports, which analyze how a team uses Claude and report on the work getting done, what it costs, where sessions run into friction, and which repeated patterns are worth packaging as shared skills. Smart reports are available in beta on Claude Enterprise plans. Learn more in <a href="https://support.claude.com/en/articles/16893491-get-started-with-smart-reports">Get started with smart reports</a>.</p><p> </p>]]></description>
+      <content:encoded><![CDATA[<p>Smart reports (beta)</p><p>We’ve launched smart reports, which analyze how a team uses Claude and report on the work getting done, what it costs, where sessions run into friction, and which repeated patterns are worth packaging as shared skills. Smart reports are available in beta on Claude Enterprise plans. Learn more in <a href="https://support.claude.com/en/articles/16893491-get-started-with-smart-reports">Get started with smart reports</a>.</p><p> </p>]]></content:encoded>
+    </item>
     <item>
       <title>Claude updates — September 1, 2026</title>
       <link>https://support.claude.com/en/articles/12138966-release-notes#h_5988563685</link>
