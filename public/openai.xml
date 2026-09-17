@@ -5,7 +5,7 @@
     <link>https://openai.com/products/release-notes/</link>
     <description>ChatGPT, Enterprise &amp; Edu, model, and OpenAI product updates.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Sep 2026 23:48:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 05:16:33 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/openai.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -15,6 +15,14 @@
       <pubDate>Mon, 14 Sep 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<h2>Updated permissions for new Health connections</h2><p>For new Health plugin connections, ChatGPT will now default to each user’s global plugins permissions setting.</p><p>If you make no changes to your Plugins settings, the default permission setting is “<a href="http://help.openai.com/en/articles/11487775-apps-in-chatgpt#permission-options">Allow low-risk actions</a>.” This means that once you’ve connected your information in Health, ChatGPT can use it when relevant without asking for permission each time, unless you are attempting a sensitive action, such as asking ChatGPT to email a training plan based on your data to a running partner. This change reflects what we’ve seen from users: more than 70% of Health users already choose to allow ChatGPT to use data connected in Health without asking for permission each time.</p><p>You can change your Health permissions anytime in <strong>Settings → Plugins → Health</strong>.<a href="http://help.openai.com/en/articles/20001036-health-in-chatgpt#privacy-and-data-controls">Learn more</a> about how we keep Health data private and secure.</p><h2>Changes to automatic switching to thinking in ChatGPT (Plus and Pro)</h2><p>We’re retiring automatic switching from <strong>Instant</strong> to <strong>Thinking</strong> (reasoning) for ChatGPT Plus and Pro users globally. You can still select an available option in the model picker to give ChatGPT more time to think or reason.</p><p>We’re also removing the <strong>Higher intelligence</strong> setting from ChatGPT on the web for these plans. ChatGPT can still switch automatically for safety purposes.</p><p>For more information, see: <a href="https://help.openai.com/articles/20001354">GPT-5.6 and GPT-6 Pro in ChatGPT</a>.</p>]]></description>
       <content:encoded><![CDATA[<h2>Updated permissions for new Health connections</h2><p>For new Health plugin connections, ChatGPT will now default to each user’s global plugins permissions setting.</p><p>If you make no changes to your Plugins settings, the default permission setting is “<a href="http://help.openai.com/en/articles/11487775-apps-in-chatgpt#permission-options">Allow low-risk actions</a>.” This means that once you’ve connected your information in Health, ChatGPT can use it when relevant without asking for permission each time, unless you are attempting a sensitive action, such as asking ChatGPT to email a training plan based on your data to a running partner. This change reflects what we’ve seen from users: more than 70% of Health users already choose to allow ChatGPT to use data connected in Health without asking for permission each time.</p><p>You can change your Health permissions anytime in <strong>Settings → Plugins → Health</strong>.<a href="http://help.openai.com/en/articles/20001036-health-in-chatgpt#privacy-and-data-controls">Learn more</a> about how we keep Health data private and secure.</p><h2>Changes to automatic switching to thinking in ChatGPT (Plus and Pro)</h2><p>We’re retiring automatic switching from <strong>Instant</strong> to <strong>Thinking</strong> (reasoning) for ChatGPT Plus and Pro users globally. You can still select an available option in the model picker to give ChatGPT more time to think or reason.</p><p>We’re also removing the <strong>Higher intelligence</strong> setting from ChatGPT on the web for these plans. ChatGPT can still switch automatically for safety purposes.</p><p>For more information, see: <a href="https://help.openai.com/articles/20001354">GPT-5.6 and GPT-6 Pro in ChatGPT</a>.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>OpenAI — GPT-5.5 retires from ChatGPT, ChatGPT Work, and Codex on October 14</title>
+      <link>https://learn.chatgpt.com/docs/changelog#codex-2026-09-14-gpt-55-retirement</link>
+      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-09-14-gpt-5-5-retires-from-chatgpt-chatgpt-work-and-codex-on-october-14</guid>
+      <pubDate>Mon, 14 Sep 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>On October 14, 2026, GPT‑5.5 will retire from ChatGPT, ChatGPT Work, and Codex on all plans, including consumer, Business, Enterprise, and Edu plans. This retirement does not apply to the OpenAI API. For Codex with ChatGPT sign-in, switch from gpt-5.5 to gpt-5.6-sol (GPT‑5.6 Sol) before the retirement date. Update workspace defaults, saved model settings, managed configurations, custom agents, scheduled tasks, and scripts that still select gpt-5.5.</p>]]></description>
+      <content:encoded><![CDATA[<p>On October 14, 2026, GPT‑5.5 will retire from ChatGPT, ChatGPT Work, and Codex on all plans, including consumer, Business, Enterprise, and Edu plans. This retirement does not apply to the OpenAI API. For Codex with ChatGPT sign-in, switch from gpt-5.5 to gpt-5.6-sol (GPT‑5.6 Sol) before the retirement date. Update workspace defaults, saved model settings, managed configurations, custom agents, scheduled tasks, and scripts that still select gpt-5.5.</p>]]></content:encoded>
     </item>
     <item>
       <title>OpenAI — Retiring automatic switching to Thinking in ChatGPT</title>
@@ -55,14 +63,6 @@
       <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Changes made through the Codex Policies &amp; Configurations interface are recorded in workspace audit logs. Authorized admins can review the logs in the UI or retrieve them through the Compliance API.</p>]]></description>
       <content:encoded><![CDATA[<p>Changes made through the Codex Policies &amp; Configurations interface are recorded in workspace audit logs. Authorized admins can review the logs in the UI or retrieve them through the Compliance API.</p>]]></content:encoded>
-    </item>
-    <item>
-      <title>OpenAI — Create, update, and delete groups with the Admin API</title>
-      <link>https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes#create-update-and-delete-groups-with-the-admin-api</link>
-      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-09-11-create-update-and-delete-groups-with-the-admin-api</guid>
-      <pubDate>Fri, 11 Sep 2026 12:00:00 GMT</pubDate>
-      <description><![CDATA[<p>The Groups Admin API supports group creation, updates, and deletion in eligible workspaces, helping admins automate recurring group-management tasks. Workspace access and the required Admin key permissions still apply.</p>]]></description>
-      <content:encoded><![CDATA[<p>The Groups Admin API supports group creation, updates, and deletion in eligible workspaces, helping admins automate recurring group-management tasks. Workspace access and the required Admin key permissions still apply.</p>]]></content:encoded>
     </item>
     <item>
       <title>OpenAI — Test a member&apos;s model access</title>
