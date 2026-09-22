@@ -5,9 +5,17 @@
     <link>https://support.claude.com/en/articles/12138966-release-notes</link>
     <description>Claude features and improvements.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2026 12:00:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 17:13:52 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude updates — September 22, 2026</title>
+      <link>https://support.claude.com/en/articles/12138966-release-notes#h_1ff986cf68</link>
+      <guid isPermaLink="false">https://support.claude.com/en/articles/12138966-release-notes#rss-2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Claude Opus 5.5 launch</p><p>We just launched Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. For more information, see our blog post: <a href="https://www.anthropic.com/claude-opus-5-5">Introducing Claude Opus 5.5</a>.</p><p> </p>]]></description>
+      <content:encoded><![CDATA[<p>Claude Opus 5.5 launch</p><p>We just launched Claude Opus 5.5, the first model in our new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5. For more information, see our blog post: <a href="https://www.anthropic.com/claude-opus-5-5">Introducing Claude Opus 5.5</a>.</p><p> </p>]]></content:encoded>
+    </item>
     <item>
       <title>Claude updates — September 15, 2026</title>
       <link>https://support.claude.com/en/articles/12138966-release-notes#h_ac849f55be</link>
