@@ -5,9 +5,17 @@
     <link>https://support.claude.com/en/articles/12138966-release-notes</link>
     <description>Claude features and improvements.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Sep 2026 14:24:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 21:21:18 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude updates — September 28, 2026</title>
+      <link>https://support.claude.com/en/articles/12138966-release-notes#h_2ca93eb100</link>
+      <guid isPermaLink="false">https://support.claude.com/en/articles/12138966-release-notes#rss-2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Claude Sonnet 5.5 launch</p><p>We just launched Claude Sonnet 5.5, the second model in our Claude 5.5 family. Sonnet 5.5 is a faster, lower-cost complement to Claude Opus 5.5. For more information, see our blog post: <a href="https://www.anthropic.com/claude-sonnet-5-5">Introducing Claude Sonnet 5.5</a>.</p><p> </p>]]></description>
+      <content:encoded><![CDATA[<p>Claude Sonnet 5.5 launch</p><p>We just launched Claude Sonnet 5.5, the second model in our Claude 5.5 family. Sonnet 5.5 is a faster, lower-cost complement to Claude Opus 5.5. For more information, see our blog post: <a href="https://www.anthropic.com/claude-sonnet-5-5">Introducing Claude Sonnet 5.5</a>.</p><p> </p>]]></content:encoded>
+    </item>
     <item>
       <title>Claude updates — September 25, 2026</title>
       <link>https://support.claude.com/en/articles/12138966-release-notes#h_83e7e1a987</link>
