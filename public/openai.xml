@@ -5,7 +5,7 @@
     <link>https://openai.com/products/release-notes/</link>
     <description>ChatGPT, Enterprise &amp; Edu, model, and OpenAI product updates.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2026 18:14:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 22:33:25 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/openai.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -31,6 +31,14 @@
       <pubDate>Mon, 28 Sep 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<h2>Explore your health data with personalized summaries</h2><p>You can now select a chart, metric, or record in the <strong>Health</strong> tab to get personalized explanations and insights based on your connected health information.</p><p><a href="https://help.openai.com/articles/20001036">Learn more about Health in ChatGPT.</a></p>]]></description>
       <content:encoded><![CDATA[<h2>Explore your health data with personalized summaries</h2><p>You can now select a chart, metric, or record in the <strong>Health</strong> tab to get personalized explanations and insights based on your connected health information.</p><p><a href="https://help.openai.com/articles/20001036">Learn more about Health in ChatGPT.</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>OpenAI — Explore your health data with personalized summaries</title>
+      <link>https://help.openai.com/en/articles/6825453-chatgpt-release-notes#explore-your-health-data-with-personalized-summaries</link>
+      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-09-28-explore-your-health-data-with-personalized-summaries</guid>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>You can now select a chart, metric, or record in the Health tab to get personalized explanations and insights based on your connected health information.</p>]]></description>
+      <content:encoded><![CDATA[<p>You can now select a chart, metric, or record in the Health tab to get personalized explanations and insights based on your connected health information.</p>]]></content:encoded>
     </item>
     <item>
       <title>ChatGPT release notes — September 25, 2026</title>
@@ -87,14 +95,6 @@
       <pubDate>Wed, 23 Sep 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<h2><strong>Use plugins in Voice and get work done by speaking</strong></h2><p>Live now supports plugins on web, iOS, and Android. You can use the plugins and connected apps available to your account during a Voice conversation and follow written responses in the chat.</p><p>Voice is also available in Work on web and mobile. Ask it to create documents, presentations, and spreadsheets, use connected apps, or work in a browser. When you end a Voice call in Work, an unfinished task can continue in text.</p><p>Free and Go users can use Voice in Chat with the plugins their plan supports. Voice in Work requires both Voice and Work access. Existing app connections, permissions, and usage limits apply.</p><p>Learn more: <a href="http://help.openai.com/en/articles/20001274-chatgpt-voice">ChatGPT Voice</a>.</p>]]></description>
       <content:encoded><![CDATA[<h2><strong>Use plugins in Voice and get work done by speaking</strong></h2><p>Live now supports plugins on web, iOS, and Android. You can use the plugins and connected apps available to your account during a Voice conversation and follow written responses in the chat.</p><p>Voice is also available in Work on web and mobile. Ask it to create documents, presentations, and spreadsheets, use connected apps, or work in a browser. When you end a Voice call in Work, an unfinished task can continue in text.</p><p>Free and Go users can use Voice in Chat with the plugins their plan supports. Voice in Work requires both Voice and Work access. Existing app connections, permissions, and usage limits apply.</p><p>Learn more: <a href="http://help.openai.com/en/articles/20001274-chatgpt-voice">ChatGPT Voice</a>.</p>]]></content:encoded>
-    </item>
-    <item>
-      <title>OpenAI — ChatGPT for iOS updates: redesigned home, iPad split view, and nested repositories</title>
-      <link>https://learn.chatgpt.com/docs/changelog#codex-2026-09-23-mobile</link>
-      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-09-23-chatgpt-for-ios-updates-redesigned-home-ipad-split-view-and-nested-repositories</guid>
-      <pubDate>Wed, 23 Sep 2026 12:00:00 GMT</pubDate>
-      <description><![CDATA[<p>New features Redesigned home screen. New iPad split view keeps your task list beside the open task in landscape. Added support for browsing changes inside nested Git repositories. Improvements and bug fixes Side chats now carry over attachments, selected text, and review comments. Fixed replies appearing blank or incomplete when the next queued prompt starts. New tasks preserve your selected computer and better recognize project checkouts and worktrees. More reliable file links, with clearer loading feedback when opening files and new tasks. Clearer error messages explain why task history could not load and what to try next. Smoother animations when adding photos from the camera or Photo Library. Fixed pairing failures caused by an incorrect device clock and SSH connection issues on Mac and Linux.</p>]]></description>
-      <content:encoded><![CDATA[<p>New features Redesigned home screen. New iPad split view keeps your task list beside the open task in landscape. Added support for browsing changes inside nested Git repositories. Improvements and bug fixes Side chats now carry over attachments, selected text, and review comments. Fixed replies appearing blank or incomplete when the next queued prompt starts. New tasks preserve your selected computer and better recognize project checkouts and worktrees. More reliable file links, with clearer loading feedback when opening files and new tasks. Clearer error messages explain why task history could not load and what to try next. Smoother animations when adding photos from the camera or Photo Library. Fixed pairing failures caused by an incorrect device clock and SSH connection issues on Mac and Linux.</p>]]></content:encoded>
     </item>
     <item>
       <title>OpenAI — Use plugins in Voice and get work done by speaking</title>
