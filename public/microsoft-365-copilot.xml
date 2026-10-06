@@ -5,9 +5,731 @@
     <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes</link>
     <description>Microsoft 365 Copilot features and improvements.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 16:13:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 22:45:49 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/microsoft-365-copilot.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoft 365 Copilot updates — October 6, 2026</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#october-06-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Updates released between September 22, 2026, and October 06, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Seamless Search and Chat Integration</strong>&nbsp;[Windows, Web]</p>
+<p>Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate content—all in one unified experience. This integration reduces workflow fragmentation, accelerates decision-making, and delivers a more intuitive way to interact with your organization’s knowledge.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=512429">512429</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot Search now embeds conversational AI chat directly within search results. Previously, users had to switch between search and chat tools separately. This update allows follow-up questions, insight synthesis, and content generation based on search context in a unified interface, reducing workflow fragmentation.</p>
+<p><strong>Why:</strong> Integrating chat with search streamlines user interaction with organizational knowledge, accelerating decision-making and reducing the need to switch tools.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot Search.</li>
+<li>Enter a query and review the search results.</li>
+<li>Use the chat pane to ask follow-up questions or generate content based on the results.</li>
+</ol>
+<p><strong>Why this matters:</strong> This integration simplifies workflows by combining search and chat, helping users act on information faster.</p>
+<p><strong>Business impact:</strong> Teams experience faster decision cycles and less disruption from switching between search and chat applications.</p>
+<p><strong>Personal impact:</strong> You save time by accessing search results and conversational AI in one place, reducing task switching.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Regenerate response for alternative answers</strong>&nbsp;[Web]</p>
+<p>The Regenerate action lets you quickly get an alternative response to your latest prompt using options like Try Again or Switch Model, helping you explore different answers and improve output quality.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, users had to re-enter prompts to get different responses from Copilot. Now, the Regenerate action provides simple buttons to request alternative answers or switch AI models without starting over. This streamlines refining outputs and exploring variations.</p>
+<p><strong>Why:</strong> This change reduces friction when iterating on AI-generated content, enabling faster exploration of ideas and improved response quality.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Enter a prompt in Microsoft 365 Copilot Chat.</li>
+<li>At the end of Copilot's response, open the "More options" menu.</li>
+<li>Select 'Try Again' to get a new response.</li>
+<li>Choose 'Switch Model' to see answers from a different AI model.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quickly generating alternative responses helps users find the best information or phrasing without repeating input steps.</p>
+<p><strong>Business impact:</strong> Teams can iterate on AI-generated content more efficiently, improving decision-making and content creation speed.</p>
+<p><strong>Personal impact:</strong> You save time by refining outputs with fewer steps and can explore more options easily.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Edit query string and user identity mapping rules for Copilot connectors</strong>&nbsp;[Windows, Web]</p>
+<p>Admins can now edit query string and user identity mapping rules directly in connector settings without opening a support ticket.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Query string parameters and user identity mapping rules are now editable after a connection is created. Admins can update them in the Microsoft 365 admin center under Settings &gt; Search &amp; intelligence &gt; Data sources, then select the connection and edit its configuration. Previously, these values were fixed at connection setup and changing them required support intervention.</p>
+<p><strong>Why:</strong> Source systems change, teams re-scope projects, filters need tightening, and identity mappings drift as directory attributes are updated. Locking these rules at setup meant every adjustment became a support request, leaving connections stale or over-scoped in the interim.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Go to the Microsoft 365 admin center &gt; Settings &gt; Search &amp; intelligence &gt; Data sources.</li>
+<li>Select your connection (for example, Azure DevOps or ServiceNow) and open its configuration.</li>
+<li>Update the query string or user identity mapping rule and save.</li>
+<li>Confirm the change took effect on the next crawl and spot-check results for an affected user.</li>
+</ol>
+<p><strong>Why this matters:</strong> Access scope and content scope are now self-serve. Admins can correct a mis-scoped connection or a broken identity mapping in minutes instead of waiting on a support cycle.</p>
+<p><strong>Business impact:</strong> Faster remediation when a connection surfaces content to the wrong audience, fewer support tickets per connection, and configuration that keeps pace with changes in the source system—all of which support access-governance and compliance commitments.</p>
+<p><strong>Personal impact:</strong> You fix scoping and permission-mapping issues yourself, on your own schedule, instead of filing a ticket and waiting for someone else to make a change.</p>
+</li>
+</ul>
+<h3>Microsoft 365 SharePoint</h3>
+
+<ul>
+<li><p><strong>Admin Center - detailed report on Everyone except external user permissions</strong>&nbsp;[Web]</p>
+<p>The new report provides SharePoint Advanced Management admins complete item-level details of permissions granted to special SharePoint groups: Everyone and Everyone except external users.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561038">561038</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The SharePoint Admin Center now includes a detailed report that shows item-level permissions for special SharePoint groups: Everyone and Everyone except external users. Previously, admins had limited visibility into these item-level permissions. This report helps identify exactly which items have these special SharePoint groups as recipients, improving permission auditing and security management.</p>
+<p><strong>Why:</strong> Admins need precise visibility into permissions granted to broad groups to manage access risks effectively.</p>
+</li>
+</ul>
+<p>This report enables admins to:</p>
+<ul>
+<li><p>Audit permissions at a granular level</p>
+</li>
+<li><p>Detect unintended access</p>
+</li>
+<li><p>Enhance security compliance</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the SharePoint Admin Center and navigate to Advanced Management &gt; All features &gt; Data access governance reports.</li>
+<li>Select the new report 'Sites and files shared via special SharePoint group' and trigger the relevant report.</li>
+<li>Export the prepared report and review item-level permission details.</li>
+</ul>
+<p><strong>Why this matters:</strong> Detailed permission reports help prevent unauthorized access and support compliance with organizational security policies.</p>
+<p><strong>Business impact:</strong> Teams can better manage SharePoint permissions, reducing security risks and simplifying audits.</p>
+<p><strong>Personal impact:</strong> Admins save time identifying and resolving permission issues with clearer, item-level insights.</p>
+<p><strong>Learn</strong></p>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/data-access-governance-detailed-eeeu-everyone-permissions-report">Get item-level permission details for "Everyone except external users" and "Everyone"</a></li>
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/powershell-for-data-access-governance#generate-a-report-on-sites-and-files-shared-via-special-sharepoint-groups">Generate a report on sites and files shared via special SharePoint groups</a></li>
+</ul>
+</li>
+</ul>
+<h3>PowerPoint</h3>
+
+<ul>
+<li><p><strong>Create custom skills in Copilot in PowerPoint</strong>&nbsp;[Windows]</p>
+<p>Create custom skills in Copilot in PowerPoint for tailored workflows for your specific presentation needs.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot now supports user defined custom skills, allowing users to extend its capabilities with personalized commands and workflows in PowerPoint. Previously, Copilot operated only with built-in skills and predefined functions in PowerPoint. This update enables customization within Microsoft 365 security and compliance standards.</p>
+<p><strong>Why:</strong> Users need more flexibility to automate unique presentation tasks and workflows. Custom skills let users:</p>
+</li>
+<li><p>Define specific commands suited to their content style.</p>
+</li>
+<li><p>Automate repetitive or specialized tasks.</p>
+</li>
+<li><p>Enhance productivity by tailoring Copilot to their needs.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open PowerPoint and access the Copilot pane.</li>
+<li>Select 'Create custom skill' to define new commands.</li>
+<li>Test your custom skill within your presentation workflow.</li>
+</ol>
+<p><strong>Why this matters:</strong> Custom skills let users personalize Copilot to match their unique presentation workflows, reducing manual effort.</p>
+<p><strong>Business impact:</strong> Teams can standardize and automate specialized presentation tasks, improving consistency and efficiency.</p>
+<p><strong>Personal impact:</strong> You save time by automating repetitive tasks and gain more control over Copilot’s assistance.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Mac]</p>
+<p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot in PowerPoint can now recognize references to files stored in SharePoint and OneDrive when you mention them in your prompt, such as by file or document name. Previously, these implicit file references were not supported for files stored in these locations. This update makes it easier to use relevant Microsoft 365 content without manually attaching or uploading the file.</p>
+<p><strong>Why:</strong> This change makes it easier to create presentations using content you already have in Microsoft 365. You can naturally reference a relevant file in your prompt, and Copilot can use that file as context when creating your presentation.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open PowerPoint and start creating a presentation with Copilot.</li>
+<li>In your prompt, reference a file saved in SharePoint or OneDrive by the document name and/or owner of the document.</li>
+<li>Ask Copilot to create a presentation using information from that file. For example: “Create a presentation summarizing the key findings from the DOCUMENT NAME.”</li>
+</ol>
+<p><strong>Why this matters:</strong> You can bring existing SharePoint and OneDrive content into your presentation workflow more naturally, without first locating the file and manually attaching it.</p>
+<p><strong>Business impact:</strong> Teams can create presentations faster by integrating cloud-stored resources without switching apps or manually uploading files.</p>
+<p><strong>Personal impact:</strong> You save time locating and incorporating relevant files, reducing friction in presentation creation.</p>
+</li>
+</ul>
+<h3>Viva Insights</h3>
+
+<ul>
+<li><p><strong>Copilot Analytics - Cowork adoption and impact</strong>&nbsp;[Web]</p>
+<p>Deeper insights into Cowork adoption and impact, accessible from Copilot dashboard and Consumption dashboard in the Microsoft 365 services tab. Includes export capability. All metrics can be queried by analysts with the new Consumption query (credit usage data) and through the Person query (Cowork usage data) in advanced insights.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567005">567005</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Consumption dashboard and Copilot dashboard now include expanded metrics on Cowork adoption and its impact. Analysts can export data and use the new Consumption query in advanced insights to explore all metrics. Previously, such detailed analytics and export options were unavailable.</p>
+<p><strong>Why:</strong> Providing deeper, exportable insights enables data-driven decisions about AI usage and investment, improving transparency and cost management.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open the Copilot dashboard in Copilot analytics.</li>
+<li>Navigate to the Consumption dashboard &gt; Microsoft 365 Services tab to view Cowork metrics.</li>
+<li>Use the export option or run the Consumption query or Person query including Cowork usage metrics in advanced insights for detailed analysis.</li>
+</ol>
+<p><strong>Why this matters:</strong> Better visibility into AI adoption helps organizations optimize usage and understand its business impact.</p>
+<p><strong>Business impact:</strong> Teams gain actionable data to manage AI resource allocation and measure productivity improvements.</p>
+<p><strong>Personal impact:</strong> You can analyze Cowork usage trends and costs more effectively, supporting informed decision-making.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/viva/insights/org-team-insights/ai-cost-dashboard#cowork-page">How to use the Consumption Dashboard in Insights</a></p>
+</li>
+</ul><p>Updates released between September 22, 2026, and October 06, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Seamless Search and Chat Integration</strong>&nbsp;[Windows, Web]</p>
+<p>Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate content—all in one unified experience. This integration reduces workflow fragmentation, accelerates decision-making, and delivers a more intuitive way to interact with your organization’s knowledge.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=512429">512429</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot Search now embeds conversational AI chat directly within search results. Previously, users had to switch between search and chat tools separately. This update allows follow-up questions, insight synthesis, and content generation based on search context in a unified interface, reducing workflow fragmentation.</p>
+<p><strong>Why:</strong> Integrating chat with search streamlines user interaction with organizational knowledge, accelerating decision-making and reducing the need to switch tools.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot Search.</li>
+<li>Enter a query and review the search results.</li>
+<li>Use the chat pane to ask follow-up questions or generate content based on the results.</li>
+</ol>
+<p><strong>Why this matters:</strong> This integration simplifies workflows by combining search and chat, helping users act on information faster.</p>
+<p><strong>Business impact:</strong> Teams experience faster decision cycles and less disruption from switching between search and chat applications.</p>
+<p><strong>Personal impact:</strong> You save time by accessing search results and conversational AI in one place, reducing task switching.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Edit query string and user identity mapping rules for Copilot connectors</strong>&nbsp;[Windows, Web]</p>
+<p>Admins can now edit query string and user identity mapping rules directly in connector settings without opening a support ticket.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Query string parameters and user identity mapping rules are now editable after a connection is created. Admins can update them in the Microsoft 365 admin center under Settings &gt; Search &amp; intelligence &gt; Data sources, then select the connection and edit its configuration. Previously, these values were fixed at connection setup and changing them required support intervention.</p>
+<p><strong>Why:</strong> Source systems change, teams re-scope projects, filters need tightening, and identity mappings drift as directory attributes are updated. Locking these rules at setup meant every adjustment became a support request, leaving connections stale or over-scoped in the interim.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Go to the Microsoft 365 admin center &gt; Settings &gt; Search &amp; intelligence &gt; Data sources.</li>
+<li>Select your connection (for example, Azure DevOps or ServiceNow) and open its configuration.</li>
+<li>Update the query string or user identity mapping rule and save.</li>
+<li>Confirm the change took effect on the next crawl and spot-check results for an affected user.</li>
+</ol>
+<p><strong>Why this matters:</strong> Access scope and content scope are now self-serve. Admins can correct a mis-scoped connection or a broken identity mapping in minutes instead of waiting on a support cycle.</p>
+<p><strong>Business impact:</strong> Faster remediation when a connection surfaces content to the wrong audience, fewer support tickets per connection, and configuration that keeps pace with changes in the source system—all of which support access-governance and compliance commitments.</p>
+<p><strong>Personal impact:</strong> You fix scoping and permission-mapping issues yourself, on your own schedule, instead of filing a ticket and waiting for someone else to make a change.</p>
+</li>
+</ul>
+<h3>PowerPoint</h3>
+
+<ul>
+<li><p><strong>Create custom skills in Copilot in PowerPoint</strong>&nbsp;[Windows]</p>
+<p>Create custom skills in Copilot in PowerPoint for tailored workflows for your specific presentation needs.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot now supports user defined custom skills, allowing users to extend its capabilities with personalized commands and workflows in PowerPoint. Previously, Copilot operated only with built-in skills and predefined functions in PowerPoint. This update enables customization within Microsoft 365 security and compliance standards.</p>
+<p><strong>Why:</strong> Users need more flexibility to automate unique presentation tasks and workflows. Custom skills let users:</p>
+</li>
+<li><p>Define specific commands suited to their content style.</p>
+</li>
+<li><p>Automate repetitive or specialized tasks.</p>
+</li>
+<li><p>Enhance productivity by tailoring Copilot to their needs.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open PowerPoint and access the Copilot pane.</li>
+<li>Select 'Create custom skill' to define new commands.</li>
+<li>Test your custom skill within your presentation workflow.</li>
+</ol>
+<p><strong>Why this matters:</strong> Custom skills let users personalize Copilot to match their unique presentation workflows, reducing manual effort.</p>
+<p><strong>Business impact:</strong> Teams can standardize and automate specialized presentation tasks, improving consistency and efficiency.</p>
+<p><strong>Personal impact:</strong> You save time by automating repetitive tasks and gain more control over Copilot’s assistance.</p>
+</li>
+</ul><p>Updates released between September 22, 2026, and October 06, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Regenerate response for alternative answers</strong>&nbsp;[Web]</p>
+<p>The Regenerate action lets you quickly get an alternative response to your latest prompt using options like Try Again or Switch Model, helping you explore different answers and improve output quality.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, users had to re-enter prompts to get different responses from Copilot. Now, the Regenerate action provides simple buttons to request alternative answers or switch AI models without starting over. This streamlines refining outputs and exploring variations.</p>
+<p><strong>Why:</strong> This change reduces friction when iterating on AI-generated content, enabling faster exploration of ideas and improved response quality.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Enter a prompt in Microsoft 365 Copilot Chat.</li>
+<li>At the end of Copilot's response, open the "More options" menu.</li>
+<li>Select 'Try Again' to get a new response.</li>
+<li>Choose 'Switch Model' to see answers from a different AI model.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quickly generating alternative responses helps users find the best information or phrasing without repeating input steps.</p>
+<p><strong>Business impact:</strong> Teams can iterate on AI-generated content more efficiently, improving decision-making and content creation speed.</p>
+<p><strong>Personal impact:</strong> You save time by refining outputs with fewer steps and can explore more options easily.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Seamless Search and Chat Integration</strong>&nbsp;[Windows, Web]</p>
+<p>Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate content—all in one unified experience. This integration reduces workflow fragmentation, accelerates decision-making, and delivers a more intuitive way to interact with your organization’s knowledge.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=512429">512429</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot Search now embeds conversational AI chat directly within search results. Previously, users had to switch between search and chat tools separately. This update allows follow-up questions, insight synthesis, and content generation based on search context in a unified interface, reducing workflow fragmentation.</p>
+<p><strong>Why:</strong> Integrating chat with search streamlines user interaction with organizational knowledge, accelerating decision-making and reducing the need to switch tools.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot Search.</li>
+<li>Enter a query and review the search results.</li>
+<li>Use the chat pane to ask follow-up questions or generate content based on the results.</li>
+</ol>
+<p><strong>Why this matters:</strong> This integration simplifies workflows by combining search and chat, helping users act on information faster.</p>
+<p><strong>Business impact:</strong> Teams experience faster decision cycles and less disruption from switching between search and chat applications.</p>
+<p><strong>Personal impact:</strong> You save time by accessing search results and conversational AI in one place, reducing task switching.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Edit query string and user identity mapping rules for Copilot connectors</strong>&nbsp;[Windows, Web]</p>
+<p>Admins can now edit query string and user identity mapping rules directly in connector settings without opening a support ticket.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Query string parameters and user identity mapping rules are now editable after a connection is created. Admins can update them in the Microsoft 365 admin center under Settings &gt; Search &amp; intelligence &gt; Data sources, then select the connection and edit its configuration. Previously, these values were fixed at connection setup and changing them required support intervention.</p>
+<p><strong>Why:</strong> Source systems change, teams re-scope projects, filters need tightening, and identity mappings drift as directory attributes are updated. Locking these rules at setup meant every adjustment became a support request, leaving connections stale or over-scoped in the interim.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Go to the Microsoft 365 admin center &gt; Settings &gt; Search &amp; intelligence &gt; Data sources.</li>
+<li>Select your connection (for example, Azure DevOps or ServiceNow) and open its configuration.</li>
+<li>Update the query string or user identity mapping rule and save.</li>
+<li>Confirm the change took effect on the next crawl and spot-check results for an affected user.</li>
+</ol>
+<p><strong>Why this matters:</strong> Access scope and content scope are now self-serve. Admins can correct a mis-scoped connection or a broken identity mapping in minutes instead of waiting on a support cycle.</p>
+<p><strong>Business impact:</strong> Faster remediation when a connection surfaces content to the wrong audience, fewer support tickets per connection, and configuration that keeps pace with changes in the source system—all of which support access-governance and compliance commitments.</p>
+<p><strong>Personal impact:</strong> You fix scoping and permission-mapping issues yourself, on your own schedule, instead of filing a ticket and waiting for someone else to make a change.</p>
+</li>
+</ul>
+<h3>Microsoft 365 SharePoint</h3>
+
+<ul>
+<li><p><strong>Admin Center - detailed report on Everyone except external user permissions</strong>&nbsp;[Web]</p>
+<p>The new report provides SharePoint Advanced Management admins complete item-level details of permissions granted to special SharePoint groups: Everyone and Everyone except external users.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561038">561038</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The SharePoint Admin Center now includes a detailed report that shows item-level permissions for special SharePoint groups: Everyone and Everyone except external users. Previously, admins had limited visibility into these item-level permissions. This report helps identify exactly which items have these special SharePoint groups as recipients, improving permission auditing and security management.</p>
+<p><strong>Why:</strong> Admins need precise visibility into permissions granted to broad groups to manage access risks effectively.</p>
+</li>
+</ul>
+<p>This report enables admins to:</p>
+<ul>
+<li><p>Audit permissions at a granular level</p>
+</li>
+<li><p>Detect unintended access</p>
+</li>
+<li><p>Enhance security compliance</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the SharePoint Admin Center and navigate to Advanced Management &gt; All features &gt; Data access governance reports.</li>
+<li>Select the new report 'Sites and files shared via special SharePoint group' and trigger the relevant report.</li>
+<li>Export the prepared report and review item-level permission details.</li>
+</ul>
+<p><strong>Why this matters:</strong> Detailed permission reports help prevent unauthorized access and support compliance with organizational security policies.</p>
+<p><strong>Business impact:</strong> Teams can better manage SharePoint permissions, reducing security risks and simplifying audits.</p>
+<p><strong>Personal impact:</strong> Admins save time identifying and resolving permission issues with clearer, item-level insights.</p>
+<p><strong>Learn</strong></p>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/data-access-governance-detailed-eeeu-everyone-permissions-report">Get item-level permission details for "Everyone except external users" and "Everyone"</a></li>
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/powershell-for-data-access-governance#generate-a-report-on-sites-and-files-shared-via-special-sharepoint-groups">Generate a report on sites and files shared via special SharePoint groups</a></li>
+</ul>
+</li>
+</ul>
+<h3>Viva Insights</h3>
+
+<ul>
+<li><p><strong>Copilot Analytics - Cowork adoption and impact</strong>&nbsp;[Web]</p>
+<p>Deeper insights into Cowork adoption and impact, accessible from Copilot dashboard and Consumption dashboard in the Microsoft 365 services tab. Includes export capability. All metrics can be queried by analysts with the new Consumption query (credit usage data) and through the Person query (Cowork usage data) in advanced insights.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567005">567005</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Consumption dashboard and Copilot dashboard now include expanded metrics on Cowork adoption and its impact. Analysts can export data and use the new Consumption query in advanced insights to explore all metrics. Previously, such detailed analytics and export options were unavailable.</p>
+<p><strong>Why:</strong> Providing deeper, exportable insights enables data-driven decisions about AI usage and investment, improving transparency and cost management.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open the Copilot dashboard in Copilot analytics.</li>
+<li>Navigate to the Consumption dashboard &gt; Microsoft 365 Services tab to view Cowork metrics.</li>
+<li>Use the export option or run the Consumption query or Person query including Cowork usage metrics in advanced insights for detailed analysis.</li>
+</ol>
+<p><strong>Why this matters:</strong> Better visibility into AI adoption helps organizations optimize usage and understand its business impact.</p>
+<p><strong>Business impact:</strong> Teams gain actionable data to manage AI resource allocation and measure productivity improvements.</p>
+<p><strong>Personal impact:</strong> You can analyze Cowork usage trends and costs more effectively, supporting informed decision-making.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/viva/insights/org-team-insights/ai-cost-dashboard#cowork-page">How to use the Consumption Dashboard in Insights</a></p>
+</li>
+</ul><p>Updates released between September 22, 2026, and October 06, 2026.</p>
+<h3>PowerPoint</h3>
+
+<ul>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Mac]</p>
+<p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot in PowerPoint can now recognize references to files stored in SharePoint and OneDrive when you mention them in your prompt, such as by file or document name. Previously, these implicit file references were not supported for files stored in these locations. This update makes it easier to use relevant Microsoft 365 content without manually attaching or uploading the file.</p>
+<p><strong>Why:</strong> This change makes it easier to create presentations using content you already have in Microsoft 365. You can naturally reference a relevant file in your prompt, and Copilot can use that file as context when creating your presentation.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open PowerPoint and start creating a presentation with Copilot.</li>
+<li>In your prompt, reference a file saved in SharePoint or OneDrive by the document name and/or owner of the document.</li>
+<li>Ask Copilot to create a presentation using information from that file. For example: “Create a presentation summarizing the key findings from the DOCUMENT NAME.”</li>
+</ol>
+<p><strong>Why this matters:</strong> You can bring existing SharePoint and OneDrive content into your presentation workflow more naturally, without first locating the file and manually attaching it.</p>
+<p><strong>Business impact:</strong> Teams can create presentations faster by integrating cloud-stored resources without switching apps or manually uploading files.</p>
+<p><strong>Personal impact:</strong> You save time locating and incorporating relevant files, reducing friction in presentation creation.</p>
+</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Updates released between September 22, 2026, and October 06, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Seamless Search and Chat Integration</strong>&nbsp;[Windows, Web]</p>
+<p>Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate content—all in one unified experience. This integration reduces workflow fragmentation, accelerates decision-making, and delivers a more intuitive way to interact with your organization’s knowledge.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=512429">512429</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot Search now embeds conversational AI chat directly within search results. Previously, users had to switch between search and chat tools separately. This update allows follow-up questions, insight synthesis, and content generation based on search context in a unified interface, reducing workflow fragmentation.</p>
+<p><strong>Why:</strong> Integrating chat with search streamlines user interaction with organizational knowledge, accelerating decision-making and reducing the need to switch tools.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot Search.</li>
+<li>Enter a query and review the search results.</li>
+<li>Use the chat pane to ask follow-up questions or generate content based on the results.</li>
+</ol>
+<p><strong>Why this matters:</strong> This integration simplifies workflows by combining search and chat, helping users act on information faster.</p>
+<p><strong>Business impact:</strong> Teams experience faster decision cycles and less disruption from switching between search and chat applications.</p>
+<p><strong>Personal impact:</strong> You save time by accessing search results and conversational AI in one place, reducing task switching.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Regenerate response for alternative answers</strong>&nbsp;[Web]</p>
+<p>The Regenerate action lets you quickly get an alternative response to your latest prompt using options like Try Again or Switch Model, helping you explore different answers and improve output quality.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, users had to re-enter prompts to get different responses from Copilot. Now, the Regenerate action provides simple buttons to request alternative answers or switch AI models without starting over. This streamlines refining outputs and exploring variations.</p>
+<p><strong>Why:</strong> This change reduces friction when iterating on AI-generated content, enabling faster exploration of ideas and improved response quality.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Enter a prompt in Microsoft 365 Copilot Chat.</li>
+<li>At the end of Copilot's response, open the "More options" menu.</li>
+<li>Select 'Try Again' to get a new response.</li>
+<li>Choose 'Switch Model' to see answers from a different AI model.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quickly generating alternative responses helps users find the best information or phrasing without repeating input steps.</p>
+<p><strong>Business impact:</strong> Teams can iterate on AI-generated content more efficiently, improving decision-making and content creation speed.</p>
+<p><strong>Personal impact:</strong> You save time by refining outputs with fewer steps and can explore more options easily.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Edit query string and user identity mapping rules for Copilot connectors</strong>&nbsp;[Windows, Web]</p>
+<p>Admins can now edit query string and user identity mapping rules directly in connector settings without opening a support ticket.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Query string parameters and user identity mapping rules are now editable after a connection is created. Admins can update them in the Microsoft 365 admin center under Settings &gt; Search &amp; intelligence &gt; Data sources, then select the connection and edit its configuration. Previously, these values were fixed at connection setup and changing them required support intervention.</p>
+<p><strong>Why:</strong> Source systems change, teams re-scope projects, filters need tightening, and identity mappings drift as directory attributes are updated. Locking these rules at setup meant every adjustment became a support request, leaving connections stale or over-scoped in the interim.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Go to the Microsoft 365 admin center &gt; Settings &gt; Search &amp; intelligence &gt; Data sources.</li>
+<li>Select your connection (for example, Azure DevOps or ServiceNow) and open its configuration.</li>
+<li>Update the query string or user identity mapping rule and save.</li>
+<li>Confirm the change took effect on the next crawl and spot-check results for an affected user.</li>
+</ol>
+<p><strong>Why this matters:</strong> Access scope and content scope are now self-serve. Admins can correct a mis-scoped connection or a broken identity mapping in minutes instead of waiting on a support cycle.</p>
+<p><strong>Business impact:</strong> Faster remediation when a connection surfaces content to the wrong audience, fewer support tickets per connection, and configuration that keeps pace with changes in the source system—all of which support access-governance and compliance commitments.</p>
+<p><strong>Personal impact:</strong> You fix scoping and permission-mapping issues yourself, on your own schedule, instead of filing a ticket and waiting for someone else to make a change.</p>
+</li>
+</ul>
+<h3>Microsoft 365 SharePoint</h3>
+
+<ul>
+<li><p><strong>Admin Center - detailed report on Everyone except external user permissions</strong>&nbsp;[Web]</p>
+<p>The new report provides SharePoint Advanced Management admins complete item-level details of permissions granted to special SharePoint groups: Everyone and Everyone except external users.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561038">561038</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The SharePoint Admin Center now includes a detailed report that shows item-level permissions for special SharePoint groups: Everyone and Everyone except external users. Previously, admins had limited visibility into these item-level permissions. This report helps identify exactly which items have these special SharePoint groups as recipients, improving permission auditing and security management.</p>
+<p><strong>Why:</strong> Admins need precise visibility into permissions granted to broad groups to manage access risks effectively.</p>
+</li>
+</ul>
+<p>This report enables admins to:</p>
+<ul>
+<li><p>Audit permissions at a granular level</p>
+</li>
+<li><p>Detect unintended access</p>
+</li>
+<li><p>Enhance security compliance</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the SharePoint Admin Center and navigate to Advanced Management &gt; All features &gt; Data access governance reports.</li>
+<li>Select the new report 'Sites and files shared via special SharePoint group' and trigger the relevant report.</li>
+<li>Export the prepared report and review item-level permission details.</li>
+</ul>
+<p><strong>Why this matters:</strong> Detailed permission reports help prevent unauthorized access and support compliance with organizational security policies.</p>
+<p><strong>Business impact:</strong> Teams can better manage SharePoint permissions, reducing security risks and simplifying audits.</p>
+<p><strong>Personal impact:</strong> Admins save time identifying and resolving permission issues with clearer, item-level insights.</p>
+<p><strong>Learn</strong></p>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/data-access-governance-detailed-eeeu-everyone-permissions-report">Get item-level permission details for "Everyone except external users" and "Everyone"</a></li>
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/powershell-for-data-access-governance#generate-a-report-on-sites-and-files-shared-via-special-sharepoint-groups">Generate a report on sites and files shared via special SharePoint groups</a></li>
+</ul>
+</li>
+</ul>
+<h3>PowerPoint</h3>
+
+<ul>
+<li><p><strong>Create custom skills in Copilot in PowerPoint</strong>&nbsp;[Windows]</p>
+<p>Create custom skills in Copilot in PowerPoint for tailored workflows for your specific presentation needs.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot now supports user defined custom skills, allowing users to extend its capabilities with personalized commands and workflows in PowerPoint. Previously, Copilot operated only with built-in skills and predefined functions in PowerPoint. This update enables customization within Microsoft 365 security and compliance standards.</p>
+<p><strong>Why:</strong> Users need more flexibility to automate unique presentation tasks and workflows. Custom skills let users:</p>
+</li>
+<li><p>Define specific commands suited to their content style.</p>
+</li>
+<li><p>Automate repetitive or specialized tasks.</p>
+</li>
+<li><p>Enhance productivity by tailoring Copilot to their needs.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open PowerPoint and access the Copilot pane.</li>
+<li>Select 'Create custom skill' to define new commands.</li>
+<li>Test your custom skill within your presentation workflow.</li>
+</ol>
+<p><strong>Why this matters:</strong> Custom skills let users personalize Copilot to match their unique presentation workflows, reducing manual effort.</p>
+<p><strong>Business impact:</strong> Teams can standardize and automate specialized presentation tasks, improving consistency and efficiency.</p>
+<p><strong>Personal impact:</strong> You save time by automating repetitive tasks and gain more control over Copilot’s assistance.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Mac]</p>
+<p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot in PowerPoint can now recognize references to files stored in SharePoint and OneDrive when you mention them in your prompt, such as by file or document name. Previously, these implicit file references were not supported for files stored in these locations. This update makes it easier to use relevant Microsoft 365 content without manually attaching or uploading the file.</p>
+<p><strong>Why:</strong> This change makes it easier to create presentations using content you already have in Microsoft 365. You can naturally reference a relevant file in your prompt, and Copilot can use that file as context when creating your presentation.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open PowerPoint and start creating a presentation with Copilot.</li>
+<li>In your prompt, reference a file saved in SharePoint or OneDrive by the document name and/or owner of the document.</li>
+<li>Ask Copilot to create a presentation using information from that file. For example: “Create a presentation summarizing the key findings from the DOCUMENT NAME.”</li>
+</ol>
+<p><strong>Why this matters:</strong> You can bring existing SharePoint and OneDrive content into your presentation workflow more naturally, without first locating the file and manually attaching it.</p>
+<p><strong>Business impact:</strong> Teams can create presentations faster by integrating cloud-stored resources without switching apps or manually uploading files.</p>
+<p><strong>Personal impact:</strong> You save time locating and incorporating relevant files, reducing friction in presentation creation.</p>
+</li>
+</ul>
+<h3>Viva Insights</h3>
+
+<ul>
+<li><p><strong>Copilot Analytics - Cowork adoption and impact</strong>&nbsp;[Web]</p>
+<p>Deeper insights into Cowork adoption and impact, accessible from Copilot dashboard and Consumption dashboard in the Microsoft 365 services tab. Includes export capability. All metrics can be queried by analysts with the new Consumption query (credit usage data) and through the Person query (Cowork usage data) in advanced insights.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567005">567005</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Consumption dashboard and Copilot dashboard now include expanded metrics on Cowork adoption and its impact. Analysts can export data and use the new Consumption query in advanced insights to explore all metrics. Previously, such detailed analytics and export options were unavailable.</p>
+<p><strong>Why:</strong> Providing deeper, exportable insights enables data-driven decisions about AI usage and investment, improving transparency and cost management.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open the Copilot dashboard in Copilot analytics.</li>
+<li>Navigate to the Consumption dashboard &gt; Microsoft 365 Services tab to view Cowork metrics.</li>
+<li>Use the export option or run the Consumption query or Person query including Cowork usage metrics in advanced insights for detailed analysis.</li>
+</ol>
+<p><strong>Why this matters:</strong> Better visibility into AI adoption helps organizations optimize usage and understand its business impact.</p>
+<p><strong>Business impact:</strong> Teams gain actionable data to manage AI resource allocation and measure productivity improvements.</p>
+<p><strong>Personal impact:</strong> You can analyze Cowork usage trends and costs more effectively, supporting informed decision-making.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/viva/insights/org-team-insights/ai-cost-dashboard#cowork-page">How to use the Consumption Dashboard in Insights</a></p>
+</li>
+</ul><p>Updates released between September 22, 2026, and October 06, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Seamless Search and Chat Integration</strong>&nbsp;[Windows, Web]</p>
+<p>Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate content—all in one unified experience. This integration reduces workflow fragmentation, accelerates decision-making, and delivers a more intuitive way to interact with your organization’s knowledge.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=512429">512429</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot Search now embeds conversational AI chat directly within search results. Previously, users had to switch between search and chat tools separately. This update allows follow-up questions, insight synthesis, and content generation based on search context in a unified interface, reducing workflow fragmentation.</p>
+<p><strong>Why:</strong> Integrating chat with search streamlines user interaction with organizational knowledge, accelerating decision-making and reducing the need to switch tools.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot Search.</li>
+<li>Enter a query and review the search results.</li>
+<li>Use the chat pane to ask follow-up questions or generate content based on the results.</li>
+</ol>
+<p><strong>Why this matters:</strong> This integration simplifies workflows by combining search and chat, helping users act on information faster.</p>
+<p><strong>Business impact:</strong> Teams experience faster decision cycles and less disruption from switching between search and chat applications.</p>
+<p><strong>Personal impact:</strong> You save time by accessing search results and conversational AI in one place, reducing task switching.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Edit query string and user identity mapping rules for Copilot connectors</strong>&nbsp;[Windows, Web]</p>
+<p>Admins can now edit query string and user identity mapping rules directly in connector settings without opening a support ticket.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Query string parameters and user identity mapping rules are now editable after a connection is created. Admins can update them in the Microsoft 365 admin center under Settings &gt; Search &amp; intelligence &gt; Data sources, then select the connection and edit its configuration. Previously, these values were fixed at connection setup and changing them required support intervention.</p>
+<p><strong>Why:</strong> Source systems change, teams re-scope projects, filters need tightening, and identity mappings drift as directory attributes are updated. Locking these rules at setup meant every adjustment became a support request, leaving connections stale or over-scoped in the interim.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Go to the Microsoft 365 admin center &gt; Settings &gt; Search &amp; intelligence &gt; Data sources.</li>
+<li>Select your connection (for example, Azure DevOps or ServiceNow) and open its configuration.</li>
+<li>Update the query string or user identity mapping rule and save.</li>
+<li>Confirm the change took effect on the next crawl and spot-check results for an affected user.</li>
+</ol>
+<p><strong>Why this matters:</strong> Access scope and content scope are now self-serve. Admins can correct a mis-scoped connection or a broken identity mapping in minutes instead of waiting on a support cycle.</p>
+<p><strong>Business impact:</strong> Faster remediation when a connection surfaces content to the wrong audience, fewer support tickets per connection, and configuration that keeps pace with changes in the source system—all of which support access-governance and compliance commitments.</p>
+<p><strong>Personal impact:</strong> You fix scoping and permission-mapping issues yourself, on your own schedule, instead of filing a ticket and waiting for someone else to make a change.</p>
+</li>
+</ul>
+<h3>PowerPoint</h3>
+
+<ul>
+<li><p><strong>Create custom skills in Copilot in PowerPoint</strong>&nbsp;[Windows]</p>
+<p>Create custom skills in Copilot in PowerPoint for tailored workflows for your specific presentation needs.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot now supports user defined custom skills, allowing users to extend its capabilities with personalized commands and workflows in PowerPoint. Previously, Copilot operated only with built-in skills and predefined functions in PowerPoint. This update enables customization within Microsoft 365 security and compliance standards.</p>
+<p><strong>Why:</strong> Users need more flexibility to automate unique presentation tasks and workflows. Custom skills let users:</p>
+</li>
+<li><p>Define specific commands suited to their content style.</p>
+</li>
+<li><p>Automate repetitive or specialized tasks.</p>
+</li>
+<li><p>Enhance productivity by tailoring Copilot to their needs.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open PowerPoint and access the Copilot pane.</li>
+<li>Select 'Create custom skill' to define new commands.</li>
+<li>Test your custom skill within your presentation workflow.</li>
+</ol>
+<p><strong>Why this matters:</strong> Custom skills let users personalize Copilot to match their unique presentation workflows, reducing manual effort.</p>
+<p><strong>Business impact:</strong> Teams can standardize and automate specialized presentation tasks, improving consistency and efficiency.</p>
+<p><strong>Personal impact:</strong> You save time by automating repetitive tasks and gain more control over Copilot’s assistance.</p>
+</li>
+</ul><p>Updates released between September 22, 2026, and October 06, 2026.</p>
+<h3>Microsoft 365 Copilot</h3>
+
+<ul>
+<li><p><strong>Regenerate response for alternative answers</strong>&nbsp;[Web]</p>
+<p>The Regenerate action lets you quickly get an alternative response to your latest prompt using options like Try Again or Switch Model, helping you explore different answers and improve output quality.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Previously, users had to re-enter prompts to get different responses from Copilot. Now, the Regenerate action provides simple buttons to request alternative answers or switch AI models without starting over. This streamlines refining outputs and exploring variations.</p>
+<p><strong>Why:</strong> This change reduces friction when iterating on AI-generated content, enabling faster exploration of ideas and improved response quality.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Enter a prompt in Microsoft 365 Copilot Chat.</li>
+<li>At the end of Copilot's response, open the "More options" menu.</li>
+<li>Select 'Try Again' to get a new response.</li>
+<li>Choose 'Switch Model' to see answers from a different AI model.</li>
+</ol>
+<p><strong>Why this matters:</strong> Quickly generating alternative responses helps users find the best information or phrasing without repeating input steps.</p>
+<p><strong>Business impact:</strong> Teams can iterate on AI-generated content more efficiently, improving decision-making and content creation speed.</p>
+<p><strong>Personal impact:</strong> You save time by refining outputs with fewer steps and can explore more options easily.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Seamless Search and Chat Integration</strong>&nbsp;[Windows, Web]</p>
+<p>Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate content—all in one unified experience. This integration reduces workflow fragmentation, accelerates decision-making, and delivers a more intuitive way to interact with your organization’s knowledge.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=512429">512429</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Copilot Search now embeds conversational AI chat directly within search results. Previously, users had to switch between search and chat tools separately. This update allows follow-up questions, insight synthesis, and content generation based on search context in a unified interface, reducing workflow fragmentation.</p>
+<p><strong>Why:</strong> Integrating chat with search streamlines user interaction with organizational knowledge, accelerating decision-making and reducing the need to switch tools.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Microsoft 365 Copilot Search.</li>
+<li>Enter a query and review the search results.</li>
+<li>Use the chat pane to ask follow-up questions or generate content based on the results.</li>
+</ol>
+<p><strong>Why this matters:</strong> This integration simplifies workflows by combining search and chat, helping users act on information faster.</p>
+<p><strong>Business impact:</strong> Teams experience faster decision cycles and less disruption from switching between search and chat applications.</p>
+<p><strong>Personal impact:</strong> You save time by accessing search results and conversational AI in one place, reducing task switching.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Edit query string and user identity mapping rules for Copilot connectors</strong>&nbsp;[Windows, Web]</p>
+<p>Admins can now edit query string and user identity mapping rules directly in connector settings without opening a support ticket.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Query string parameters and user identity mapping rules are now editable after a connection is created. Admins can update them in the Microsoft 365 admin center under Settings &gt; Search &amp; intelligence &gt; Data sources, then select the connection and edit its configuration. Previously, these values were fixed at connection setup and changing them required support intervention.</p>
+<p><strong>Why:</strong> Source systems change, teams re-scope projects, filters need tightening, and identity mappings drift as directory attributes are updated. Locking these rules at setup meant every adjustment became a support request, leaving connections stale or over-scoped in the interim.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Go to the Microsoft 365 admin center &gt; Settings &gt; Search &amp; intelligence &gt; Data sources.</li>
+<li>Select your connection (for example, Azure DevOps or ServiceNow) and open its configuration.</li>
+<li>Update the query string or user identity mapping rule and save.</li>
+<li>Confirm the change took effect on the next crawl and spot-check results for an affected user.</li>
+</ol>
+<p><strong>Why this matters:</strong> Access scope and content scope are now self-serve. Admins can correct a mis-scoped connection or a broken identity mapping in minutes instead of waiting on a support cycle.</p>
+<p><strong>Business impact:</strong> Faster remediation when a connection surfaces content to the wrong audience, fewer support tickets per connection, and configuration that keeps pace with changes in the source system—all of which support access-governance and compliance commitments.</p>
+<p><strong>Personal impact:</strong> You fix scoping and permission-mapping issues yourself, on your own schedule, instead of filing a ticket and waiting for someone else to make a change.</p>
+</li>
+</ul>
+<h3>Microsoft 365 SharePoint</h3>
+
+<ul>
+<li><p><strong>Admin Center - detailed report on Everyone except external user permissions</strong>&nbsp;[Web]</p>
+<p>The new report provides SharePoint Advanced Management admins complete item-level details of permissions granted to special SharePoint groups: Everyone and Everyone except external users.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=561038">561038</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The SharePoint Admin Center now includes a detailed report that shows item-level permissions for special SharePoint groups: Everyone and Everyone except external users. Previously, admins had limited visibility into these item-level permissions. This report helps identify exactly which items have these special SharePoint groups as recipients, improving permission auditing and security management.</p>
+<p><strong>Why:</strong> Admins need precise visibility into permissions granted to broad groups to manage access risks effectively.</p>
+</li>
+</ul>
+<p>This report enables admins to:</p>
+<ul>
+<li><p>Audit permissions at a granular level</p>
+</li>
+<li><p>Detect unintended access</p>
+</li>
+<li><p>Enhance security compliance</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the SharePoint Admin Center and navigate to Advanced Management &gt; All features &gt; Data access governance reports.</li>
+<li>Select the new report 'Sites and files shared via special SharePoint group' and trigger the relevant report.</li>
+<li>Export the prepared report and review item-level permission details.</li>
+</ul>
+<p><strong>Why this matters:</strong> Detailed permission reports help prevent unauthorized access and support compliance with organizational security policies.</p>
+<p><strong>Business impact:</strong> Teams can better manage SharePoint permissions, reducing security risks and simplifying audits.</p>
+<p><strong>Personal impact:</strong> Admins save time identifying and resolving permission issues with clearer, item-level insights.</p>
+<p><strong>Learn</strong></p>
+<ul>
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/data-access-governance-detailed-eeeu-everyone-permissions-report">Get item-level permission details for "Everyone except external users" and "Everyone"</a></li>
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/powershell-for-data-access-governance#generate-a-report-on-sites-and-files-shared-via-special-sharepoint-groups">Generate a report on sites and files shared via special SharePoint groups</a></li>
+</ul>
+</li>
+</ul>
+<h3>Viva Insights</h3>
+
+<ul>
+<li><p><strong>Copilot Analytics - Cowork adoption and impact</strong>&nbsp;[Web]</p>
+<p>Deeper insights into Cowork adoption and impact, accessible from Copilot dashboard and Consumption dashboard in the Microsoft 365 services tab. Includes export capability. All metrics can be queried by analysts with the new Consumption query (credit usage data) and through the Person query (Cowork usage data) in advanced insights.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567005">567005</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Consumption dashboard and Copilot dashboard now include expanded metrics on Cowork adoption and its impact. Analysts can export data and use the new Consumption query in advanced insights to explore all metrics. Previously, such detailed analytics and export options were unavailable.</p>
+<p><strong>Why:</strong> Providing deeper, exportable insights enables data-driven decisions about AI usage and investment, improving transparency and cost management.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open the Copilot dashboard in Copilot analytics.</li>
+<li>Navigate to the Consumption dashboard &gt; Microsoft 365 Services tab to view Cowork metrics.</li>
+<li>Use the export option or run the Consumption query or Person query including Cowork usage metrics in advanced insights for detailed analysis.</li>
+</ol>
+<p><strong>Why this matters:</strong> Better visibility into AI adoption helps organizations optimize usage and understand its business impact.</p>
+<p><strong>Business impact:</strong> Teams gain actionable data to manage AI resource allocation and measure productivity improvements.</p>
+<p><strong>Personal impact:</strong> You can analyze Cowork usage trends and costs more effectively, supporting informed decision-making.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/viva/insights/org-team-insights/ai-cost-dashboard#cowork-page">How to use the Consumption Dashboard in Insights</a></p>
+</li>
+</ul><p>Updates released between September 22, 2026, and October 06, 2026.</p>
+<h3>PowerPoint</h3>
+
+<ul>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Mac]</p>
+<p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot in PowerPoint can now recognize references to files stored in SharePoint and OneDrive when you mention them in your prompt, such as by file or document name. Previously, these implicit file references were not supported for files stored in these locations. This update makes it easier to use relevant Microsoft 365 content without manually attaching or uploading the file.</p>
+<p><strong>Why:</strong> This change makes it easier to create presentations using content you already have in Microsoft 365. You can naturally reference a relevant file in your prompt, and Copilot can use that file as context when creating your presentation.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open PowerPoint and start creating a presentation with Copilot.</li>
+<li>In your prompt, reference a file saved in SharePoint or OneDrive by the document name and/or owner of the document.</li>
+<li>Ask Copilot to create a presentation using information from that file. For example: “Create a presentation summarizing the key findings from the DOCUMENT NAME.”</li>
+</ol>
+<p><strong>Why this matters:</strong> You can bring existing SharePoint and OneDrive content into your presentation workflow more naturally, without first locating the file and manually attaching it.</p>
+<p><strong>Business impact:</strong> Teams can create presentations faster by integrating cloud-stored resources without switching apps or manually uploading files.</p>
+<p><strong>Personal impact:</strong> You save time locating and incorporating relevant files, reducing friction in presentation creation.</p>
+</li>
+</ul>]]></content:encoded>
+    </item>
     <item>
       <title>Microsoft 365 Copilot updates — September 23, 2026</title>
       <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#september-23-2026</link>
