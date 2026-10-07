@@ -5,9 +5,17 @@
     <link>https://support.claude.com/en/articles/12138966-release-notes</link>
     <description>Claude features and improvements.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2026 13:49:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 20:45:27 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude updates — October 7, 2026</title>
+      <link>https://support.claude.com/en/articles/12138966-release-notes#h_90213b2c7a</link>
+      <guid isPermaLink="false">https://support.claude.com/en/articles/12138966-release-notes#rss-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Claude Haiku 5.5 launch</p><p>We just launched Claude Haiku 5.5, the cheapest, fastest, and most capable small model we’ve released, designed for high-volume, cost-sensitive tasks. For more information, see our blog post: <a href="https://www.anthropic.com/claude-haiku-5-5">Claude Haiku 5.5</a>.</p><p> </p><p>Monthly API credits for Max and Team plans</p><p>Max and Team plans now include monthly API credits for running your own apps and agents on the Claude Platform. They roll out over a few days. Claim them by linking a Claude Console organization in Settings &gt; Billing (Max) or Organization settings &gt; Billing (Team). Learn more about <a href="https://support.claude.com/en/articles/17154008">monthly API credits for Max and Team plans</a>.</p><p> </p><h2>September 2026</h2>]]></description>
+      <content:encoded><![CDATA[<p>Claude Haiku 5.5 launch</p><p>We just launched Claude Haiku 5.5, the cheapest, fastest, and most capable small model we’ve released, designed for high-volume, cost-sensitive tasks. For more information, see our blog post: <a href="https://www.anthropic.com/claude-haiku-5-5">Claude Haiku 5.5</a>.</p><p> </p><p>Monthly API credits for Max and Team plans</p><p>Max and Team plans now include monthly API credits for running your own apps and agents on the Claude Platform. They roll out over a few days. Claim them by linking a Claude Console organization in Settings &gt; Billing (Max) or Organization settings &gt; Billing (Team). Learn more about <a href="https://support.claude.com/en/articles/17154008">monthly API credits for Max and Team plans</a>.</p><p> </p><h2>September 2026</h2>]]></content:encoded>
+    </item>
     <item>
       <title>Claude updates — September 28, 2026</title>
       <link>https://support.claude.com/en/articles/12138966-release-notes#h_2ca93eb100</link>
