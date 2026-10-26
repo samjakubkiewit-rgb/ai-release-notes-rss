@@ -5,7 +5,7 @@
     <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes</link>
     <description>Microsoft 365 Copilot features and improvements.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 13:28:54 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 20:43:05 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/microsoft-365-copilot.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -8567,7 +8567,7 @@ By adding emails as knowledge sources, users can connect context from their emai
 <p><strong>Learn</strong></p>
 <ul>
 <li><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-submit-to-org-catalog">Submit agents from Agent Builder to your org catalog</a></li>
-<li><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-requests">Manage agent requests in Microsoft 365 admin center</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-requests">Manage agent requests in Microsoft 365 admin center</a></li>
 </ul>
 </li>
 </ul>
@@ -8707,7 +8707,7 @@ By adding emails as knowledge sources, users can connect context from their emai
 <p><strong>Learn</strong></p>
 <ul>
 <li><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-submit-to-org-catalog">/microsoft-365/copilot/extensibility/agent-builder-submit-to-org-catalog</a></li>
-<li><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-requests">/microsoft-365/admin/manage/agent-requests</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-requests">/microsoft-365/admin/manage/agent-requests</a></li>
 </ul>
 </li>
 </ul>
@@ -8752,7 +8752,7 @@ By adding emails as knowledge sources, users can connect context from their emai
 <p><strong>Learn</strong></p>
 <ul>
 <li><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-submit-to-org-catalog">/microsoft-365/copilot/extensibility/agent-builder-submit-to-org-catalog</a></li>
-<li><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-requests">/microsoft-365/admin/manage/agent-requests</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-requests">/microsoft-365/admin/manage/agent-requests</a></li>
 </ul>
 </li>
 </ul>
@@ -8893,7 +8893,7 @@ By adding emails as knowledge sources, users can connect context from their emai
 <p><strong>Learn</strong></p>
 <ul>
 <li><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-submit-to-org-catalog">Submit agents from Agent Builder to your org catalog</a></li>
-<li><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-requests">Manage agent requests in Microsoft 365 admin center</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-requests">Manage agent requests in Microsoft 365 admin center</a></li>
 </ul>
 </li>
 </ul>
@@ -9033,7 +9033,7 @@ By adding emails as knowledge sources, users can connect context from their emai
 <p><strong>Learn</strong></p>
 <ul>
 <li><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-submit-to-org-catalog">/microsoft-365/copilot/extensibility/agent-builder-submit-to-org-catalog</a></li>
-<li><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-requests">/microsoft-365/admin/manage/agent-requests</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-requests">/microsoft-365/admin/manage/agent-requests</a></li>
 </ul>
 </li>
 </ul>
@@ -9078,7 +9078,7 @@ By adding emails as knowledge sources, users can connect context from their emai
 <p><strong>Learn</strong></p>
 <ul>
 <li><a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-submit-to-org-catalog">/microsoft-365/copilot/extensibility/agent-builder-submit-to-org-catalog</a></li>
-<li><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-requests">/microsoft-365/admin/manage/agent-requests</a></li>
+<li><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-requests">/microsoft-365/admin/manage/agent-requests</a></li>
 </ul>
 </li>
 </ul>
@@ -20486,7 +20486,7 @@ Many specialized or regulated industries require custom logic beyond standard Co
 <p><strong>Personal impact:</strong> Makes interactions with multiple agents feel smoother.</p>
 <p><strong>Additional Resources:</strong></p>
 <p><strong>Learn:</strong></p>
-<p><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
+<p><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
 <p><a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-connected-agent">Connect to other agents from a declarative agent</a></p>
 </li>
 </ul>
@@ -20610,7 +20610,7 @@ Many specialized or regulated industries require custom logic beyond standard Co
 <p><strong>Personal impact:</strong> Makes interactions with multiple agents feel smoother.</p>
 <p><strong>Additional Resources:</strong></p>
 <p><strong>Learn:</strong></p>
-<p><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
+<p><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
 <p><a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-connected-agent">Connect to other agents from a declarative agent</a></p>
 </li>
 </ul><p>Updates released between January 13, 2025, and January 27, 2026.</p>
@@ -20762,7 +20762,7 @@ Many specialized or regulated industries require custom logic beyond standard Co
 <p><strong>Personal impact:</strong> Makes interactions with multiple agents feel smoother.</p>
 <p><strong>Additional Resources:</strong></p>
 <p><strong>Learn:</strong></p>
-<p><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
+<p><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
 <p><a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-connected-agent">Connect to other agents from a declarative agent</a></p>
 </li>
 </ul>
@@ -21036,7 +21036,7 @@ Many specialized or regulated industries require custom logic beyond standard Co
 <p><strong>Personal impact:</strong> Makes interactions with multiple agents feel smoother.</p>
 <p><strong>Additional Resources:</strong></p>
 <p><strong>Learn:</strong></p>
-<p><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
+<p><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
 <p><a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-connected-agent">Connect to other agents from a declarative agent</a></p>
 </li>
 </ul>
@@ -21160,7 +21160,7 @@ Many specialized or regulated industries require custom logic beyond standard Co
 <p><strong>Personal impact:</strong> Makes interactions with multiple agents feel smoother.</p>
 <p><strong>Additional Resources:</strong></p>
 <p><strong>Learn:</strong></p>
-<p><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
+<p><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
 <p><a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-connected-agent">Connect to other agents from a declarative agent</a></p>
 </li>
 </ul><p>Updates released between January 13, 2025, and January 27, 2026.</p>
@@ -21312,7 +21312,7 @@ Many specialized or regulated industries require custom logic beyond standard Co
 <p><strong>Personal impact:</strong> Makes interactions with multiple agents feel smoother.</p>
 <p><strong>Additional Resources:</strong></p>
 <p><strong>Learn:</strong></p>
-<p><a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
+<p><a href="https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-connected-agents">Manage Connected Agents in the Microsoft 365 admin center</a></p>
 <p><a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/declarative-agent-connected-agent">Connect to other agents from a declarative agent</a></p>
 </li>
 </ul>
