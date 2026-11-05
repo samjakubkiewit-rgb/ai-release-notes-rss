@@ -5,9 +5,17 @@
     <link>https://support.claude.com/en/articles/12138966-release-notes</link>
     <description>Claude features and improvements.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Nov 2026 11:26:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 20:14:00 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude updates — November 5, 2026</title>
+      <link>https://support.claude.com/en/articles/12138966-release-notes#h_1c75a86390</link>
+      <guid isPermaLink="false">https://support.claude.com/en/articles/12138966-release-notes#rss-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>New security and admin controls for Enterprise plans</p><p>Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, and additional access controls, several in beta. For more information, see our blog post: <a href="https://claude.com/resources/articles/claude-enterprise-security-updates">More visibility and control over Claude Enterprise for security teams</a>.</p><p> </p><h2>October 2026</h2>]]></description>
+      <content:encoded><![CDATA[<p>New security and admin controls for Enterprise plans</p><p>Claude Enterprise has new security and admin features, including a security center, inference hooks, centralized management, and additional access controls, several in beta. For more information, see our blog post: <a href="https://claude.com/resources/articles/claude-enterprise-security-updates">More visibility and control over Claude Enterprise for security teams</a>.</p><p> </p><h2>October 2026</h2>]]></content:encoded>
+    </item>
     <item>
       <title>Claude updates — October 21, 2026</title>
       <link>https://support.claude.com/en/articles/12138966-release-notes#h_fdbb85f303</link>
