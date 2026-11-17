@@ -5,7 +5,7 @@
     <link>https://openai.com/products/release-notes/</link>
     <description>ChatGPT, Enterprise &amp; Edu, model, and OpenAI product updates.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 19:48:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 04:09:23 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/openai.xml" rel="self" type="application/rss+xml"/>
     <item>
@@ -23,6 +23,14 @@
       <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<h2>Clinical search and plugins for ChatGPT for Clinicians</h2><p>We’ve improved clinical search in ChatGPT for Clinicians, with updates to how ChatGPT finds, evaluates, and cites medical evidence. Healthcare plugins also let you connect supported tools to ChatGPT.</p><p>Plugin availability and requirements vary. For details, see: <a href="https://help.openai.com/articles/20001202">ChatGPT for Clinicians</a>.</p>]]></description>
       <content:encoded><![CDATA[<h2>Clinical search and plugins for ChatGPT for Clinicians</h2><p>We’ve improved clinical search in ChatGPT for Clinicians, with updates to how ChatGPT finds, evaluates, and cites medical evidence. Healthcare plugins also let you connect supported tools to ChatGPT.</p><p>Plugin availability and requirements vary. For details, see: <a href="https://help.openai.com/articles/20001202">ChatGPT for Clinicians</a>.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>OpenAI — OpenAI CSAM Image Classifier</title>
+      <link>https://developers.openai.com/api/docs/guides/csam-classifier</link>
+      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-11-16-openai-csam-image-classifier</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Approved organizations can use the OpenAI CSAM Image Classifier at no cost to help prioritize images for human review. The model returns separate signals for potential child sexual abuse material (CSAM) and potential AI-generated CSAM.</p>]]></description>
+      <content:encoded><![CDATA[<p>Approved organizations can use the OpenAI CSAM Image Classifier at no cost to help prioritize images for human review. The model returns separate signals for potential child sexual abuse material (CSAM) and potential AI-generated CSAM.</p>]]></content:encoded>
     </item>
     <item>
       <title>ChatGPT release notes — November 13, 2026</title>
@@ -79,14 +87,6 @@
       <pubDate>Tue, 10 Nov 2026 12:00:00 GMT</pubDate>
       <description><![CDATA[<p>Inference residency is now generally available for GPT‑6 Luna in India, Japan, and Australia. For supported requests, both request processing and model inference take place in the country you select. The Responses and Chat Completions APIs support text and image inputs with text output. If your organization has approved, active Zero Data Retention (ZDR), create a regional API project in your chosen country and select Storage &amp; Processing.</p>]]></description>
       <content:encoded><![CDATA[<p>Inference residency is now generally available for GPT‑6 Luna in India, Japan, and Australia. For supported requests, both request processing and model inference take place in the country you select. The Responses and Chat Completions APIs support text and image inputs with text output. If your organization has approved, active Zero Data Retention (ZDR), create a regional API project in your chosen country and select Storage &amp; Processing.</p>]]></content:encoded>
-    </item>
-    <item>
-      <title>OpenAI — Retiring Advanced and Standard Voice</title>
-      <link>https://help.openai.com/en/articles/6825453-chatgpt-release-notes#retiring-advanced-and-standard-voice</link>
-      <guid isPermaLink="false">https://openai.com/products/release-notes/#rss-2026-11-10-retiring-advanced-and-standard-voice</guid>
-      <pubDate>Tue, 10 Nov 2026 12:00:00 GMT</pubDate>
-      <description><![CDATA[<p>We’re retiring Advanced and Standard voice from ChatGPT Voice on December 11, 2026. In July, we introduced GPT‑Live, our latest voice model that combines natural conversation with frontier intelligence. Since then, voice usage has nearly doubled, and virtually all people using voice in ChatGPT now use GPT‑Live. This change will allow us to simplify the voice experience and focus on improving GPT‑Live. We&#39;ve learned a lot from how people used both Advanced and Standard voice, and we&#39;re bringing those learnings into GPT‑Live as we continue to improve areas like the depth and detail of responses, maintaining continuity across conversations, and better personalization. Our ultimate goal is to make voice a seamless part of the ChatGPT experience. Live video and screen-sharing will continue to be powered by Advanced voice until GPT‑Live has this capability.</p>]]></description>
-      <content:encoded><![CDATA[<p>We’re retiring Advanced and Standard voice from ChatGPT Voice on December 11, 2026. In July, we introduced GPT‑Live, our latest voice model that combines natural conversation with frontier intelligence. Since then, voice usage has nearly doubled, and virtually all people using voice in ChatGPT now use GPT‑Live. This change will allow us to simplify the voice experience and focus on improving GPT‑Live. We&#39;ve learned a lot from how people used both Advanced and Standard voice, and we&#39;re bringing those learnings into GPT‑Live as we continue to improve areas like the depth and detail of responses, maintaining continuity across conversations, and better personalization. Our ultimate goal is to make voice a seamless part of the ChatGPT experience. Live video and screen-sharing will continue to be powered by Advanced voice until GPT‑Live has this capability.</p>]]></content:encoded>
     </item>
     <item>
       <title>ChatGPT Enterprise &amp; Edu release notes — November 4, 2026</title>
