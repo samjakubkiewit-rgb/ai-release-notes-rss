@@ -5,9 +5,869 @@
     <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes</link>
     <description>Microsoft 365 Copilot features and improvements.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2026 16:25:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 01:15:19 GMT</lastBuildDate>
     <generator>Release notes RSS generator</generator>
     <atom:link href="https://samjakubkiewit-rgb.github.io/ai-release-notes-rss/microsoft-365-copilot.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoft 365 Copilot updates — November 17, 2026</title>
+      <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#november-17-2026</link>
+      <guid isPermaLink="false">https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#rss-2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Updates released between November 03, 2026, and November 17, 2026.</p>
+<h3>Microsoft 365 admin center</h3>
+
+<ul>
+<li><p><strong>Share custom organizational attributes with Microsoft 365 people experiences</strong>&nbsp;[Web]</p>
+<p>We're introducing a new capability in Microsoft 365 Organizational Data Service that enables organizations to share selected custom organizational attributes with the Microsoft 365 people store.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Organizational Data Service now includes a setting that allows administrators to share selected custom organizational attributes with the Microsoft 365 people store. Custom attributes shared to Microsoft 365 experiences will be visible to all users in the tenant, and guests.
+This feature is off by default and requires administrator action to enable. During setup, administrators configure visibility for each attribute before it is shared. Organizations that do not use Microsoft 365 Organizational Data Service, or that do not enable this capability, experience no change.</p>
+<p><strong>Why:</strong> The change allows organizations to select custom organizational data to make available in Microsoft 365 people experiences.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Review existing custom attributes in Microsoft 365 Organizational Data Service.</li>
+<li>Determine whether Microsoft 365 experiences would benefit from including any custom attributes.</li>
+<li>Review internal organizational privacy, governance, and data-sharing requirements before enabling the capability.</li>
+<li>Confirm that custom attributes are appropriate to be shared with all users and guests in the tenant.</li>
+<li>Configure app access settings in Microsoft 365 Organizational Data Service to select custom attributes to make available to Microsoft 365.</li>
+</ul>
+<p><strong>Why this matters:</strong> Organizations can enable new organizational data scenarios for Microsoft 365 while controlling which attributes are visible to Microsoft 365 experiences.</p>
+<p><strong>Business impact:</strong> Administrators can extend people-related experiences with approved organizational data while aligning with governance and privacy policies.</p>
+<p><strong>Personal impact:</strong> Users can access additional organizational information in Microsoft 365 experiences when their organization chooses to share it.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365-apps/org-data-service/distribute/applications">Applications powered by Microsoft 365 Organizational Data Service</a></p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Support for refining query filters for the Confluence Cloud Copilot connector</strong>&nbsp;[Web]</p>
+<p>This feature gives admins more control over what the Confluence Cloud connector indexes. By default, the connector indexes all blogs and pages. Admins can now include or exclude specific spaces. For advanced scenarios, they can write a Confluence Query Language (CQL) string that sets the conditions for which pages are synced.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503571">503571</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Confluence Cloud connector now supports two kinds of filters. You can include or exclude spaces, and you can use CQL strings to sync only the pages that meet your conditions. For example, you can index only pages modified in the last two years. Before this release, the connector indexed all blogs and pages, and you had little control over its scope.</p>
+<p><strong>Why:</strong> These filters let you choose more precisely which content gets indexed. They help keep content that's outdated or out of scope out of Copilot results.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open your Confluence Cloud connector settings in Microsoft Copilot.</li>
+<li>Under Include or exclude data, select the spaces you want to include or exclude.</li>
+<li>To filter further, enter a CQL string. For example, lastModified &gt;= "2024/12/31" indexes only content modified after that date.</li>
+<li>Choose Preview results to check sample values for the selected properties and CQL string.</li>
+</ol>
+<p><strong>Why this matters:</strong> Better filters help users find relevant Confluence Cloud content faster, which makes Copilot search results more useful.</p>
+<p><strong>Business impact:</strong> Teams can control exactly which Confluence Cloud spaces and pages Copilot indexes. This helps with compliance and data governance and keeps outdated content out of results.</p>
+<p><strong>Personal impact:</strong> Users spend less time sorting through results that don't apply to them and get more current, relevant Confluence Cloud content in Copilot.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/confluence-cloud-deployment#include-or-exclude-data">Deploy the Confluence Cloud connector in the Microsoft 365 admin center</a></p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Connect Tableau data to Copilot</strong>&nbsp;[Web]</p>
+<p>Customers can connect Microsoft Copilot with Tableau to explore and interpret dashboards and visualizations through a Copilot connector.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft Copilot now supports a Tableau Copilot connector. Users can explore and interpret Tableau dashboards and visualizations through Copilot using connected Tableau content.</p>
+<p>Previously, Tableau data was not available through this connector-based integration. Access to connected content continues to rely on the permissions enforced by the source system.</p>
+<p><strong>Why:</strong> Business information is often spread across analytics platforms and productivity tools. This integration helps users understand dashboard content through natural language interactions in Copilot.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the Microsoft 365 admin experience and configure the Tableau Copilot connector.</li>
+<li>Ask Copilot questions about available Tableau dashboards and visualizations.</li>
+<li>Review Copilot-generated interpretations based on connected Tableau content.</li>
+</ul>
+<p><strong>Why this matters:</strong> Users can gain insights from Tableau content without manually navigating every dashboard.</p>
+<p><strong>Business impact:</strong> Organizations can extend Copilot access to analytics content and improve discoverability of business information.</p>
+<p><strong>Personal impact:</strong> Users can find and interpret dashboard information more quickly through conversational prompts.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Access custom engine agents directly in Outlook</strong>&nbsp;[Web]</p>
+<p>Users can now access custom engine agents within Outlook to automate tasks and extend email workflows.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Custom engine agents are now available inside Outlook, allowing users to run tailored automation workflows without leaving the app. Previously, accessing these agents required separate tools or platforms.
+This integration supports consistent agent experiences across Microsoft 365 apps and enhances security by running agents within Outlook's trusted environment.</p>
+<p><strong>Why:</strong> Providing access to custom agents in Outlook streamlines email-related automation and reduces context switching.</p>
+<p>Users can now:</p>
+<ul>
+<li>Automate email processing and management</li>
+<li>Integrate custom workflows directly in Outlook</li>
+<li>Improve productivity by using agents where they work most</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open Outlook and access the agent pane.</li>
+<li>Select a custom engine agent from your agent list.</li>
+<li>Run the agent to automate email tasks such as sorting or summarizing messages.</li>
+</ul>
+<p><strong>Why this matters:</strong> Integrating custom agents in Outlook enhances workflow automation where users spend significant time, improving efficiency and reducing manual effort.</p>
+<p><strong>Business impact:</strong> Teams benefit from consistent automation capabilities across Microsoft 365 apps, enabling streamlined email management and collaboration.</p>
+<p><strong>Personal impact:</strong> You save time managing emails and related tasks by using custom agents directly within Outlook.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Studio</h3>
+
+<ul>
+<li><p><strong>Invoke agents as workflow steps with the agent node</strong>&nbsp;[Web]</p>
+<p>Add an agent node to your workflow to reason over data, call tools, and return a response, all within a single step. The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=562222">562222</a></p>
+<p><strong>What changed:</strong> The agent node now allows workflows to embed reasoning directly within a single step, replacing prior multi-step manual handoffs. This integration supports data reasoning, tool invocation, and response generation in one workflow node, reducing complexity and accelerating processing times. Workflows can now handle nuanced decisions without additional development effort, improving automation capabilities and lowering operational overhead.</p>
+<p><strong>Why:</strong> Embedding reasoning in workflows reduces manual intervention and speeds up process execution. Teams can now:</p>
+<ul>
+<li>Automate more end-to-end processes.</li>
+<li>Reduce operational overhead by simplifying workflow design.</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>In Copilot Studio, add an agent node to your workflow canvas.</li>
+<li>Configure the agent node to call specific tools and process data.</li>
+<li>Run the workflow to see combined reasoning and tool responses in one step.</li>
+</ul>
+<p><strong>Why this matters:</strong> This change streamlines workflows by reducing manual steps and enabling more complex automation without extra development.</p>
+<p><strong>Business impact:</strong> Teams can automate complex processes more efficiently, reducing delays and operational costs.</p>
+<p><strong>Personal impact:</strong> You save time by managing fewer workflow steps and reduce errors from manual handoffs.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Invoke agents as workflow steps with the agent node</strong>&nbsp;[Web]</p>
+<p>The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=566998">566998</a></p>
+<p><strong>What changed:</strong> Workflows now include an agent node that performs data reasoning, calls tools, and returns responses within a single step. Previously, these actions required multiple workflow steps and manual coordination. This update enables workflows to handle nuanced decisions without extra development effort, improving automation and reducing operational overhead.</p>
+<p><strong>Why:</strong> Embedding reasoning into workflows simplifies automation and accelerates processing. Teams can:</p>
+<ul>
+<li>Automate more complex processes end-to-end.</li>
+<li>Reduce operational overhead by minimizing manual workflow steps.</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Add an agent node in Copilot Studio to your workflow.</li>
+<li>Configure the node to integrate reasoning and tool calls.</li>
+<li>Execute the workflow to observe streamlined processing.</li>
+</ul>
+<p><strong>Why this matters:</strong> This update reduces workflow complexity and enables faster, more capable automation.</p>
+<p><strong>Business impact:</strong> Teams improve process automation efficiency and reduce operational costs.</p>
+<p><strong>Personal impact:</strong> You save time by reducing manual workflow steps and gain more reliable automation.</p>
+</li>
+</ul>
+<h3>Outlook</h3>
+
+<ul>
+<li><p><strong>Sort improvements to the message list</strong>&nbsp;[Windows]</p>
+<p>When sorting on Outlook for Web or Outlook for Windows, if the Sort By field is not one of From, Subject, or Date Received, we will now show an additional column for the Sort By value (e.g., Size). We will also support sorting by Flag Due Date.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=564803">564803</a></p>
+<p><strong>What changed:</strong> Previously, sorting in Outlook for Web and Windows only displayed columns for From, Subject, or Date Received. Now, when sorting by other fields like Size or Flag Due Date, Outlook adds a new column showing the sorted value. This change applies to both Outlook for Web and Outlook for Windows, improving visibility of sort criteria.</p>
+<p><strong>Why:</strong> Adding a column for the Sort By value clarifies which attribute is controlling message order, reducing confusion and improving message list usability.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Outlook for Web or Windows.</li>
+<li>Click the Sort By dropdown above your message list.</li>
+<li>Select a field like Size or Flag Due Date to see the new column appear.</li>
+</ol>
+<p><strong>Why this matters:</strong> This update helps users quickly identify how their messages are sorted, improving email management efficiency.</p>
+<p><strong>Business impact:</strong> Teams can organize and prioritize emails more effectively by clearly seeing the sorting criteria in their message list.</p>
+<p><strong>Personal impact:</strong> You save time by easily understanding message order without guessing which field controls sorting.</p>
+</li>
+</ul>
+<h3>Teams</h3>
+
+<ul>
+<li><p><strong>Express voice enrollment in Microsoft Teams</strong>&nbsp;[Windows, Mac]</p>
+<p>Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room, transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, go to the recognition tab in Teams settings and opt in to enroll your voice from audio during your Teams meetings.  Admins can enable or disable this feature.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537269">537269</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Teams now provides Express voice enrollment, allowing users to create a voice profile by opting in to enroll their voice from audio during their Teams meetings. Users who do not already have a voice profile can enroll through the Recognition tab in Teams settings. A voice profile supports voice isolation, speaker recognition, identification in meeting rooms and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. Administrators can enable or disable this feature for their organization.</p>
+<p><strong>Why:</strong> Voice-based meeting features depend on accurate speaker recognition. This update simplifies enrollment and increases access to features that rely on a registered voice profile.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Teams Settings and select the Recognition tab.</li>
+<li>Opt in to enroll your voice</li>
+<li>Speak during a couple of Teams meeting to complete enrollment.</li>
+</ol>
+<p><strong>Why this matters:</strong> Simpler voice enrollment helps more users access meeting features that depend on recognized speakers.</p>
+<p><strong>Business impact:</strong> Organizations can improve transcript attribution and meeting intelligence while maintaining administrative control over enrollment availability.</p>
+<p><strong>Personal impact:</strong> You gain quicker access to personalized meeting features without completing a separate enrollment process.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Ability for IT admins to customize the user notification messages for recording and transcription in calls</strong>&nbsp;[Windows, Mac]</p>
+<p>This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567302">567302</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft Teams now allows IT admins to customize some user notification messages shown for recording and transcription during calls. Previously, these notifications used standard system-provided text.</p>
+<p>The change provides greater flexibility in how recording and transcription information is communicated to users while maintaining notification experiences during calls.</p>
+<p><strong>Why:</strong> Organizations may need notification wording that better aligns with internal policies, compliance requirements, or user guidance. Customizable messages help present recording and transcription information in a way that fits organizational needs.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the Teams administration settings for recording and transcription notifications.</li>
+<li>Configure the available custom notification message text.</li>
+<li>Validate the notification experience during a test Teams call.</li>
+</ul>
+<p><strong>Why this matters:</strong> Organizations can provide clearer information to users about recording and transcription activities during calls.</p>
+<p><strong>Business impact:</strong> Customized notifications can help align user communications with organizational compliance and communication standards.</p>
+<p><strong>Personal impact:</strong> Users receive call notifications that better reflect their organization's terminology and guidance.</p>
+</li>
+</ul><p>Updates released between November 03, 2026, and November 17, 2026.</p>
+<h3>Outlook</h3>
+
+<ul>
+<li><p><strong>Sort improvements to the message list</strong>&nbsp;[Windows]</p>
+<p>When sorting on Outlook for Web or Outlook for Windows, if the Sort By field is not one of From, Subject, or Date Received, we will now show an additional column for the Sort By value (e.g., Size). We will also support sorting by Flag Due Date.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=564803">564803</a></p>
+<p><strong>What changed:</strong> Previously, sorting in Outlook for Web and Windows only displayed columns for From, Subject, or Date Received. Now, when sorting by other fields like Size or Flag Due Date, Outlook adds a new column showing the sorted value. This change applies to both Outlook for Web and Outlook for Windows, improving visibility of sort criteria.</p>
+<p><strong>Why:</strong> Adding a column for the Sort By value clarifies which attribute is controlling message order, reducing confusion and improving message list usability.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Outlook for Web or Windows.</li>
+<li>Click the Sort By dropdown above your message list.</li>
+<li>Select a field like Size or Flag Due Date to see the new column appear.</li>
+</ol>
+<p><strong>Why this matters:</strong> This update helps users quickly identify how their messages are sorted, improving email management efficiency.</p>
+<p><strong>Business impact:</strong> Teams can organize and prioritize emails more effectively by clearly seeing the sorting criteria in their message list.</p>
+<p><strong>Personal impact:</strong> You save time by easily understanding message order without guessing which field controls sorting.</p>
+</li>
+</ul>
+<h3>Teams</h3>
+
+<ul>
+<li><p><strong>Express voice enrollment in Microsoft Teams</strong>&nbsp;[Windows, Mac]</p>
+<p>Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room, transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, go to the recognition tab in Teams settings and opt in to enroll your voice from audio during your Teams meetings.  Admins can enable or disable this feature.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537269">537269</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Teams now provides Express voice enrollment, allowing users to create a voice profile by opting in to enroll their voice from audio during their Teams meetings. Users who do not already have a voice profile can enroll through the Recognition tab in Teams settings. A voice profile supports voice isolation, speaker recognition, identification in meeting rooms and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. Administrators can enable or disable this feature for their organization.</p>
+<p><strong>Why:</strong> Voice-based meeting features depend on accurate speaker recognition. This update simplifies enrollment and increases access to features that rely on a registered voice profile.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Teams Settings and select the Recognition tab.</li>
+<li>Opt in to enroll your voice</li>
+<li>Speak during a couple of Teams meeting to complete enrollment.</li>
+</ol>
+<p><strong>Why this matters:</strong> Simpler voice enrollment helps more users access meeting features that depend on recognized speakers.</p>
+<p><strong>Business impact:</strong> Organizations can improve transcript attribution and meeting intelligence while maintaining administrative control over enrollment availability.</p>
+<p><strong>Personal impact:</strong> You gain quicker access to personalized meeting features without completing a separate enrollment process.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Ability for IT admins to customize the user notification messages for recording and transcription in calls</strong>&nbsp;[Windows, Mac]</p>
+<p>This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567302">567302</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft Teams now allows IT admins to customize some user notification messages shown for recording and transcription during calls. Previously, these notifications used standard system-provided text.</p>
+<p>The change provides greater flexibility in how recording and transcription information is communicated to users while maintaining notification experiences during calls.</p>
+<p><strong>Why:</strong> Organizations may need notification wording that better aligns with internal policies, compliance requirements, or user guidance. Customizable messages help present recording and transcription information in a way that fits organizational needs.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the Teams administration settings for recording and transcription notifications.</li>
+<li>Configure the available custom notification message text.</li>
+<li>Validate the notification experience during a test Teams call.</li>
+</ul>
+<p><strong>Why this matters:</strong> Organizations can provide clearer information to users about recording and transcription activities during calls.</p>
+<p><strong>Business impact:</strong> Customized notifications can help align user communications with organizational compliance and communication standards.</p>
+<p><strong>Personal impact:</strong> Users receive call notifications that better reflect their organization's terminology and guidance.</p>
+</li>
+</ul><p>Updates released between November 03, 2026, and November 17, 2026.</p>
+<h3>Microsoft 365 admin center</h3>
+
+<ul>
+<li><p><strong>Share custom organizational attributes with Microsoft 365 people experiences</strong>&nbsp;[Web]</p>
+<p>We're introducing a new capability in Microsoft 365 Organizational Data Service that enables organizations to share selected custom organizational attributes with the Microsoft 365 people store.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Organizational Data Service now includes a setting that allows administrators to share selected custom organizational attributes with the Microsoft 365 people store. Custom attributes shared to Microsoft 365 experiences will be visible to all users in the tenant, and guests.</p>
+<p>This feature is off by default and requires administrator action to enable. During setup, administrators configure visibility for each attribute before it is shared. Organizations that do not use Microsoft 365 Organizational Data Service, or that do not enable this capability, experience no change.</p>
+<p><strong>Why:</strong> The change allows organizations to select custom organizational data to make available in Microsoft 365 people experiences.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Review existing custom attributes in Microsoft 365 Organizational Data Service.</li>
+<li>Determine whether Microsoft 365 experiences would benefit from including any custom attributes.</li>
+<li>Review internal organizational privacy, governance, and data-sharing requirements before enabling the capability.</li>
+<li>Confirm that custom attributes are appropriate to be shared with all users and guests in the tenant.</li>
+<li>Configure app access settings in Microsoft 365 Organizational Data Service to select custom attributes to make available to Microsoft 365.</li>
+</ul>
+<p><strong>Why this matters:</strong> Organizations can enable new organizational data scenarios for Microsoft 365 while controlling which attributes are visible to Microsoft 365 experiences.</p>
+<p><strong>Business impact:</strong> Administrators can extend people-related experiences with approved organizational data while aligning with governance and privacy policies.</p>
+<p><strong>Personal impact:</strong> Users can access additional organizational information in Microsoft 365 experiences when their organization chooses to share it.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365-apps/org-data-service/distribute/applications">Applications powered by Microsoft 365 Organizational Data Service</a></p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Support for refining query filters for the Confluence Cloud Copilot connector</strong>&nbsp;[Web]</p>
+<p>This feature gives admins more control over what the Confluence Cloud connector indexes. By default, the connector indexes all blogs and pages. Admins can now include or exclude specific spaces. For advanced scenarios, they can write a Confluence Query Language (CQL) string that sets the conditions for which pages are synced.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503571">503571</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Confluence Cloud connector now supports two kinds of filters. You can include or exclude spaces, and you can use CQL strings to sync only the pages that meet your conditions. For example, you can index only pages modified in the last two years. Before this release, the connector indexed all blogs and pages, and you had little control over its scope.</p>
+<p><strong>Why:</strong> These filters let you choose more precisely which content gets indexed. They help keep content that's outdated or out of scope out of Copilot results.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open your Confluence Cloud connector settings in Microsoft Copilot.</li>
+<li>Under Include or exclude data, select the spaces you want to include or exclude.</li>
+<li>To filter further, enter a CQL string. For example, lastModified &gt;= "2024/12/31" indexes only content modified after that date.</li>
+<li>Choose Preview results to check sample values for the selected properties and CQL string.</li>
+</ol>
+<p><strong>Why this matters:</strong> Better filters help users find relevant Confluence Cloud content faster, which makes Copilot search results more useful.</p>
+<p><strong>Business impact:</strong> Teams can control exactly which Confluence Cloud spaces and pages Copilot indexes. This helps with compliance and data governance and keeps outdated content out of results.</p>
+<p><strong>Personal impact:</strong> Users spend less time sorting through results that don't apply to them and get more current, relevant Confluence Cloud content in Copilot.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/confluence-cloud-deployment#include-or-exclude-data">Deploy the Confluence Cloud connector in the Microsoft 365 admin center</a></p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Connect Tableau data to Copilot</strong>&nbsp;[Web]</p>
+<p>Customers can connect Microsoft Copilot with Tableau to explore and interpret dashboards and visualizations through a Copilot connector.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft Copilot now supports a Tableau Copilot connector. Users can explore and interpret Tableau dashboards and visualizations through Copilot using connected Tableau content.
+Previously, Tableau data was not available through this connector-based integration. Access to connected content continues to rely on the permissions enforced by the source system.</p>
+<p><strong>Why:</strong> Business information is often spread across analytics platforms and productivity tools. This integration helps users understand dashboard content through natural language interactions in Copilot.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the Microsoft 365 admin experience and configure the Tableau Copilot connector.</li>
+<li>Ask Copilot questions about available Tableau dashboards and visualizations.</li>
+<li>Review Copilot-generated interpretations based on connected Tableau content.</li>
+</ul>
+<p><strong>Why this matters:</strong> Users can gain insights from Tableau content without manually navigating every dashboard.</p>
+<p><strong>Business impact:</strong> Organizations can extend Copilot access to analytics content and improve discoverability of business information.</p>
+<p><strong>Personal impact:</strong> Users can find and interpret dashboard information more quickly through conversational prompts.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Access custom engine agents directly in Outlook</strong>&nbsp;[Web]</p>
+<p>Users can now access custom engine agents within Outlook to automate tasks and extend email workflows.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Custom engine agents are now available inside Outlook, allowing users to run tailored automation workflows without leaving the app. Previously, accessing these agents required separate tools or platforms.
+This integration supports consistent agent experiences across Microsoft 365 apps and enhances security by running agents within Outlook's trusted environment.</p>
+<p><strong>Why:</strong> Providing access to custom agents in Outlook streamlines email-related automation and reduces context switching.</p>
+<p>Users can now:</p>
+<ul>
+<li>Automate email processing and management</li>
+<li>Integrate custom workflows directly in Outlook</li>
+<li>Improve productivity by using agents where they work most</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open Outlook and access the agent pane.</li>
+<li>Select a custom engine agent from your agent list.</li>
+<li>Run the agent to automate email tasks such as sorting or summarizing messages.</li>
+</ul>
+<p><strong>Why this matters:</strong> Integrating custom agents in Outlook enhances workflow automation where users spend significant time, improving efficiency and reducing manual effort.</p>
+<p><strong>Business impact:</strong> Teams benefit from consistent automation capabilities across Microsoft 365 apps, enabling streamlined email management and collaboration.</p>
+<p><strong>Personal impact:</strong> You save time managing emails and related tasks by using custom agents directly within Outlook.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Studio</h3>
+
+<ul>
+<li><p><strong>Invoke agents as workflow steps with the agent node</strong>&nbsp;[Web]</p>
+<p>Add an agent node to your workflow to reason over data, call tools, and return a response, all within a single step. The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=562222">562222</a></p>
+<p><strong>What changed:</strong> The agent node now allows workflows to embed reasoning directly within a single step, replacing prior multi-step manual handoffs. This integration supports data reasoning, tool invocation, and response generation in one workflow node, reducing complexity and accelerating processing times. Workflows can now handle nuanced decisions without additional development effort, improving automation capabilities and lowering operational overhead.</p>
+<p><strong>Why:</strong> Embedding reasoning in workflows reduces manual intervention and speeds up process execution. Teams can now:</p>
+<ul>
+<li>Automate more end-to-end processes.</li>
+<li>Reduce operational overhead by simplifying workflow design.</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>In Copilot Studio, add an agent node to your workflow canvas.</li>
+<li>Configure the agent node to call specific tools and process data.</li>
+<li>Run the workflow to see combined reasoning and tool responses in one step.</li>
+</ul>
+<p><strong>Why this matters:</strong> This change streamlines workflows by reducing manual steps and enabling more complex automation without extra development.</p>
+<p><strong>Business impact:</strong> Teams can automate complex processes more efficiently, reducing delays and operational costs.</p>
+<p><strong>Personal impact:</strong> You save time by managing fewer workflow steps and reduce errors from manual handoffs.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Invoke agents as workflow steps with the agent node</strong>&nbsp;[Web]</p>
+<p>The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=566998">566998</a></p>
+<p><strong>What changed:</strong> Workflows now include an agent node that performs data reasoning, calls tools, and returns responses within a single step. Previously, these actions required multiple workflow steps and manual coordination. This update enables workflows to handle nuanced decisions without extra development effort, improving automation and reducing operational overhead.</p>
+<p><strong>Why:</strong> Embedding reasoning into workflows simplifies automation and accelerates processing. Teams can:</p>
+<ul>
+<li>Automate more complex processes end-to-end.</li>
+<li>Reduce operational overhead by minimizing manual workflow steps.</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Add an agent node in Copilot Studio to your workflow.</li>
+<li>Configure the node to integrate reasoning and tool calls.</li>
+<li>Execute the workflow to observe streamlined processing.</li>
+</ul>
+<p><strong>Why this matters:</strong> This update reduces workflow complexity and enables faster, more capable automation.</p>
+<p><strong>Business impact:</strong> Teams improve process automation efficiency and reduce operational costs.</p>
+<p><strong>Personal impact:</strong> You save time by reducing manual workflow steps and gain more reliable automation.</p>
+</li>
+</ul><p>Updates released between November 03, 2026, and November 17, 2026.</p>
+<h3>Teams</h3>
+
+<ul>
+<li><p><strong>Express voice enrollment in Microsoft Teams</strong>&nbsp;[Windows, Mac]</p>
+<p>Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room, transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, go to the recognition tab in Teams settings and opt in to enroll your voice from audio during your Teams meetings.  Admins can enable or disable this feature.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537269">537269</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Teams now provides Express voice enrollment, allowing users to create a voice profile by opting in to enroll their voice from audio during their Teams meetings. Users who do not already have a voice profile can enroll through the Recognition tab in Teams settings. A voice profile supports voice isolation, speaker recognition, identification in meeting rooms and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. Administrators can enable or disable this feature for their organization.</p>
+<p><strong>Why:</strong> Voice-based meeting features depend on accurate speaker recognition. This update simplifies enrollment and increases access to features that rely on a registered voice profile.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Teams Settings and select the Recognition tab.</li>
+<li>Opt in to enroll your voice</li>
+<li>Speak during a couple of Teams meeting to complete enrollment.</li>
+</ol>
+<p><strong>Why this matters:</strong> Simpler voice enrollment helps more users access meeting features that depend on recognized speakers.</p>
+<p><strong>Business impact:</strong> Organizations can improve transcript attribution and meeting intelligence while maintaining administrative control over enrollment availability.</p>
+<p><strong>Personal impact:</strong> You gain quicker access to personalized meeting features without completing a separate enrollment process.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Ability for IT admins to customize the user notification messages for recording and transcription in calls</strong>&nbsp;[Windows, Mac]</p>
+<p>This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567302">567302</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft Teams now allows IT admins to customize some user notification messages shown for recording and transcription during calls. Previously, these notifications used standard system-provided text.
+The change provides greater flexibility in how recording and transcription information is communicated to users while maintaining notification experiences during calls.</p>
+<p><strong>Why:</strong> Organizations may need notification wording that better aligns with internal policies, compliance requirements, or user guidance. Customizable messages help present recording and transcription information in a way that fits organizational needs.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the Teams administration settings for recording and transcription notifications.</li>
+<li>Configure the available custom notification message text.</li>
+<li>Validate the notification experience during a test Teams call.</li>
+</ul>
+<p><strong>Why this matters:</strong> Organizations can provide clearer information to users about recording and transcription activities during calls.</p>
+<p><strong>Business impact:</strong> Customized notifications can help align user communications with organizational compliance and communication standards.</p>
+<p><strong>Personal impact:</strong> Users receive call notifications that better reflect their organization's terminology and guidance.</p>
+</li>
+</ul>]]></description>
+      <content:encoded><![CDATA[<p>Updates released between November 03, 2026, and November 17, 2026.</p>
+<h3>Microsoft 365 admin center</h3>
+
+<ul>
+<li><p><strong>Share custom organizational attributes with Microsoft 365 people experiences</strong>&nbsp;[Web]</p>
+<p>We're introducing a new capability in Microsoft 365 Organizational Data Service that enables organizations to share selected custom organizational attributes with the Microsoft 365 people store.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Organizational Data Service now includes a setting that allows administrators to share selected custom organizational attributes with the Microsoft 365 people store. Custom attributes shared to Microsoft 365 experiences will be visible to all users in the tenant, and guests.
+This feature is off by default and requires administrator action to enable. During setup, administrators configure visibility for each attribute before it is shared. Organizations that do not use Microsoft 365 Organizational Data Service, or that do not enable this capability, experience no change.</p>
+<p><strong>Why:</strong> The change allows organizations to select custom organizational data to make available in Microsoft 365 people experiences.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Review existing custom attributes in Microsoft 365 Organizational Data Service.</li>
+<li>Determine whether Microsoft 365 experiences would benefit from including any custom attributes.</li>
+<li>Review internal organizational privacy, governance, and data-sharing requirements before enabling the capability.</li>
+<li>Confirm that custom attributes are appropriate to be shared with all users and guests in the tenant.</li>
+<li>Configure app access settings in Microsoft 365 Organizational Data Service to select custom attributes to make available to Microsoft 365.</li>
+</ul>
+<p><strong>Why this matters:</strong> Organizations can enable new organizational data scenarios for Microsoft 365 while controlling which attributes are visible to Microsoft 365 experiences.</p>
+<p><strong>Business impact:</strong> Administrators can extend people-related experiences with approved organizational data while aligning with governance and privacy policies.</p>
+<p><strong>Personal impact:</strong> Users can access additional organizational information in Microsoft 365 experiences when their organization chooses to share it.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365-apps/org-data-service/distribute/applications">Applications powered by Microsoft 365 Organizational Data Service</a></p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Support for refining query filters for the Confluence Cloud Copilot connector</strong>&nbsp;[Web]</p>
+<p>This feature gives admins more control over what the Confluence Cloud connector indexes. By default, the connector indexes all blogs and pages. Admins can now include or exclude specific spaces. For advanced scenarios, they can write a Confluence Query Language (CQL) string that sets the conditions for which pages are synced.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503571">503571</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Confluence Cloud connector now supports two kinds of filters. You can include or exclude spaces, and you can use CQL strings to sync only the pages that meet your conditions. For example, you can index only pages modified in the last two years. Before this release, the connector indexed all blogs and pages, and you had little control over its scope.</p>
+<p><strong>Why:</strong> These filters let you choose more precisely which content gets indexed. They help keep content that's outdated or out of scope out of Copilot results.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open your Confluence Cloud connector settings in Microsoft Copilot.</li>
+<li>Under Include or exclude data, select the spaces you want to include or exclude.</li>
+<li>To filter further, enter a CQL string. For example, lastModified &gt;= "2024/12/31" indexes only content modified after that date.</li>
+<li>Choose Preview results to check sample values for the selected properties and CQL string.</li>
+</ol>
+<p><strong>Why this matters:</strong> Better filters help users find relevant Confluence Cloud content faster, which makes Copilot search results more useful.</p>
+<p><strong>Business impact:</strong> Teams can control exactly which Confluence Cloud spaces and pages Copilot indexes. This helps with compliance and data governance and keeps outdated content out of results.</p>
+<p><strong>Personal impact:</strong> Users spend less time sorting through results that don't apply to them and get more current, relevant Confluence Cloud content in Copilot.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/confluence-cloud-deployment#include-or-exclude-data">Deploy the Confluence Cloud connector in the Microsoft 365 admin center</a></p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Connect Tableau data to Copilot</strong>&nbsp;[Web]</p>
+<p>Customers can connect Microsoft Copilot with Tableau to explore and interpret dashboards and visualizations through a Copilot connector.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft Copilot now supports a Tableau Copilot connector. Users can explore and interpret Tableau dashboards and visualizations through Copilot using connected Tableau content.</p>
+<p>Previously, Tableau data was not available through this connector-based integration. Access to connected content continues to rely on the permissions enforced by the source system.</p>
+<p><strong>Why:</strong> Business information is often spread across analytics platforms and productivity tools. This integration helps users understand dashboard content through natural language interactions in Copilot.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the Microsoft 365 admin experience and configure the Tableau Copilot connector.</li>
+<li>Ask Copilot questions about available Tableau dashboards and visualizations.</li>
+<li>Review Copilot-generated interpretations based on connected Tableau content.</li>
+</ul>
+<p><strong>Why this matters:</strong> Users can gain insights from Tableau content without manually navigating every dashboard.</p>
+<p><strong>Business impact:</strong> Organizations can extend Copilot access to analytics content and improve discoverability of business information.</p>
+<p><strong>Personal impact:</strong> Users can find and interpret dashboard information more quickly through conversational prompts.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Access custom engine agents directly in Outlook</strong>&nbsp;[Web]</p>
+<p>Users can now access custom engine agents within Outlook to automate tasks and extend email workflows.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Custom engine agents are now available inside Outlook, allowing users to run tailored automation workflows without leaving the app. Previously, accessing these agents required separate tools or platforms.
+This integration supports consistent agent experiences across Microsoft 365 apps and enhances security by running agents within Outlook's trusted environment.</p>
+<p><strong>Why:</strong> Providing access to custom agents in Outlook streamlines email-related automation and reduces context switching.</p>
+<p>Users can now:</p>
+<ul>
+<li>Automate email processing and management</li>
+<li>Integrate custom workflows directly in Outlook</li>
+<li>Improve productivity by using agents where they work most</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open Outlook and access the agent pane.</li>
+<li>Select a custom engine agent from your agent list.</li>
+<li>Run the agent to automate email tasks such as sorting or summarizing messages.</li>
+</ul>
+<p><strong>Why this matters:</strong> Integrating custom agents in Outlook enhances workflow automation where users spend significant time, improving efficiency and reducing manual effort.</p>
+<p><strong>Business impact:</strong> Teams benefit from consistent automation capabilities across Microsoft 365 apps, enabling streamlined email management and collaboration.</p>
+<p><strong>Personal impact:</strong> You save time managing emails and related tasks by using custom agents directly within Outlook.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Studio</h3>
+
+<ul>
+<li><p><strong>Invoke agents as workflow steps with the agent node</strong>&nbsp;[Web]</p>
+<p>Add an agent node to your workflow to reason over data, call tools, and return a response, all within a single step. The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=562222">562222</a></p>
+<p><strong>What changed:</strong> The agent node now allows workflows to embed reasoning directly within a single step, replacing prior multi-step manual handoffs. This integration supports data reasoning, tool invocation, and response generation in one workflow node, reducing complexity and accelerating processing times. Workflows can now handle nuanced decisions without additional development effort, improving automation capabilities and lowering operational overhead.</p>
+<p><strong>Why:</strong> Embedding reasoning in workflows reduces manual intervention and speeds up process execution. Teams can now:</p>
+<ul>
+<li>Automate more end-to-end processes.</li>
+<li>Reduce operational overhead by simplifying workflow design.</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>In Copilot Studio, add an agent node to your workflow canvas.</li>
+<li>Configure the agent node to call specific tools and process data.</li>
+<li>Run the workflow to see combined reasoning and tool responses in one step.</li>
+</ul>
+<p><strong>Why this matters:</strong> This change streamlines workflows by reducing manual steps and enabling more complex automation without extra development.</p>
+<p><strong>Business impact:</strong> Teams can automate complex processes more efficiently, reducing delays and operational costs.</p>
+<p><strong>Personal impact:</strong> You save time by managing fewer workflow steps and reduce errors from manual handoffs.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Invoke agents as workflow steps with the agent node</strong>&nbsp;[Web]</p>
+<p>The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=566998">566998</a></p>
+<p><strong>What changed:</strong> Workflows now include an agent node that performs data reasoning, calls tools, and returns responses within a single step. Previously, these actions required multiple workflow steps and manual coordination. This update enables workflows to handle nuanced decisions without extra development effort, improving automation and reducing operational overhead.</p>
+<p><strong>Why:</strong> Embedding reasoning into workflows simplifies automation and accelerates processing. Teams can:</p>
+<ul>
+<li>Automate more complex processes end-to-end.</li>
+<li>Reduce operational overhead by minimizing manual workflow steps.</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Add an agent node in Copilot Studio to your workflow.</li>
+<li>Configure the node to integrate reasoning and tool calls.</li>
+<li>Execute the workflow to observe streamlined processing.</li>
+</ul>
+<p><strong>Why this matters:</strong> This update reduces workflow complexity and enables faster, more capable automation.</p>
+<p><strong>Business impact:</strong> Teams improve process automation efficiency and reduce operational costs.</p>
+<p><strong>Personal impact:</strong> You save time by reducing manual workflow steps and gain more reliable automation.</p>
+</li>
+</ul>
+<h3>Outlook</h3>
+
+<ul>
+<li><p><strong>Sort improvements to the message list</strong>&nbsp;[Windows]</p>
+<p>When sorting on Outlook for Web or Outlook for Windows, if the Sort By field is not one of From, Subject, or Date Received, we will now show an additional column for the Sort By value (e.g., Size). We will also support sorting by Flag Due Date.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=564803">564803</a></p>
+<p><strong>What changed:</strong> Previously, sorting in Outlook for Web and Windows only displayed columns for From, Subject, or Date Received. Now, when sorting by other fields like Size or Flag Due Date, Outlook adds a new column showing the sorted value. This change applies to both Outlook for Web and Outlook for Windows, improving visibility of sort criteria.</p>
+<p><strong>Why:</strong> Adding a column for the Sort By value clarifies which attribute is controlling message order, reducing confusion and improving message list usability.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Outlook for Web or Windows.</li>
+<li>Click the Sort By dropdown above your message list.</li>
+<li>Select a field like Size or Flag Due Date to see the new column appear.</li>
+</ol>
+<p><strong>Why this matters:</strong> This update helps users quickly identify how their messages are sorted, improving email management efficiency.</p>
+<p><strong>Business impact:</strong> Teams can organize and prioritize emails more effectively by clearly seeing the sorting criteria in their message list.</p>
+<p><strong>Personal impact:</strong> You save time by easily understanding message order without guessing which field controls sorting.</p>
+</li>
+</ul>
+<h3>Teams</h3>
+
+<ul>
+<li><p><strong>Express voice enrollment in Microsoft Teams</strong>&nbsp;[Windows, Mac]</p>
+<p>Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room, transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, go to the recognition tab in Teams settings and opt in to enroll your voice from audio during your Teams meetings.  Admins can enable or disable this feature.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537269">537269</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Teams now provides Express voice enrollment, allowing users to create a voice profile by opting in to enroll their voice from audio during their Teams meetings. Users who do not already have a voice profile can enroll through the Recognition tab in Teams settings. A voice profile supports voice isolation, speaker recognition, identification in meeting rooms and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. Administrators can enable or disable this feature for their organization.</p>
+<p><strong>Why:</strong> Voice-based meeting features depend on accurate speaker recognition. This update simplifies enrollment and increases access to features that rely on a registered voice profile.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Teams Settings and select the Recognition tab.</li>
+<li>Opt in to enroll your voice</li>
+<li>Speak during a couple of Teams meeting to complete enrollment.</li>
+</ol>
+<p><strong>Why this matters:</strong> Simpler voice enrollment helps more users access meeting features that depend on recognized speakers.</p>
+<p><strong>Business impact:</strong> Organizations can improve transcript attribution and meeting intelligence while maintaining administrative control over enrollment availability.</p>
+<p><strong>Personal impact:</strong> You gain quicker access to personalized meeting features without completing a separate enrollment process.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Ability for IT admins to customize the user notification messages for recording and transcription in calls</strong>&nbsp;[Windows, Mac]</p>
+<p>This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567302">567302</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft Teams now allows IT admins to customize some user notification messages shown for recording and transcription during calls. Previously, these notifications used standard system-provided text.</p>
+<p>The change provides greater flexibility in how recording and transcription information is communicated to users while maintaining notification experiences during calls.</p>
+<p><strong>Why:</strong> Organizations may need notification wording that better aligns with internal policies, compliance requirements, or user guidance. Customizable messages help present recording and transcription information in a way that fits organizational needs.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the Teams administration settings for recording and transcription notifications.</li>
+<li>Configure the available custom notification message text.</li>
+<li>Validate the notification experience during a test Teams call.</li>
+</ul>
+<p><strong>Why this matters:</strong> Organizations can provide clearer information to users about recording and transcription activities during calls.</p>
+<p><strong>Business impact:</strong> Customized notifications can help align user communications with organizational compliance and communication standards.</p>
+<p><strong>Personal impact:</strong> Users receive call notifications that better reflect their organization's terminology and guidance.</p>
+</li>
+</ul><p>Updates released between November 03, 2026, and November 17, 2026.</p>
+<h3>Outlook</h3>
+
+<ul>
+<li><p><strong>Sort improvements to the message list</strong>&nbsp;[Windows]</p>
+<p>When sorting on Outlook for Web or Outlook for Windows, if the Sort By field is not one of From, Subject, or Date Received, we will now show an additional column for the Sort By value (e.g., Size). We will also support sorting by Flag Due Date.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=564803">564803</a></p>
+<p><strong>What changed:</strong> Previously, sorting in Outlook for Web and Windows only displayed columns for From, Subject, or Date Received. Now, when sorting by other fields like Size or Flag Due Date, Outlook adds a new column showing the sorted value. This change applies to both Outlook for Web and Outlook for Windows, improving visibility of sort criteria.</p>
+<p><strong>Why:</strong> Adding a column for the Sort By value clarifies which attribute is controlling message order, reducing confusion and improving message list usability.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Outlook for Web or Windows.</li>
+<li>Click the Sort By dropdown above your message list.</li>
+<li>Select a field like Size or Flag Due Date to see the new column appear.</li>
+</ol>
+<p><strong>Why this matters:</strong> This update helps users quickly identify how their messages are sorted, improving email management efficiency.</p>
+<p><strong>Business impact:</strong> Teams can organize and prioritize emails more effectively by clearly seeing the sorting criteria in their message list.</p>
+<p><strong>Personal impact:</strong> You save time by easily understanding message order without guessing which field controls sorting.</p>
+</li>
+</ul>
+<h3>Teams</h3>
+
+<ul>
+<li><p><strong>Express voice enrollment in Microsoft Teams</strong>&nbsp;[Windows, Mac]</p>
+<p>Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room, transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, go to the recognition tab in Teams settings and opt in to enroll your voice from audio during your Teams meetings.  Admins can enable or disable this feature.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537269">537269</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Teams now provides Express voice enrollment, allowing users to create a voice profile by opting in to enroll their voice from audio during their Teams meetings. Users who do not already have a voice profile can enroll through the Recognition tab in Teams settings. A voice profile supports voice isolation, speaker recognition, identification in meeting rooms and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. Administrators can enable or disable this feature for their organization.</p>
+<p><strong>Why:</strong> Voice-based meeting features depend on accurate speaker recognition. This update simplifies enrollment and increases access to features that rely on a registered voice profile.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Teams Settings and select the Recognition tab.</li>
+<li>Opt in to enroll your voice</li>
+<li>Speak during a couple of Teams meeting to complete enrollment.</li>
+</ol>
+<p><strong>Why this matters:</strong> Simpler voice enrollment helps more users access meeting features that depend on recognized speakers.</p>
+<p><strong>Business impact:</strong> Organizations can improve transcript attribution and meeting intelligence while maintaining administrative control over enrollment availability.</p>
+<p><strong>Personal impact:</strong> You gain quicker access to personalized meeting features without completing a separate enrollment process.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Ability for IT admins to customize the user notification messages for recording and transcription in calls</strong>&nbsp;[Windows, Mac]</p>
+<p>This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567302">567302</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft Teams now allows IT admins to customize some user notification messages shown for recording and transcription during calls. Previously, these notifications used standard system-provided text.</p>
+<p>The change provides greater flexibility in how recording and transcription information is communicated to users while maintaining notification experiences during calls.</p>
+<p><strong>Why:</strong> Organizations may need notification wording that better aligns with internal policies, compliance requirements, or user guidance. Customizable messages help present recording and transcription information in a way that fits organizational needs.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the Teams administration settings for recording and transcription notifications.</li>
+<li>Configure the available custom notification message text.</li>
+<li>Validate the notification experience during a test Teams call.</li>
+</ul>
+<p><strong>Why this matters:</strong> Organizations can provide clearer information to users about recording and transcription activities during calls.</p>
+<p><strong>Business impact:</strong> Customized notifications can help align user communications with organizational compliance and communication standards.</p>
+<p><strong>Personal impact:</strong> Users receive call notifications that better reflect their organization's terminology and guidance.</p>
+</li>
+</ul><p>Updates released between November 03, 2026, and November 17, 2026.</p>
+<h3>Microsoft 365 admin center</h3>
+
+<ul>
+<li><p><strong>Share custom organizational attributes with Microsoft 365 people experiences</strong>&nbsp;[Web]</p>
+<p>We're introducing a new capability in Microsoft 365 Organizational Data Service that enables organizations to share selected custom organizational attributes with the Microsoft 365 people store.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft 365 Organizational Data Service now includes a setting that allows administrators to share selected custom organizational attributes with the Microsoft 365 people store. Custom attributes shared to Microsoft 365 experiences will be visible to all users in the tenant, and guests.</p>
+<p>This feature is off by default and requires administrator action to enable. During setup, administrators configure visibility for each attribute before it is shared. Organizations that do not use Microsoft 365 Organizational Data Service, or that do not enable this capability, experience no change.</p>
+<p><strong>Why:</strong> The change allows organizations to select custom organizational data to make available in Microsoft 365 people experiences.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Review existing custom attributes in Microsoft 365 Organizational Data Service.</li>
+<li>Determine whether Microsoft 365 experiences would benefit from including any custom attributes.</li>
+<li>Review internal organizational privacy, governance, and data-sharing requirements before enabling the capability.</li>
+<li>Confirm that custom attributes are appropriate to be shared with all users and guests in the tenant.</li>
+<li>Configure app access settings in Microsoft 365 Organizational Data Service to select custom attributes to make available to Microsoft 365.</li>
+</ul>
+<p><strong>Why this matters:</strong> Organizations can enable new organizational data scenarios for Microsoft 365 while controlling which attributes are visible to Microsoft 365 experiences.</p>
+<p><strong>Business impact:</strong> Administrators can extend people-related experiences with approved organizational data while aligning with governance and privacy policies.</p>
+<p><strong>Personal impact:</strong> Users can access additional organizational information in Microsoft 365 experiences when their organization chooses to share it.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365-apps/org-data-service/distribute/applications">Applications powered by Microsoft 365 Organizational Data Service</a></p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot extensibility</h3>
+
+<ul>
+<li><p><strong>Support for refining query filters for the Confluence Cloud Copilot connector</strong>&nbsp;[Web]</p>
+<p>This feature gives admins more control over what the Confluence Cloud connector indexes. By default, the connector indexes all blogs and pages. Admins can now include or exclude specific spaces. For advanced scenarios, they can write a Confluence Query Language (CQL) string that sets the conditions for which pages are synced.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=503571">503571</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> The Confluence Cloud connector now supports two kinds of filters. You can include or exclude spaces, and you can use CQL strings to sync only the pages that meet your conditions. For example, you can index only pages modified in the last two years. Before this release, the connector indexed all blogs and pages, and you had little control over its scope.</p>
+<p><strong>Why:</strong> These filters let you choose more precisely which content gets indexed. They help keep content that's outdated or out of scope out of Copilot results.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open your Confluence Cloud connector settings in Microsoft Copilot.</li>
+<li>Under Include or exclude data, select the spaces you want to include or exclude.</li>
+<li>To filter further, enter a CQL string. For example, lastModified &gt;= "2024/12/31" indexes only content modified after that date.</li>
+<li>Choose Preview results to check sample values for the selected properties and CQL string.</li>
+</ol>
+<p><strong>Why this matters:</strong> Better filters help users find relevant Confluence Cloud content faster, which makes Copilot search results more useful.</p>
+<p><strong>Business impact:</strong> Teams can control exactly which Confluence Cloud spaces and pages Copilot indexes. This helps with compliance and data governance and keeps outdated content out of results.</p>
+<p><strong>Personal impact:</strong> Users spend less time sorting through results that don't apply to them and get more current, relevant Confluence Cloud content in Copilot.</p>
+<p><strong>Learn:</strong> <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/confluence-cloud-deployment#include-or-exclude-data">Deploy the Confluence Cloud connector in the Microsoft 365 admin center</a></p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Connect Tableau data to Copilot</strong>&nbsp;[Web]</p>
+<p>Customers can connect Microsoft Copilot with Tableau to explore and interpret dashboards and visualizations through a Copilot connector.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft Copilot now supports a Tableau Copilot connector. Users can explore and interpret Tableau dashboards and visualizations through Copilot using connected Tableau content.
+Previously, Tableau data was not available through this connector-based integration. Access to connected content continues to rely on the permissions enforced by the source system.</p>
+<p><strong>Why:</strong> Business information is often spread across analytics platforms and productivity tools. This integration helps users understand dashboard content through natural language interactions in Copilot.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the Microsoft 365 admin experience and configure the Tableau Copilot connector.</li>
+<li>Ask Copilot questions about available Tableau dashboards and visualizations.</li>
+<li>Review Copilot-generated interpretations based on connected Tableau content.</li>
+</ul>
+<p><strong>Why this matters:</strong> Users can gain insights from Tableau content without manually navigating every dashboard.</p>
+<p><strong>Business impact:</strong> Organizations can extend Copilot access to analytics content and improve discoverability of business information.</p>
+<p><strong>Personal impact:</strong> Users can find and interpret dashboard information more quickly through conversational prompts.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Access custom engine agents directly in Outlook</strong>&nbsp;[Web]</p>
+<p>Users can now access custom engine agents within Outlook to automate tasks and extend email workflows.</p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Custom engine agents are now available inside Outlook, allowing users to run tailored automation workflows without leaving the app. Previously, accessing these agents required separate tools or platforms.
+This integration supports consistent agent experiences across Microsoft 365 apps and enhances security by running agents within Outlook's trusted environment.</p>
+<p><strong>Why:</strong> Providing access to custom agents in Outlook streamlines email-related automation and reduces context switching.</p>
+<p>Users can now:</p>
+<ul>
+<li>Automate email processing and management</li>
+<li>Integrate custom workflows directly in Outlook</li>
+<li>Improve productivity by using agents where they work most</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open Outlook and access the agent pane.</li>
+<li>Select a custom engine agent from your agent list.</li>
+<li>Run the agent to automate email tasks such as sorting or summarizing messages.</li>
+</ul>
+<p><strong>Why this matters:</strong> Integrating custom agents in Outlook enhances workflow automation where users spend significant time, improving efficiency and reducing manual effort.</p>
+<p><strong>Business impact:</strong> Teams benefit from consistent automation capabilities across Microsoft 365 apps, enabling streamlined email management and collaboration.</p>
+<p><strong>Personal impact:</strong> You save time managing emails and related tasks by using custom agents directly within Outlook.</p>
+</li>
+</ul>
+<h3>Microsoft 365 Copilot Studio</h3>
+
+<ul>
+<li><p><strong>Invoke agents as workflow steps with the agent node</strong>&nbsp;[Web]</p>
+<p>Add an agent node to your workflow to reason over data, call tools, and return a response, all within a single step. The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=562222">562222</a></p>
+<p><strong>What changed:</strong> The agent node now allows workflows to embed reasoning directly within a single step, replacing prior multi-step manual handoffs. This integration supports data reasoning, tool invocation, and response generation in one workflow node, reducing complexity and accelerating processing times. Workflows can now handle nuanced decisions without additional development effort, improving automation capabilities and lowering operational overhead.</p>
+<p><strong>Why:</strong> Embedding reasoning in workflows reduces manual intervention and speeds up process execution. Teams can now:</p>
+<ul>
+<li>Automate more end-to-end processes.</li>
+<li>Reduce operational overhead by simplifying workflow design.</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>In Copilot Studio, add an agent node to your workflow canvas.</li>
+<li>Configure the agent node to call specific tools and process data.</li>
+<li>Run the workflow to see combined reasoning and tool responses in one step.</li>
+</ul>
+<p><strong>Why this matters:</strong> This change streamlines workflows by reducing manual steps and enabling more complex automation without extra development.</p>
+<p><strong>Business impact:</strong> Teams can automate complex processes more efficiently, reducing delays and operational costs.</p>
+<p><strong>Personal impact:</strong> You save time by managing fewer workflow steps and reduce errors from manual handoffs.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Invoke agents as workflow steps with the agent node</strong>&nbsp;[Web]</p>
+<p>The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=566998">566998</a></p>
+<p><strong>What changed:</strong> Workflows now include an agent node that performs data reasoning, calls tools, and returns responses within a single step. Previously, these actions required multiple workflow steps and manual coordination. This update enables workflows to handle nuanced decisions without extra development effort, improving automation and reducing operational overhead.</p>
+<p><strong>Why:</strong> Embedding reasoning into workflows simplifies automation and accelerates processing. Teams can:</p>
+<ul>
+<li>Automate more complex processes end-to-end.</li>
+<li>Reduce operational overhead by minimizing manual workflow steps.</li>
+</ul>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Add an agent node in Copilot Studio to your workflow.</li>
+<li>Configure the node to integrate reasoning and tool calls.</li>
+<li>Execute the workflow to observe streamlined processing.</li>
+</ul>
+<p><strong>Why this matters:</strong> This update reduces workflow complexity and enables faster, more capable automation.</p>
+<p><strong>Business impact:</strong> Teams improve process automation efficiency and reduce operational costs.</p>
+<p><strong>Personal impact:</strong> You save time by reducing manual workflow steps and gain more reliable automation.</p>
+</li>
+</ul><p>Updates released between November 03, 2026, and November 17, 2026.</p>
+<h3>Teams</h3>
+
+<ul>
+<li><p><strong>Express voice enrollment in Microsoft Teams</strong>&nbsp;[Windows, Mac]</p>
+<p>Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room, transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, go to the recognition tab in Teams settings and opt in to enroll your voice from audio during your Teams meetings.  Admins can enable or disable this feature.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=537269">537269</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Teams now provides Express voice enrollment, allowing users to create a voice profile by opting in to enroll their voice from audio during their Teams meetings. Users who do not already have a voice profile can enroll through the Recognition tab in Teams settings. A voice profile supports voice isolation, speaker recognition, identification in meeting rooms and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. Administrators can enable or disable this feature for their organization.</p>
+<p><strong>Why:</strong> Voice-based meeting features depend on accurate speaker recognition. This update simplifies enrollment and increases access to features that rely on a registered voice profile.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open Teams Settings and select the Recognition tab.</li>
+<li>Opt in to enroll your voice</li>
+<li>Speak during a couple of Teams meeting to complete enrollment.</li>
+</ol>
+<p><strong>Why this matters:</strong> Simpler voice enrollment helps more users access meeting features that depend on recognized speakers.</p>
+<p><strong>Business impact:</strong> Organizations can improve transcript attribution and meeting intelligence while maintaining administrative control over enrollment availability.</p>
+<p><strong>Personal impact:</strong> You gain quicker access to personalized meeting features without completing a separate enrollment process.</p>
+</li>
+</ul>
+
+<ul>
+<li><p><strong>Ability for IT admins to customize the user notification messages for recording and transcription in calls</strong>&nbsp;[Windows, Mac]</p>
+<p>This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.</p>
+<p><strong>Roadmap ID:</strong> <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=567302">567302</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Microsoft Teams now allows IT admins to customize some user notification messages shown for recording and transcription during calls. Previously, these notifications used standard system-provided text.
+The change provides greater flexibility in how recording and transcription information is communicated to users while maintaining notification experiences during calls.</p>
+<p><strong>Why:</strong> Organizations may need notification wording that better aligns with internal policies, compliance requirements, or user guidance. Customizable messages help present recording and transcription information in a way that fits organizational needs.</p>
+<p><strong>Try this:</strong></p>
+<ul>
+<li>Open the Teams administration settings for recording and transcription notifications.</li>
+<li>Configure the available custom notification message text.</li>
+<li>Validate the notification experience during a test Teams call.</li>
+</ul>
+<p><strong>Why this matters:</strong> Organizations can provide clearer information to users about recording and transcription activities during calls.</p>
+<p><strong>Business impact:</strong> Customized notifications can help align user communications with organizational compliance and communication standards.</p>
+<p><strong>Personal impact:</strong> Users receive call notifications that better reflect their organization's terminology and guidance.</p>
+</li>
+</ul>]]></content:encoded>
+    </item>
     <item>
       <title>Microsoft 365 Copilot updates — November 4, 2026</title>
       <link>https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#november-4-2026</link>
@@ -2530,10 +3390,12 @@
 </ul>
 
 <ul>
-<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac]</p>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac, Web]</p>
 <p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
 <p><strong>Roadmap ID:</strong></p>
 <ul>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555894">555894</a></p>
+</li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555895">555895</a></p>
 </li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
@@ -2639,10 +3501,12 @@
 <p><strong>Personal impact:</strong> You save time by automating repetitive tasks and gain more control over Copilot’s assistance.</p>
 
 </li>
-<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac]</p>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac, Web]</p>
 <p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
 <p><strong>Roadmap ID:</strong></p>
 <ul>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555894">555894</a></p>
+</li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555895">555895</a></p>
 </li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
@@ -2755,6 +3619,34 @@
 </ul>
 </li>
 </ul>
+<h3>PowerPoint</h3>
+
+<ul>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac, Web]</p>
+<p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
+<p><strong>Roadmap ID:</strong></p>
+<ul>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555894">555894</a></p>
+</li>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555895">555895</a></p>
+</li>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot in PowerPoint can now recognize references to files stored in SharePoint and OneDrive when you mention them in your prompt, such as by file or document name. Previously, these implicit file references were not supported for files stored in these locations. This update makes it easier to use relevant Microsoft 365 content without manually attaching or uploading the file.</p>
+<p><strong>Why:</strong> This change makes it easier to create presentations using content you already have in Microsoft 365. You can naturally reference a relevant file in your prompt, and Copilot can use that file as context when creating your presentation.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open PowerPoint and start creating a presentation with Copilot.</li>
+<li>In your prompt, reference a file saved in SharePoint or OneDrive by the document name and/or owner of the document.</li>
+<li>Ask Copilot to create a presentation using information from that file. For example: “Create a presentation summarizing the key findings from the DOCUMENT NAME.”</li>
+</ol>
+<p><strong>Why this matters:</strong> You can bring existing SharePoint and OneDrive content into your presentation workflow more naturally, without first locating the file and manually attaching it.</p>
+<p><strong>Business impact:</strong> Teams can create presentations faster by integrating cloud-stored resources without switching apps or manually uploading files.</p>
+<p><strong>Personal impact:</strong> You save time locating and incorporating relevant files, reducing friction in presentation creation.</p>
+</li>
+</ul>
+</li>
+</ul>
 <h3>Viva Insights</h3>
 
 <ul>
@@ -2779,10 +3671,12 @@
 <h3>PowerPoint</h3>
 
 <ul>
-<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac]</p>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac, Web]</p>
 <p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
 <p><strong>Roadmap ID:</strong></p>
 <ul>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555894">555894</a></p>
+</li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555895">555895</a></p>
 </li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
@@ -2923,10 +3817,12 @@
 </ul>
 
 <ul>
-<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac]</p>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac, Web]</p>
 <p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
 <p><strong>Roadmap ID:</strong></p>
 <ul>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555894">555894</a></p>
+</li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555895">555895</a></p>
 </li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
@@ -3032,10 +3928,12 @@
 <p><strong>Personal impact:</strong> You save time by automating repetitive tasks and gain more control over Copilot’s assistance.</p>
 
 </li>
-<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac]</p>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac, Web]</p>
 <p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
 <p><strong>Roadmap ID:</strong></p>
 <ul>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555894">555894</a></p>
+</li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555895">555895</a></p>
 </li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
@@ -3148,6 +4046,34 @@
 </ul>
 </li>
 </ul>
+<h3>PowerPoint</h3>
+
+<ul>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac, Web]</p>
+<p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
+<p><strong>Roadmap ID:</strong></p>
+<ul>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555894">555894</a></p>
+</li>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555895">555895</a></p>
+</li>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
+<p><strong>Details:</strong></p>
+<p><strong>What changed:</strong> Copilot in PowerPoint can now recognize references to files stored in SharePoint and OneDrive when you mention them in your prompt, such as by file or document name. Previously, these implicit file references were not supported for files stored in these locations. This update makes it easier to use relevant Microsoft 365 content without manually attaching or uploading the file.</p>
+<p><strong>Why:</strong> This change makes it easier to create presentations using content you already have in Microsoft 365. You can naturally reference a relevant file in your prompt, and Copilot can use that file as context when creating your presentation.</p>
+<p><strong>Try this:</strong></p>
+<ol>
+<li>Open PowerPoint and start creating a presentation with Copilot.</li>
+<li>In your prompt, reference a file saved in SharePoint or OneDrive by the document name and/or owner of the document.</li>
+<li>Ask Copilot to create a presentation using information from that file. For example: “Create a presentation summarizing the key findings from the DOCUMENT NAME.”</li>
+</ol>
+<p><strong>Why this matters:</strong> You can bring existing SharePoint and OneDrive content into your presentation workflow more naturally, without first locating the file and manually attaching it.</p>
+<p><strong>Business impact:</strong> Teams can create presentations faster by integrating cloud-stored resources without switching apps or manually uploading files.</p>
+<p><strong>Personal impact:</strong> You save time locating and incorporating relevant files, reducing friction in presentation creation.</p>
+</li>
+</ul>
+</li>
+</ul>
 <h3>Viva Insights</h3>
 
 <ul>
@@ -3172,10 +4098,12 @@
 <h3>PowerPoint</h3>
 
 <ul>
-<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac]</p>
+<li><p><strong>Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint</strong>&nbsp;[Windows, Mac, Web]</p>
 <p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot in PowerPoint.</p>
 <p><strong>Roadmap ID:</strong></p>
 <ul>
+<li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555894">555894</a></p>
+</li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555895">555895</a></p>
 </li>
 <li><p><a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&amp;searchterms=555897">555897</a></p>
@@ -24644,7 +25572,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 				<li>
 			
 				Last updated on 
-		2026-09-24
+		2026-11-18
 	</local-time>
 			
 		</li>
@@ -25471,7 +26399,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 				<li>
 			
 				Last updated on 
-		2026-09-24
+		2026-11-18
 	</local-time>
 			
 		</li>
